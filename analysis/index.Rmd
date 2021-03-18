@@ -8,4 +8,42 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+This website documents my PhD project related to wildlife haemoprotozoa.
+In the spirit of reproducibility this project website is created that outlines analysis done for the following publication:
+
+Egan et al. Uncovering sylvatic cylces of bacteria in Australian wildlife. 
+
+PhD Thesis 2021 (Chapter five)
+
+This website is build with [`workflowr` package](https://jdblischak.github.io/workflowr) and hosted on my github.
+
+## Data availbility
+
+Raw Illumina MiSeq data is available at NCBI SRA project XXXXX
+
+Nucleotide sequence data available on Genbank
+
+
+
+## Supporting data
+
+Data used but not directly produced for this manuscript.
+
+Nucleotide data for identification of ticks
+`MW665133`-`MW665150`
+
+## Directory information
+
+# Worlflowr commands 
+
+To build/view webiste locally
+`wflow_build()` and `wflow_view()`
+
+Status of workflow
+`wflow_status()`
+
+Publish website pages
+`wflow_publish(c("analysis/index.Rmd", "analysis/first-analysis.Rmd"), "Add my first analysis")`
+
+Push website to github
+`wflow_git_push()`

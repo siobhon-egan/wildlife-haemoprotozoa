@@ -1,0 +1,41 @@
+---
+title: "Phylogeny"
+site: workflowr::wflow_site
+output:
+  workflowr::wflow_html:
+    toc: false
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggtree)
+library(treeio)
+library(tidyverse)
+library(ggtreeExtra)
+library(ggstar)
+library(readr)
+library(ggrepel)
+library(ape)
+library(phangorn)
+```
+
+
+## Piroplasm
+
+Alignment using muscle (`default parameters`), trimmed and then refined using muscle `refine alignment option`.
+
+Maximum likelihood analysis using IQTREE.
+
+
+Load data
+```
+piroiq <- read.iqtree("data/Sanger-piroplasm/IQ-TREE-210212103834/muscle_aln_860bp_refined.fasta.treefile") # load IQTREE output
+pironx <- read.newick("data/Sanger-piroplasm/IQ-TREE-210212103834/HXFe4hqem8tiVAHc8-bIwg_newick.newick") # load IQTREE output
+metadata_tree <- read_csv("data/Sanger-piroplasm/pirobloods.csv")
+```
+ggtree(pironk) + geom_text(aes(label = label))
+ggtree(piroiq) + geom_text(aes(label=node), hjust=-.3)
+ggtree(pironk) + geom_tiplab()
+tre.new <- rotate(pironk, c(58, 56))
