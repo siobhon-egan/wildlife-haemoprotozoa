@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Trypanosoma phyloseq</title>
+
+<script src="site_libs/header-attrs-2.7.2/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/master/img/reproducible.png">
+<!-- Add a small amount of space between sections. -->
+<style type="text/css">
+div.section {
+  padding-top: 12px;
+}
+</style>
+
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">wildlife-haemoprotozoa</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="license.html">License</a>
+</li>
+<li>
+  <a href="tryp-phyloseq.html">Trypanosome</a>
+</li>
+<li>
+  <a href="misc-dataviz.html">Summary figures</a>
+</li>
+<li>
+  <a href="phylogeny.html">Phylogeny</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Trypanosoma phyloseq</h1>
+
+</div>
+
+
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+</button>
+</p>
+<div id="workflowr-report" class="collapse">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#summary">Summary</a>
+</li>
+<li>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
+</li>
+<li>
+<a data-toggle="tab" href="#versions">Past versions</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="summary" class="tab-pane fade in active">
+<p>
+<strong>Last updated:</strong> 2021-03-18
+</p>
+<p>
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
+</p>
+<p>
+<strong>Knit directory:</strong> <code>wildlife-haemoprotozoa/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
+</p>
+<p>
+This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
+  href="https://github.com/jdblischak/workflowr">workflowr</a> (version 1.6.2). The <em>Checks</em> tab describes the reproducibility checks that were applied when the results were created. The <em>Past versions</em> tab lists the development history.
+</p>
+<hr>
+</div>
+<div id="checks" class="tab-pane fade">
+<div id="workflowr-checks" class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
+</p>
+</div>
+<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongEnvironmentstrongempty"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Environment:</strong> empty </a>
+</p>
+</div>
+<div id="strongEnvironmentstrongempty" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! The global environment was empty. Objects defined in the global environment can affect the analysis in your R Markdown file in unknown ways. For reproduciblity it’s best to always run the code in an empty environment.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSeedstrongcodesetseed20210212code"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Seed:</strong> <code>set.seed(20210212)</code> </a>
+</p>
+</div>
+<div id="strongSeedstrongcodesetseed20210212code" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The command <code>set.seed(20210212)</code> was run prior to running the code in the R Markdown file. Setting a seed ensures that any results that rely on randomness, e.g. subsampling or permutations, are reproducible.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSessioninformationstrongrecorded"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Session information:</strong> recorded </a>
+</p>
+</div>
+<div id="strongSessioninformationstrongrecorded" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Recording the operating system, R version, and package versions is critical for reproducibility.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongCachestrongnone"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Cache:</strong> none </a>
+</p>
+</div>
+<div id="strongCachestrongnone" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Nice! There were no cached chunks for this analysis, so you can be confident that you successfully produced the results during this run.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
+</p>
+</div>
+<div id="strongFilepathsstrongrelative" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongd429fdd"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> d429fdd </a>
+</p>
+</div>
+<div id="strongRepositoryversionstrongd429fdd" class="panel-collapse collapse">
+<div class="panel-body">
+<p>
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
+</p>
+<p>
+The results in this page were generated with repository version d429fdd. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+</p>
+<p>
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
+</p>
+<pre><code>
+Ignored files:
+    Ignored:    .DS_Store
+    Ignored:    .Rhistory
+    Ignored:    .Rproj.user/
+    Ignored:    analysis/.DS_Store
+    Ignored:    data/.DS_Store
+    Ignored:    output/.DS_Store
+
+Untracked files:
+    Untracked:  NCBI_submission/
+    Untracked:  Rplot.pdf
+    Untracked:  Rplot01.pdf
+    Untracked:  Rplot02.pdf
+    Untracked:  code/usearchv11_18S_Kineto.sh
+    Untracked:  data/NGS_18S_kinet/
+    Untracked:  data/Rdata/
+    Untracked:  data/Sanger-piroplasm/
+    Untracked:  data/haemoprotozoa.csv
+    Untracked:  data/haemoprotozoa.xlsx
+    Untracked:  data/tryp-phyloseq/
+    Untracked:  microscopy/
+    Untracked:  output/plots/
+
+Unstaged changes:
+    Modified:   analysis/_site.yml
+    Deleted:    analysis/about.Rmd
+
+</code></pre>
+<p>
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
+</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div id="versions" class="tab-pane fade">
+
+<p>
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/tryp-phyloseq.Rmd</code>) and HTML (<code>docs/tryp-phyloseq.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+</p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+d429fdd
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-03-18
+</td>
+<td>
+First publish
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<p>Visualization and analysis of microbiome data.</p>
+<blockquote>
+<p>Note this was run using R version 4.0.3 and RStudo version 1.4. See <a href="#rinfo">R info</a> for full details of R session.</p>
+</blockquote>
+<div id="load-libraries" class="section level2">
+<h2>0. Load libraries</h2>
+<p><strong>Install libraries if required</strong></p>
+<p>Only need to run this code once.</p>
+<pre><code>if (!requireNamespace(&quot;BiocManager&quot;, quietly = TRUE))
+    install.packages(&quot;BiocManager&quot;)
+# phyloseq
+source(&#39;http://bioconductor.org/biocLite.R&#39;)
+biocLite(&#39;phyloseq&#39;)
+#tidyverse
+install. packages(&quot;tidyverse&quot;)
+#ampvis2
+install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;MadsAlbertsen/ampvis2&quot;)
+#ampvis2extras
+install.packages(&quot;BiocManager&quot;)
+BiocManager::install(&quot;kasperskytte/ampvis2extras&quot;)
+#ggpubr
+install.packages(&quot;ggpubr&quot;)
+#agricolae
+install.packages(&quot;agricolae&quot;)
+install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;DanielSprockett/reltools&quot;)
+devtools::install_github(&#39;jsilve24/philr&#39;)
+#decontam
+BiocManager::install(&quot;decontam&quot;)
+library(decontam)
+if (!requireNamespace(&quot;BiocManager&quot;, quietly = TRUE))
+install.packages(&quot;BiocManager&quot;)
+BiocManager::install(&quot;Biostrings&quot;)</code></pre>
+<p><strong>Load libraries</strong></p>
+<pre class="r"><code>library(qiime2R)
+library(phyloseq)
+library(tidyverse)
+library(ampvis2)
+library(ampvis2extras)
+library(ggpubr)
+library(agricolae)
+library(plotly)
+library(viridis)
+library(cowplot)
+library(MicrobeR)
+library(microbiome)
+library(reshape)
+library(decontam)
+library(data.table)
+library(ape)
+library(DESeq2)
+library(vegan)
+library(microbiomeutilities)
+library(knitr)
+library(tibble)
+library(dplyr)
+library(patchwork)
+library(Biostrings)</code></pre>
+</div>
+<div id="import-data" class="section level2">
+<h2>1. Import data</h2>
+<p>Generate phyloseq object from spreadsheets.</p>
+<p>Import ASV/OTU count data</p>
+<pre class="r"><code>count_data &lt;- read_csv(&quot;data/tryp-phyloseq/count_data.csv&quot;)
+# use first column as label for rows
+count_data_lab = column_to_rownames(count_data, var = &quot;#Zotu ID&quot;)
+# Make matrix
+otumat &lt;- as.matrix(count_data_lab)</code></pre>
+<p>Import taxonomy data</p>
+<pre class="r"><code>taxonomy &lt;- read_csv(&quot;data/tryp-phyloseq/taxonomy.csv&quot;, 
+    col_types = cols(Accession_description = col_skip(), 
+        `Accession no.` = col_skip(), evalue = col_skip(), 
+        `per. Ident` = col_skip(), taxid = col_skip()))
+# use first column as label for rows
+taxonomy_lab = column_to_rownames(taxonomy, var = &quot;#Zotu ID&quot;)
+taxmat &lt;- as.matrix(taxonomy_lab)</code></pre>
+<p>Check the class of the otumat and taxmat objects, they MUST be in matrix format. Then we can great a phyloseq object called physeq from the otu and taxonomy tables and check the sample names.</p>
+<pre class="r"><code>class(otumat)
+class(taxmat)
+OTU = otu_table(otumat, taxa_are_rows = TRUE)
+TAX = tax_table(taxmat)
+physeq = phyloseq(OTU, TAX)
+physeq
+sample_names(physeq)</code></pre>
+<p><strong>Add metadata and sequence data</strong></p>
+<p>Add sequences to phyloseq object</p>
+<pre class="r"><code># read sequence file
+rep.seqs &lt;- Biostrings::readDNAStringSet(&quot;data/tryp-phyloseq/unoise_zotus.fasta&quot;, format = &quot;fasta&quot;)</code></pre>
+<p>Add metadata, importing gDNAID as factor to be able to merge later on</p>
+<pre class="r"><code>metadata &lt;- read_csv(&quot;data/tryp-phyloseq/sampledata.csv&quot;)
+metadata_lab = column_to_rownames(metadata, var = &quot;SampleID&quot;)
+sampledata = sample_data(data.frame(metadata_lab))
+sampledata</code></pre>
+<p><strong>Create final phyloseq object</strong></p>
+<p>Now you can merge your data to create a final phyloseq object</p>
+<pre class="r"><code>ps_raw_tryp = merge_phyloseq(physeq, sampledata, rep.seqs)</code></pre>
+<p>Remove samples with NA values or not part of final data set,</p>
+<pre class="r"><code>ps_raw_tryp &lt;- subset_samples(ps_raw_tryp, !SampleType==&quot;SampleEcol&quot;)</code></pre>
+<p>An easy way to view the tables is using Nice Tables</p>
+<pre class="r"><code>Nice.Table(ps_raw_tryp@sam_data)</code></pre>
+<pre class="r"><code>Nice.Table(ps_raw_tryp@tax_table)</code></pre>
+</div>
+<div id="qc-plots" class="section level2">
+<h2>2. QC plots</h2>
+<p>R package <code>decontam</code> to assess contaminating OTUs, <a href="https://bioconductor.org/packages/release/bioc/vignettes/decontam/inst/doc/decontam_intro.html">tutorial</a>.</p>
+<p>The CRAN version only works on R version &lt;4. To install for R versions &gt;4 install from <a href="https://bioconductor.org/packages/release/bioc/html/decontam.html">bioconductor</a> using the following</p>
+<p>Make plot of library size of Samples vs Controls</p>
+<pre class="r"><code>df &lt;- as.data.frame(sample_data(ps_raw_tryp)) # Put sample_data into a ggplot-friendly data.frame
+df$LibrarySize &lt;- sample_sums(ps_raw_tryp)
+df &lt;- df[order(df$LibrarySize),]
+df$Index &lt;- seq(nrow(df))
+libQC &lt;- ggplot(data=df, aes(x=Index, y=LibrarySize, color=SampleType)) + geom_point() + theme_bw() + scale_colour_brewer(palette = &quot;Set1&quot;)
+ggsave(&quot;libQC.pdf&quot;, plot = libQC, path = &quot;output/plots/trypNGS&quot;, width = 10, height = 10, units = &quot;cm&quot;)</code></pre>
+<p>Make html plot with <code>plotly</code></p>
+<pre class="r"><code>libQCplotly &lt;- ggplotly(libQC)
+htmlwidgets::saveWidget(libQCplotly, &quot;output/plots/libQCplotly.html&quot;)</code></pre>
+<p>Make distribution plot of reads using <a href="https://microsud.github.io/microbiomeutilities/articles/microbiomeutilities.html#distribution-of-reads-1">microbiomeutilities</a></p>
+<pre class="r"><code>distrib &lt;- plot_read_distribution(ps_raw_tryp, groups = &quot;SampleCategory&quot;, 
+                            plot.type = &quot;density&quot;) + xlab(&quot;Reads per sample&quot;) + ylab(&quot;Density&quot;)
+distrib &lt;- distrib + geom_density(alpha = 0.5, fill = &quot;grey&quot;) + theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1))
+ggsave(&quot;distrib1.pdf&quot;, plot = distrib, path = &quot;output/plots/trypNGS&quot;, width = 15, height = 10, units = &quot;cm&quot;)</code></pre>
+</div>
+<div id="subset-and-filter" class="section level2">
+<h2>3. Subset and Filter</h2>
+<p>Filter out negative controls and after identifying threshold for positive reads, transform otu count data</p>
+<pre class="r"><code>ps_dec_tryp &lt;- subset_samples(ps_raw_tryp, !SampleType==&quot;ControlNeg&quot;)
+ps_dec_tryp@otu_table [, 1:492][ps_dec_tryp@otu_table [, 1:492] &lt; 100] &lt;- 0</code></pre>
+<p>Save R data for phyloseq object - saving “raw data” (<code>ps_raw_tryp</code>) and “decontaminated data” (<code>ps_dec_tryp</code>)</p>
+<pre class="r"><code>save(ps_raw_tryp, file = &quot;../data/Rdata/ps_raw_tryp.RData&quot;)
+save(ps_dec_tryp, file = &quot;../data/Rdata/ps_dec_tryp.RData&quot;)</code></pre>
+<p>To load raw and decon data quickly from <code>.RData</code> format.</p>
+<pre class="r"><code>load(&quot;../data/Rdata/ps_raw_tryp.RData&quot;)
+load(&quot;../data/Rdata/ps_dec_tryp.RData&quot;)</code></pre>
+<div id="for-phyloseq-object" class="section level3">
+<h3>3.1. For phyloseq object</h3>
+<p>Subset phyloseq object based on sample types</p>
+<pre class="r"><code># Exclude controls
+ps_tryp_samp = subset_samples(ps_dec_tryp, !SampleType==&quot;ControlPos&quot;)
+# Blood samples only
+ps_tryp_bl = subset_samples(ps_tryp_samp, SampleCategory==&quot;Blood&quot;)
+# Tissue samples only
+ps_tryp_tis = subset_samples(ps_tryp_samp, SampleCategory==&quot;Tissue&quot;)
+# Tick samples only
+ps_tryp_tick = subset_samples(ps_tryp_samp, SampleCategory==&quot;Tick&quot;)</code></pre>
+<p>Subset phyloseq object based on host species</p>
+<pre class="r"><code># Black rat
+ps_BR = subset_samples(ps_tryp_samp, species==&quot;Black rat&quot;)
+# Brush tail possum
+ps_BTP = subset_samples(ps_tryp_samp, species==&quot;Brush tail possum&quot;)
+# Chuditch
+ps_chud = subset_samples(ps_tryp_samp, species==&quot;Chuditch&quot;)
+# Long-nosed bandicoot
+ps_LNB = subset_samples(ps_tryp_samp, species==&quot;Long-nosed bandicoot&quot;)</code></pre>
+</div>
+<div id="for-ampvis2-object" class="section level3">
+<h3>3.2. For ampvis2 object</h3>
+<p><strong>Make ampvis2 object for analysis</strong></p>
+<pre class="r"><code>#require the devtools package to source gist
+if(!require(&quot;devtools&quot;))
+  install.packages(&quot;devtools&quot;)
+#source the phyloseq_to_ampvis2() function from the gist
+devtools::source_gist(&quot;8d0ca4206a66be7ff6d76fc4ab8e66c6&quot;)
+
+#convert
+tryp_amp &lt;- phyloseq_to_ampvis2(ps_dec_tryp)</code></pre>
+<p>Subset ampvis2 object based on sample category</p>
+<pre class="r"><code>#remove controls
+amp_samp &lt;- amp_subset_samples(tryp_amp, 
+                                 !SampleType %in% c(&quot;ControlPos&quot;),
+                                 RemoveAbsents = TRUE)
+#blood samples
+amp_bl &lt;- amp_subset_samples(amp_samp, 
+                                 SampleCategory %in% c(&quot;Blood&quot;),
+                                 RemoveAbsents = TRUE)
+#tissue samples
+am_tis &lt;- amp_subset_samples(amp_samp, 
+                                 SampleCategory %in% c(&quot;Tissue&quot;),
+                                 RemoveAbsents = TRUE)
+#tick samples
+amp_tick &lt;- amp_subset_samples(amp_samp, 
+                                 SampleCategory %in% c(&quot;Tick&quot;),
+                                 RemoveAbsents = TRUE)</code></pre>
+</div>
+</div>
+<div id="heatmap" class="section level2">
+<h2>4. Heatmap</h2>
+<div id="ampvis2" class="section level3">
+<h3>4.1. ampvis2</h3>
+<p>Make heat map using <a href="https://madsalbertsen.github.io/ampvis2/reference/amp_heatmap.html">ampvis2</a></p>
+<p>First filter taxa</p>
+<pre class="r"><code># order Trypanosomatida
+tax_vector1 &lt;- c(
+  &quot;Trypanosomatida&quot;
+)
+
+amp_samp_otry &lt;- amp_subset_taxa(amp_samp,
+  tax_vector = tax_vector1)
+
+# Trypanosoma species of interest
+tax_vector2 &lt;- c(
+  &quot;Trypanosoma gilletti&quot;,
+  &quot;Trypanosoma sp. (cyclops-like)&quot;,
+  &quot;Trypanosoma vegrandis&quot;,
+  &quot;Trypanosoma noyesi&quot;,
+  &quot;Trypanosoma sp. (lewisi-like)&quot;,
+  &quot;Lotmaria passim&quot;
+)
+
+amp_samp_targettryp &lt;- amp_subset_taxa(amp_samp,
+  tax_vector = tax_vector2)</code></pre>
+<p><strong>Relative abundance</strong></p>
+<p>Heatmap of subsetted data using relative abundance</p>
+<pre class="r"><code># Relative abundance order level
+heatmap_rel1 &lt;- amp_heatmap(amp_samp_otry,
+            facet_by = &quot;SampleCategory&quot;,
+            group_by = &quot;species&quot;,
+            tax_aggregate = &quot;Species&quot;,
+            tax_show = 10,
+            normalise = TRUE,
+            plot_values = FALSE,
+            plot_values_size = 3,
+            round = 0, color_vector = c(&quot;white&quot;, &quot;#e5ba52&quot;, &quot;#ab7ca3&quot;, &quot;#9d02d7&quot;, &quot;#0030bf&quot;), plot_colorscale = &quot;log10&quot;)  +
+  theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1),
+        axis.text.y = element_text(size=10),
+        legend.position=&quot;right&quot;)
+
+# Relative abundance trypanosoma species of interest
+heatmap_rel2 &lt;- amp_heatmap(amp_samp_targettryp,
+            facet_by = &quot;SampleCategory&quot;,
+            group_by = &quot;species&quot;,
+            tax_aggregate = &quot;Species&quot;,
+            tax_show = 10,
+            normalise = TRUE,
+            plot_values = FALSE,
+            plot_values_size = 3,
+            round = 0, color_vector = c(&quot;white&quot;, &quot;#e5ba52&quot;, &quot;#ab7ca3&quot;, &quot;#9d02d7&quot;, &quot;#0030bf&quot;), plot_colorscale = &quot;log10&quot;)  +
+  theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1),
+        axis.text.y = element_text(size=10),
+        legend.position=&quot;right&quot;)</code></pre>
+<p>Save PDF of plots</p>
+<pre class="r"><code>ggsave(&quot;heatmap_rel1.pdf&quot;, plot = heatmap_rel1, path = &quot;output/plots/trypNGS&quot;, width = 25, height = 15, units = &quot;cm&quot;)
+ggsave(&quot;heatmap_rel2.pdf&quot;, plot = heatmap_rel2, path = &quot;output/plots/trypNGS&quot;, width = 25, height = 15, units = &quot;cm&quot;)</code></pre>
+<p><strong>Count of sequences</strong></p>
+<pre class="r"><code>heatmap_count &lt;- amp_heatmap(amp_samp,
+            facet_by = &quot;SampleCategory&quot;,
+            group_by = &quot;species&quot;,
+            tax_aggregate = &quot;Family&quot;,
+            tax_show = 40,
+            normalise = FALSE,
+            plot_values = FALSE,
+            plot_values_size = 3,
+            round = 0, color_vector = c(&quot;white&quot;, &quot;#e5ba52&quot;, &quot;#ab7ca3&quot;, &quot;#9d02d7&quot;, &quot;#0030bf&quot;), plot_colorscale = &quot;log10&quot;) + theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1), axis.text.y = element_text(size=10), legend.position=&quot;right&quot;)</code></pre>
+</div>
+<div id="microbiomeutilities" class="section level3">
+<h3>4.2. microbiomeutilities</h3>
+<p>Heatmap using <a href="https://microsud.github.io/microbiomeutilities/articles/microbiomeutilities.html#heatmaps">microbiomeutilities</a></p>
+<p>Subset taxa</p>
+<pre class="r"><code>ps_tryp_otry = subset_taxa(ps_tryp_samp, Order==&quot;Trypanosomatida&quot;)
+ps_tryp_subtry = subset_taxa(ps_tryp_samp, Species==&quot;Trypanosoma gilletti&quot; | Species==&quot;Trypanosoma sp. (cyclops-like)&quot; | Species ==&quot;Trypanosoma vegrandis&quot; | Species==&quot;Trypanosoma noyesi&quot; | Species==&quot;Trypanosoma sp. (lewisi-like)&quot; | Species ==&quot;Lotmaria passim&quot;)</code></pre>
+<pre class="r"><code># create a gradient color palette for abundance
+#grad_ab &lt;- colorRampPalette(c(&quot;#faf3dd&quot;,&quot;#f7d486&quot; ,&quot;#5e6472&quot;))
+color_vector = colorRampPalette(c(&quot;#faf3dd&quot;, &quot;#e5ba52&quot;, &quot;#ab7ca3&quot;, &quot;#9d02d7&quot;, &quot;#0030bf&quot;))
+grad_ab_pal &lt;- color_vector(10)
+
+# create a color palette for varaibles of interest
+
+meta_colors = list(c(&quot;Blood&quot; = &quot;#7a255d&quot;, &quot;Tick&quot; = &quot;#9fd0cb&quot;, &quot;Tissue&quot; = &quot;#7566ff&quot;), 
+                  c(&quot;Brush tail possum&quot; = &quot;#440154FF&quot;, &quot;Black rat&quot; = &quot;#482878FF&quot;, &quot;Swamp rat&quot;=&quot;#3E4A89FF&quot;, &quot;Long-nosed bandicoot&quot; =&quot;#31688EFF&quot;, &quot;Bush rat&quot;=&quot;#26828EFF&quot;, &quot;Brown antechinus&quot; = &quot;#1F9E89FF&quot;, &quot;Rabbit&quot;=&quot;#35B779FF&quot;, &quot;Chuditch&quot;= &quot;#6DCD59FF&quot;, &quot;Quenda&quot; = &quot;#B4DE2CFF&quot;, &quot;Deer&quot; = &quot;#FDE725FF&quot; ))
+
+# add labels for pheatmap to detect
+names(meta_colors) &lt;- c(&quot;SampleCategory&quot;, &quot;species&quot;)
+
+ph_heatmap &lt;- plot_taxa_heatmap(ps_tryp_subtry,
+                       subset.top = 50,
+                       VariableA = c(&quot;SampleCategory&quot;,&quot;species&quot;),
+                       heatcolors = grad_ab_pal, #rev(brewer.pal(6, &quot;RdPu&quot;)),
+                       transformation = &quot;log10&quot;,
+                       cluster_rows = T,
+                       cluster_cols = F,
+                       show_colnames = F,
+                       annotation_colors=meta_colors, fontsize = 8,)</code></pre>
+<p>Save PDF of plots</p>
+<pre class="r"><code>ggsave(&quot;ph_heatmap.pdf&quot;, plot = ph_heatmap$plot, path = &quot;output/plots/trypNGS&quot;, width = 25, height = 15, units = &quot;cm&quot;)</code></pre>
+<br>
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
+<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
+</button>
+</p>
+<div id="workflowr-sessioninfo" class="collapse">
+<pre class="r"><code>sessionInfo()</code></pre>
+</div>
+</div>
+</div>
+
+
+<!-- Adjust MathJax settings so that all math formulae are shown using
+TeX fonts only; see
+http://docs.mathjax.org/en/latest/configuration.html.  This will make
+the presentation more consistent at the cost of the webpage sometimes
+taking slightly longer to load. Note that this only works because the
+footer is added to webpages before the MathJax javascript. -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
