@@ -1,7 +1,7 @@
-name: "wildlife-haemoprotozoa"
+name: wildlife-haemoprotozoa
 output_dir: ../docs
 navbar:
-  title: "wildlife-haemoprotozoa"
+  title: wildlife-haemoprotozoa
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,16 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  - text: Trypanosome
+    href: tryp-phyloseq.html
+  - text: Summary figures
+    href: misc-dataviz.html
+  - text: Phylogeny
+    href: phylogeny.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/siobhon-egan/wildlife-haemoprotozoa
 output:
   workflowr::wflow_html:
     toc: yes
