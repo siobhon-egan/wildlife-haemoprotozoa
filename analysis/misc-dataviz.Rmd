@@ -8,65 +8,17 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
-```
+This page to host some misc. data visualization and notes for phylogenetics.
 
-Page for some misc. data visualization
+## Haemoprotozoa prevalence
 
-## Import data
-
-Import data
+**Import data**
 ```{r}
 library(readr)
 haem <- read_csv("data/haemoprotozoa.csv")
 ```
 
-## Barplot
-
-Create a simple barplot
-
-**Libraries**
-```{r}
-library(tidyverse)
-library(viridis)
-```
-
-Convert matrix to long dataframe
-```{r}
-haem_lon <- gather(haem, species, prev, "Hepatozoon sp.":"Trypanosoma cyclops-like", factor_key=TRUE)
-```
-Create plot
-```{r}
-plot1 = ggplot(haem_lon, aes(x=species, y=prev)) + geom_bar(stat = "identity")
-```
-
-Create stacked block
-```{r}
-plot2 = ggplot(haem_lon, aes(fill=species_code, y=prev, x=species)) + 
-    geom_bar(position="stack", stat="identity")
-plot2 = plot2 + scale_fill_viridis_d() + theme_bw() + ylab("Prevalence") + xlab("Haemoprotozoa species")
-
-plot3 = ggplot(haem_lon, aes(fill=species, y=prev, x=species_code)) + 
-    geom_bar(position="stack", stat="identity")
-plot3= plot3 + scale_fill_viridis_d() + theme_bw() + ylab("Prevalence") + xlab("Host species")
-```
-
-summary table
-```{r}
-haem_sum1 = haem_lon %>%
-  select(species_code, species, prev)
-
-haem_sum2 <- haem_sum1 %>%
-  group_by(species_code, species) %>%
-  summarize(prevalence =  sum(prev))
-
-inverts_wide <- haem_sum2 %>% 
-  pivot_wider(names_from = species, 
-                     values_from = prevalence)
-```
-
-## UpSetR plot
+### UpSetR plot
 
 Creating [UpSetR](https://github.com/hms-dbmi/UpSetR) and the add on [ComplexUpset](https://krassowski.github.io/complex-upset/) plot to show co-infections, 
 Extra examples [here](https://jokergoo.github.io/ComplexHeatmap-reference/book/upset-plot.html)
@@ -80,6 +32,7 @@ library(tidyverse)
 
 **Load data**
 
+Must be in a dataframe format
 ```{r}
 # convert to dataframe
 haemdf <- as.data.frame(haem)
@@ -92,12 +45,14 @@ haem_sp
 Simple UpSetR plot
 ```{r}
 upsetR1 = upset(haemdf, sets = c("Hepatozoon sp.", "Babesia lohae-like", "Theileria cf. peramelis", "Trypanosoma lewisi-like", "Trypanosoma noyesi", "Trypanosoma gilletti", "Trypanosoma cyclops-like"), sets.bar.color = "#7a255d")
+upsetR1
 ```
 
 
 More detailed plots using [ComplexUpset](https://krassowski.github.io/complex-upset/)
 ```{r}
 library(ComplexUpset)
+
 upsetR3 = upset(
     haemdf,
     haem_sp, width_ratio=0.1,
@@ -107,6 +62,8 @@ upsetR3 = upset(
             mapping=aes(fill=species_code)
         ))
 )
+upsetR3
+
 
 upsetR4 = upset(
     haemdf, haem_sp,
@@ -121,36 +78,15 @@ upsetR4 = upset(
     # moves legends over the set sizes
     guides='over'
 )
+
+upsetR4
 ```
 
-------------------------------
+## Phylogenetics
 
-Not working
+All phylogenetics created in related manuscript was done using IQTEE.
 
-```
-ppt = upset(
-    haemdf,
-    haem_sp,
-    base_annotations=list(
-        'Intersection size'=intersection_size(
-            counts=TRUE,
-            mapping=aes(fill=species_code)
-        )
-        + scale_fill_manual(values=c(
-            "Quenda"="#E41A1C", "Chuditch"="#377EB8", "Black rat"="#4DAF4A", "Brush tail possum"="#FF7F00", "Long-nosed bandicoot"="#FF7F01", "Swamp rat"="#FF7F02", "Bush rat"="#FF7F03")),
-    width_ratio=0.1
-))
+My detailed notes on using IQTREE server for generated phylogenies is [here](http://siobhonlegan.com/research_site/bioinfo/phylogenetics/iqtree.html).
 
+Trees visualised using [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) and annotated in [inkscape](https://inkscape.org/).
 
-ppt = upset(
-    haemdf,
-    haem_sp,
-    base_annotations=list(
-        'Intersection size'=intersection_size(
-            counts=TRUE,
-            mapping=aes(fill=species_code)
-        )
-        + scale_fill_manual(values = c("#d8b365", "#f5f5f5", "#5ab4ac", "#E41A1C", "#377EB8", "#4DAF4A", "#FF7F00")),
-    width_ratio=0.1
-))
-```

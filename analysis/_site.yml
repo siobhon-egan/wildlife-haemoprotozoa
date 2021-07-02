@@ -15,8 +15,6 @@ navbar:
       href: tryp-02-phyloseq.html
   - text: Summary figures
     href: misc-dataviz.html
-  - text: Phylogeny
-    href: phylogeny.html
   right:
   - icon: fa-github
     text: Source code
@@ -27,3 +25,5 @@ output:
     toc_float: yes
     theme: readable
     highlight: textmate
+    include:
+      after_body: _footer.html

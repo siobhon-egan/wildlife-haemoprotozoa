@@ -35,11 +35,10 @@ Data used but not directly produced for this manuscript.
 Nucleotide data for identification of ticks
 `MW665133`-`MW665150`
 
-## Directory information
 
 ---
 
-# Worlflowr commands 
+<!-- Worlflowr commands
 
 To build/view webiste locally
 `wflow_build()` and `wflow_view()`
@@ -51,4 +50,4 @@ Publish website pages
 `wflow_publish(c("analysis/index.Rmd", "analysis/first-analysis.Rmd"), "Add my first analysis")`
 
 Push website to github
-`wflow_git_push()`
+`wflow_git_push()`  -->
