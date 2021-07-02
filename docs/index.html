@@ -277,9 +277,6 @@ $(document).ready(function () {
 <li>
   <a href="misc-dataviz.html">Summary figures</a>
 </li>
-<li>
-  <a href="phylogeny.html">Phylogeny</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -354,16 +351,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8e3850e821eb0efb45e29080b9eae824a24a9559targetblank8e3850ea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8e3850e821eb0efb45e29080b9eae824a24a9559" target="_blank">8e3850e</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatreecd30eb45f76c7b892da1dd9f814975ffbe013205targetblankcd30eb4a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/cd30eb45f76c7b892da1dd9f814975ffbe013205" target="_blank">cd30eb4</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8e3850e821eb0efb45e29080b9eae824a24a9559targetblank8e3850ea" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatreecd30eb45f76c7b892da1dd9f814975ffbe013205targetblankcd30eb4a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8e3850e821eb0efb45e29080b9eae824a24a9559" target="_blank">8e3850e</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/cd30eb45f76c7b892da1dd9f814975ffbe013205" target="_blank">cd30eb4</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -375,6 +372,7 @@ Ignored files:
     Ignored:    .Rproj.user/
     Ignored:    analysis/.DS_Store
     Ignored:    analysis/.Rhistory
+    Ignored:    analysis/_footer.html
     Ignored:    data/.DS_Store
     Ignored:    output/.DS_Store
 
@@ -383,19 +381,19 @@ Untracked files:
     Untracked:  NCBI_submission/
     Untracked:  Rplot02.pdf
     Untracked:  data/NGS_18S_kinet/
-    Untracked:  data/Rdata/
     Untracked:  data/Sanger-piroplasm/
     Untracked:  data/haemoprotozoa.csv
     Untracked:  data/haemoprotozoa.xlsx
-    Untracked:  data/tryp-phyloseq/
+    Untracked:  data/tryp-phyloseq/count_data_QC.xlsx
+    Untracked:  data/tryp-phyloseq/count_data_raw.csv
+    Untracked:  data/tryp-phyloseq/sampledata.xlsx
     Untracked:  melt.csv
     Untracked:  melt.xlsx
     Untracked:  microscopy/
     Untracked:  output/plots/
 
 Unstaged changes:
-    Modified:   README.md
-    Deleted:    analysis/tryp-phyloseq.Rmd
+    Deleted:    analysis/phylogeny.Rmd
 
 </code></pre>
 <p>
@@ -434,6 +432,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/blob/cd30eb45f76c7b892da1dd9f814975ffbe013205/analysis/index.Rmd" target="_blank">cd30eb4</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-07-02
+</td>
+<td>
+update data vis page and remove wflow commands from index
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/siobhon-egan/wildlife-haemoprotozoa/a36fbcb66c648d117fc13ad1bd35ab0a161016da/docs/index.html" target="_blank">a36fbcb</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-07-02
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -530,19 +562,25 @@ Start workflowr project.
 <h2>Supporting data</h2>
 <p>Data used but not directly produced for this manuscript.</p>
 <p>Nucleotide data for identification of ticks <code>MW665133</code>-<code>MW665150</code></p>
-</div>
-<div id="directory-information" class="section level2">
-<h2>Directory information</h2>
 <hr />
-</div>
-<div id="worlflowr-commands" class="section level1">
-<h1>Worlflowr commands</h1>
-<p>To build/view webiste locally <code>wflow_build()</code> and <code>wflow_view()</code></p>
-<p>Status of workflow <code>wflow_status()</code></p>
-<p>Publish website pages <code>wflow_publish(c("analysis/index.Rmd", "analysis/first-analysis.Rmd"), "Add my first analysis")</code></p>
-<p>Push website to github <code>wflow_git_push()</code></p>
+<!-- Worlflowr commands
+
+To build/view webiste locally
+`wflow_build()` and `wflow_view()`
+
+Status of workflow
+`wflow_status()`
+
+Publish website pages
+`wflow_publish(c("analysis/index.Rmd", "analysis/first-analysis.Rmd"), "Add my first analysis")`
+
+Push website to github
+`wflow_git_push()`  -->
 </div>
 
+<p>
+    Project website by Siobhon Egan, 2021. This <a href="http://rmarkdown.rstudio.com">R Markdown</a> site was created with <a href="https://github.com/jdblischak/workflowr">workflowr</a>
+</p>
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
 TeX fonts only; see
