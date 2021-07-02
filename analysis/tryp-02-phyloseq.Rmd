@@ -1,0 +1,388 @@
+---
+title: "Trypanosoma phyloseq"
+site: workflowr::wflow_site
+output:
+  workflowr::wflow_html:
+    toc: false
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
+```
+
+Visualization and analysis of trypanosome NGS data data.
+
+> Note this was run using R version 4.0.3 and RStudo version 1.4. See [R info](#rinfo) for full details of R session.
+
+
+## 0. Load libraries
+
+**Install libraries if required**
+
+Only need to run this code once.
+
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+# phyloseq
+source('http://bioconductor.org/biocLite.R')
+biocLite('phyloseq')
+#tidyverse
+install. packages("tidyverse")
+#ampvis2
+install.packages("remotes")
+remotes::install_github("MadsAlbertsen/ampvis2")
+#ampvis2extras
+install.packages("BiocManager")
+BiocManager::install("kasperskytte/ampvis2extras")
+#ggpubr
+install.packages("ggpubr")
+#agricolae
+install.packages("agricolae")
+install.packages("remotes")
+remotes::install_github("DanielSprockett/reltools")
+devtools::install_github('jsilve24/philr')
+#decontam
+BiocManager::install("decontam")
+library(decontam)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("Biostrings")
+```
+
+**Load libraries**
+
+```{r}
+pkgs <- c("qiime2R", "phyloseq", "tidyverse", "ampvis2",
+          "ampvis2extras", "ggpubr", "agricolae", "plotly",
+          "viridis", "cowplot", "MicrobeR", "microbiome",
+          "reshape", "decontam", "data.table", "ape",
+          "DESeq2", "vegan", "microbiomeutilities", "knitr",
+          "tibble", "dplyr","patchwork", "Biostrings")
+
+lapply(pkgs, require, character.only = TRUE)
+
+theme_set(theme_bw())
+```
+
+## 1. Import data
+
+Generate phyloseq object from spreadsheets.
+
+Import ASV/OTU count data
+```{r}
+count_data <- read_csv("data/tryp-phyloseq/count_data_cleaned.csv")
+# use first column as label for rows
+count_data_lab = column_to_rownames(count_data, var = "#Zotu ID")
+# Make matrix
+otumat <- as.matrix(count_data_lab)
+```
+
+Import taxonomy data
+```{r}
+taxonomy <- read_csv("data/tryp-phyloseq/taxonomy.csv", 
+    col_types = cols(Accession_description = col_skip(), 
+        `Accession no.` = col_skip(), evalue = col_skip(), 
+        `per. Ident` = col_skip(), taxid = col_skip()))
+# use first column as label for rows
+taxonomy_lab = column_to_rownames(taxonomy, var = "#Zotu ID")
+taxmat <- as.matrix(taxonomy_lab)
+```
+
+Check the class of the otumat and taxmat objects, they MUST be in matrix format. Then we can great a phyloseq object called physeq from the otu and taxonomy tables and check the sample names.
+```{r}
+class(otumat)
+class(taxmat)
+OTU = otu_table(otumat, taxa_are_rows = TRUE)
+TAX = tax_table(taxmat)
+physeq = phyloseq(OTU, TAX)
+physeq
+sample_names(physeq)
+```
+
+**Add metadata and sequence data**
+
+Add sequences to phyloseq object
+```{r}
+# read sequence file
+rep.seqs <- Biostrings::readDNAStringSet("data/tryp-phyloseq/unoise_zotus.fasta", format = "fasta")
+```
+
+Add metadata, importing gDNAID as factor to be able to merge later on
+```{r}
+metadata <- read_csv("data/tryp-phyloseq/sampledata.csv")
+metadata_lab = column_to_rownames(metadata, var = "SampleID")
+sampledata = sample_data(data.frame(metadata_lab))
+sampledata
+```
+
+**Create final phyloseq object**
+
+Now you can merge your data to create a final phyloseq object
+```{r eval=FALSE}
+ps_raw_tryp = merge_phyloseq(physeq, sampledata, rep.seqs)
+```
+
+
+**Preliminary subset**
+
+Remove samples with NA values or not part of final data set,
+```{r}
+ps_raw_tryp <- subset_samples(ps_raw_tryp, !SampleType=="SampleEcol")
+ps_samp_tryp <- subset_samples(ps_raw_tryp, SampleType=="Sample")
+```
+
+#### Save/load `.RData`
+
+Save R data for phyloseq object - saving "raw data" which inc controls (`ps_raw_tryp`) and "sample only data"  (`ps_samp_tryp`)
+```{r}
+save(ps_raw_tryp, file = "data/Rdata/ps_raw_tryp.RData")
+save(ps_samp_tryp, file = "data/Rdata/ps_samp_tryp.RData")
+```
+
+To load raw and sample data quickly from `.RData` format.
+```{r}
+load("data/Rdata/ps_raw_tryp.RData")
+load("data/Rdata/ps_samp_tryp.RData")
+```
+
+
+An easy way to view the tables is using Nice Tables
+```{r}
+Nice.Table(ps_raw_tryp@sam_data)
+```
+```{r}
+Nice.Table(ps_raw_tryp@tax_table)
+```
+
+
+## 2. QC plots
+
+R package `decontam` to assess contaminating OTUs, [tutorial](https://bioconductor.org/packages/release/bioc/vignettes/decontam/inst/doc/decontam_intro.html).
+
+The CRAN version only works on R version <4.
+To install for R versions >4 install from [bioconductor](https://bioconductor.org/packages/release/bioc/html/decontam.html) using the following
+
+Make plot of library size of Samples vs Controls
+```{r}
+df <- as.data.frame(sample_data(ps_raw_tryp)) # Put sample_data into a ggplot-friendly data.frame
+df$LibrarySize <- sample_sums(ps_raw_tryp)
+df <- df[order(df$LibrarySize),]
+df$Index <- seq(nrow(df))
+libQC <- ggplot(data=df, aes(x=Index, y=LibrarySize, color=SampleType)) + geom_point() + theme_bw() + scale_colour_brewer(palette = "Set1")
+ggsave("libQC.pdf", plot = libQC, path = "output/plots/trypNGS", width = 15, height = 10, units = "cm")
+```
+
+Make html plot with `plotly`
+```{r}
+libQCplotly <- ggplotly(libQC)
+htmlwidgets::saveWidget(libQCplotly, "output/plots/libQCplotly.html")
+```
+
+
+Make distribution plot of reads using [microbiomeutilities](https://microsud.github.io/microbiomeutilities/articles/microbiomeutilities.html#distribution-of-reads-1)
+```{r}
+distrib <- plot_read_distribution(ps_raw_tryp, groups = "SampleCategory", 
+                            plot.type = "density") + xlab("Reads per sample") + ylab("Density")
+distrib <- distrib + geom_density(alpha = 0.5, fill = "grey") + theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1))
+ggsave("distrib.pdf", plot = distrib, path = "output/plots/trypNGS", width = 15, height = 10, units = "cm")
+```
+
+```{r}
+QC <- ggarrange(libQC, distrib,
+                    labels = c("A", "B"),
+                    ncol = 1, nrow = 2)
+ggsave("QC.pdf", plot = QC, path = "output/plots/trypNGS", width = 20, height = 20, units = "cm")
+
+```
+
+## 3. Subset and Filter
+
+
+### 3.1. For phyloseq object
+
+Subset phyloseq object based on sample types
+```{r}
+# samples and positive controls
+ps_tryp_sampcon = subset_samples(ps_raw_tryp, SampleType=="Sample" | SampleType=="ControlPos")
+# Blood samples only
+ps_tryp_bl = subset_samples(ps_samp_tryp, SampleCategory=="Blood")
+# Tissue samples only
+ps_tryp_tis = subset_samples(ps_samp_tryp, SampleCategory=="Tissue")
+# Tick samples only
+ps_tryp_tick = subset_samples(ps_samp_tryp, SampleCategory=="Tick")
+```
+
+
+Subset phyloseq object based on host species
+```{r}
+# Black rat
+ps_BR = subset_samples(ps_samp_tryp, species=="Black rat")
+# Brush tail possum
+ps_BTP = subset_samples(ps_samp_tryp, species=="Brush tail possum")
+# Chuditch
+ps_chud = subset_samples(ps_samp_tryp, species=="Chuditch")
+# Long-nosed bandicoot
+ps_LNB = subset_samples(ps_samp_tryp, species=="Long-nosed bandicoot")
+```
+
+### 3.2. For ampvis2 object
+
+**Make ampvis2 object for analysis**
+
+```{r}
+#require the devtools package to source gist
+if(!require("devtools"))
+  install.packages("devtools")
+#source the phyloseq_to_ampvis2() function from the gist
+devtools::source_gist("8d0ca4206a66be7ff6d76fc4ab8e66c6")
+
+#convert
+tryp_amp <- phyloseq_to_ampvis2(ps_samp_tryp)
+```
+
+Subset ampvis2 object based on sample category
+```{r}
+#remove controls
+amp_samp <- amp_subset_samples(tryp_amp, 
+                                 !SampleType %in% c("ControlPos"),
+                                 RemoveAbsents = TRUE)
+#blood samples
+amp_bl <- amp_subset_samples(amp_samp, 
+                                 SampleCategory %in% c("Blood"),
+                                 RemoveAbsents = TRUE)
+#tissue samples
+am_tis <- amp_subset_samples(amp_samp, 
+                                 SampleCategory %in% c("Tissue"),
+                                 RemoveAbsents = TRUE)
+#tick samples
+amp_tick <- amp_subset_samples(amp_samp, 
+                                 SampleCategory %in% c("Tick"),
+                                 RemoveAbsents = TRUE)
+```
+
+## 4. Heatmap
+
+### 4.1. ampvis2
+
+Make heat map using [ampvis2](https://madsalbertsen.github.io/ampvis2/reference/amp_heatmap.html)
+
+First filter taxa 
+```{r}
+# order Trypanosomatida
+tax_vector1 <- c(
+  "Trypanosomatida"
+)
+
+amp_samp_otry <- amp_subset_taxa(amp_samp,
+  tax_vector = tax_vector1)
+
+# Trypanosoma species of interest
+tax_vector2 <- c(
+  "Trypanosoma gilletti",
+  "Trypanosoma sp. (cyclops-like)",
+  "Trypanosoma vegrandis",
+  "Trypanosoma noyesi",
+  "Trypanosoma sp. (lewisi-like)",
+  "Lotmaria passim"
+)
+
+amp_samp_targettryp <- amp_subset_taxa(amp_samp,
+  tax_vector = tax_vector2)
+```
+
+
+**Relative abundance**
+
+Heatmap of subsetted data using relative abundance
+```{r}
+# Relative abundance order level
+heatmap_rel1 <- amp_heatmap(amp_samp_otry,
+            facet_by = "SampleCategory",
+            group_by = "species",
+            tax_aggregate = "Species",
+            tax_show = 10,
+            normalise = TRUE,
+            plot_values = FALSE,
+            plot_values_size = 3,
+            round = 0, color_vector = c("white", "#e5ba52", "#ab7ca3", "#9d02d7", "#0030bf"), plot_colorscale = "log10")  +
+  theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1),
+        axis.text.y = element_text(size=10),
+        legend.position="right")
+
+# Relative abundance trypanosoma species of interest
+heatmap_rel2 <- amp_heatmap(amp_samp_targettryp,
+            facet_by = "SampleCategory",
+            group_by = "species",
+            tax_aggregate = "Species",
+            tax_show = 10,
+            normalise = TRUE,
+            plot_values = FALSE,
+            plot_values_size = 3,
+            round = 0, color_vector = c("white", "#e5ba52", "#ab7ca3", "#9d02d7", "#0030bf"), plot_colorscale = "log10")  +
+  theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1),
+        axis.text.y = element_text(size=10),
+        legend.position="right")
+
+```
+Save PDF of plots
+```{r}
+ggsave("heatmap_rel1.pdf", plot = heatmap_rel1, path = "output/plots/trypNGS", width = 25, height = 15, units = "cm")
+ggsave("heatmap_rel2.pdf", plot = heatmap_rel2, path = "output/plots/trypNGS", width = 25, height = 15, units = "cm")
+```
+
+**Count of sequences**
+```{r}
+heatmap_count <- amp_heatmap(amp_samp,
+            facet_by = "SampleCategory",
+            group_by = "species",
+            tax_aggregate = "Family",
+            tax_show = 40,
+            normalise = FALSE,
+            plot_values = FALSE,
+            plot_values_size = 3,
+            round = 0, color_vector = c("white", "#e5ba52", "#ab7ca3", "#9d02d7", "#0030bf"), plot_colorscale = "log10") + theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1), axis.text.y = element_text(size=10), legend.position="right")
+```
+
+### 4.2. microbiomeutilities
+
+Heatmap using [microbiomeutilities](https://microsud.github.io/microbiomeutilities/articles/microbiomeutilities.html#heatmaps)
+
+Subset taxa
+```{r}
+ps_tryp_otry = subset_taxa(ps_samp_tryp, Order=="Trypanosomatida")
+ps_tryp_subtry = subset_taxa(ps_samp_tryp, Species=="Trypanosoma gilletti" | Species=="Trypanosoma sp. (cyclops-like)" | Species =="Trypanosoma vegrandis" | Species=="Trypanosoma noyesi" | Species=="Trypanosoma sp. (lewisi-like)" | Species =="Lotmaria passim")
+```
+
+```{r}
+
+# create a gradient color palette for abundance
+#grad_ab <- colorRampPalette(c("#faf3dd","#f7d486" ,"#5e6472"))
+color_vector = colorRampPalette(c("#faf3dd", "#e5ba52", "#ab7ca3", "#9d02d7", "#0030bf"))
+grad_ab_pal <- color_vector(10)
+
+# create a color palette for varaibles of interest
+
+meta_colors = list(c("Blood" = "#7a255d", "Tick" = "#9fd0cb", "Tissue" = "#7566ff"), 
+                  c("Brush tail possum" = "#440154FF", "Black rat" = "#482878FF", "Swamp rat"="#3E4A89FF", "Long-nosed bandicoot" ="#31688EFF", "Bush rat"="#26828EFF", "Brown antechinus" = "#1F9E89FF", "Rabbit"="#35B779FF", "Chuditch"= "#6DCD59FF", "Quenda" = "#B4DE2CFF", "Deer" = "#FDE725FF" ))
+
+# add labels for pheatmap to detect
+names(meta_colors) <- c("SampleCategory", "species")
+
+ph_heatmap <- plot_taxa_heatmap(ps_tryp_subtry,
+                       subset.top = 50,
+                       VariableA = c("SampleCategory","species"),
+                       heatcolors = grad_ab_pal, #rev(brewer.pal(6, "RdPu")),
+                       transformation = "log10",
+                       cluster_rows = T,
+                       cluster_cols = F,
+                       show_colnames = F,
+                       annotation_colors=meta_colors, fontsize = 8,)
+```
+
+Save PDF of plots
+```{r}
+ggsave("ph_heatmap.pdf", plot = ph_heatmap$plot, path = "output/plots/trypNGS", width = 25, height = 15, units = "cm")
+```

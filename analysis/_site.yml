@@ -5,12 +5,14 @@ navbar:
   left:
   - text: Home
     href: index.html
-  - text: About
-    href: about.html
   - text: License
     href: license.html
-  - text: Trypanosome
-    href: tryp-phyloseq.html
+  - text: Trypanosome NGS
+    menu:
+    - text: Trypanosome NGS processing
+      href: tryp-01-NGS-bioinfo.html
+    - text: Trypanosome NGS phyloseq
+      href: tryp-02-phyloseq.html
   - text: Summary figures
     href: misc-dataviz.html
   - text: Phylogeny
@@ -23,5 +25,5 @@ output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
+    theme: readable
     highlight: textmate
