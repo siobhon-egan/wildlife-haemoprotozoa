@@ -10,19 +10,23 @@ In the spirit of reproducibility this project website is created that outlines a
 
 PhD Thesis 2021 (Chapter five)
 
-## Data availbility
+Raw Illumina MiSeq data is available at European nucleotide archive the project accession number PRJEB46031 (ERP130215), which includes the following sample accession numbers:
 
-Raw Illumina MiSeq data is available at NCBI SRA project XXXXX
+- 18S kinetoplastid blood samples: ERS6633767--ERS6633815, ERS6633872--ERS6633981 (BioSample # SAMEA8950999--SAMEA8951047, SAMEA8951104--SAMEA8951213)
+- 18S kinetoplastid tissue samples: ERS6633816--ERS6633871, ERS6633982--ERS6634081 (BioSample # SAMEA8951048--SAMEA8951103, SAMEA8951214--SAMEA8951313)
+- 18S kinetoplastid tick samples: ERS6634083--ERS6634241 (BioSample # SAMEA8951315--SAMEA8951473)
 
 Nucleotide sequence data available on Genbank
 
+- Trypanosome (Illumina MiSeq zOTUs): MW676261--MW676287
+- Piroplasm and *Hepatozoon* (Sanger sequencing): MW664957--MW664997
 
 
 ## Supporting data
 
 Data used but not directly produced for this manuscript.
 
-Nucleotide data for identification of ticks
+Nucleotide data for identification of ticks: MW665133--MW665150
 
 
 ## Directory information

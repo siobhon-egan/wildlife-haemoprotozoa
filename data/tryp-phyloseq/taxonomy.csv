@@ -1,0 +1,1626 @@
+﻿#Zotu ID,Kingdom,Phylum,Class,Order,Family,Genus,Species,Accession_description,Accession no.,evalue,per. Ident,taxid
+Zotu1,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.06E-172,100,863246
+Zotu2,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma teixeirae,"Trypanosoma teixeirae 18S ribosomal RNA gene, partial sequence",KT907061.1,3.7E-167,100,1826986
+Zotu3,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,1.35E-125,100,312471
+Zotu4,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania sp. AM-2004,"Leishmania sp. AM-2004 18S ribosomal RNA gene, partial sequence",AY495829.1,1.58E-150,100,268293
+Zotu5,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (lewisi-like),"Trypanosoma sp. isolate BR042 small subunit ribosomal RNA gene, partial sequence",MN512227.1,1.26E-156,100,5696
+Zotu6,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,8.33E-118,97.628,75058
+Zotu7,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.2E-100,97.717,351716
+Zotu8,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.57E-107,99.543,351716
+Zotu9,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,1.56E-140,98.611,5696
+Zotu10,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Rhynchobodo ,Rhynchobodo sp. Sourhope,"Rhynchobodo sp. Sourhope 18S ribosomal RNA gene, partial sequence",AY490212.1,1.31E-67,97.468,266814
+Zotu11,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,9.4E-143,98.966,5696
+Zotu12,,,,,,,,,,,,
+Zotu13,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,6.28E-124,99.598,312471
+Zotu14,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,8.22E-128,100,75058
+Zotu15,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus CAMPATH-1 antigen (LOC116886784), transcript variant X1, mRNA",XM_032888232.1,6.18E-16,100,10117
+Zotu16,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.56E-83,87.9,0
+Zotu17,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone MF5e12 18S ribosomal RNA gene, partial sequence",HQ230082.1,1.61E-114,100,100272
+Zotu18,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida    ,Rhynchomonadidae,Rhynchomonas,Rhynchomonas nasuta,"Rhynchomonas nasuta strain HFCC319 18S ribosomal RNA gene, partial sequence",DQ207598.1,3.94E-121,98.062,127150
+Zotu19,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone UEBER_H1 18S ribosomal RNA gene, partial sequence",JN630454.1,1.68E-109,97.89,204529
+Zotu20,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain HFCC95 18S ribosomal RNA gene, partial sequence",DQ207580.1,4.69E-105,96.61,312471
+Zotu21,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus strain Brown Norway clone RP31-314L24, complete sequence",AC087042.2,1.2E-106,93.066,10116
+Zotu22,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. voucher LNP36 small subunit ribosomal RNA gene, partial sequence",MT898518.1,1.99E-144,99.65,5696
+Zotu23,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.06E-79,87.234,0
+Zotu24,,,,,,,,,,,,
+Zotu25,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB09 18S ribosomal RNA gene, partial sequence",KJ867128.1,7.25E-149,100,87096
+Zotu26,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,1.58E-150,100,5671
+Zotu27,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.10 18S ribosomal RNA gene, partial sequence",AY753951.1,8.72E-73,100,100272
+Zotu28,,,,,,,,"Uncultured marine eukaryote clone AB_+67_KIN 18S ribosomal RNA gene, partial sequence",GU218703.1,1.14E-76,87.843,0
+Zotu29,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 9 BAC CH230-7F11 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC108527.6,1.36E-111,90.939,10116
+Zotu30,,,,,,,,,,,,
+Zotu31,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.52E-109,100,351716
+Zotu32,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 1",AB996690.1,6.59E-109,95.312,204529
+Zotu33,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,3.03E-102,94.094,266813
+Zotu34,,,,,,,,,,,,
+Zotu35,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone FW10.1 18S ribosomal RNA gene, partial sequence",AY749571.1,3.79E-81,90.456,100272
+Zotu36,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Lotmaria    ,Lotmaria passim,"Lotmaria passim isolate Uruguay 10 18S ribosomal RNA gene, partial sequence",KX953204.1,7.45E-154,100,1620387
+Zotu37,,,,,,,,,,,,
+Zotu38,,,,,,,,,,,,
+Zotu39,,,,,,,,,,,,
+Zotu40,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AQ.22 partial 18S rRNA gene, isolate TL.AQ.22",AJ620574.1,2.22E-159,98.762,260183
+Zotu41,,,,,,,,"Rhynchobodo sp. Hamilton Lake 18S ribosomal RNA gene, partial sequence",AY490213.1,3.37E-87,88.929,0
+Zotu42,,,,,,,,,,,,
+Zotu43,,,,,,,,"Uncultured kinetoplastid clone SM_G1 18S ribosomal RNA gene, partial sequence",JN630331.1,3.21E-72,87.302,0
+Zotu44,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone A2_D12 18S ribosomal RNA gene, partial sequence",JN629255.1,1.68E-109,97.89,204529
+Zotu45,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,3.85E-121,98.419,100272
+Zotu46,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,4.03E-91,91.732,2282701
+Zotu47,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma sp. AB-2013 isolate G5 18S ribosomal RNA gene, complete sequence; and 18S ribosomal RNA gene, partial sequence",KC753534.1,0,100,1345638
+Zotu48,,,,,,,,,,,,
+Zotu49,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone SM_G1 18S ribosomal RNA gene, partial sequence",JN630331.1,1.11E-106,94.942,204529
+Zotu50,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma noyesi,"Trypanosoma sp. AB-2016a isolate TF3382 18S ribosomal RNA gene, complete sequence",KX008320.1,3.43E-152,100,1849175
+Zotu51,,,,,,,,,,,,
+Zotu52,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,1.7E-104,96.218,312471
+Zotu53,,,,,,,,,,,,
+Zotu54,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,2.04E-139,98.276,5696
+Zotu55,Eukaryota,,,,,,uncultured microeukaryote,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,6.65E-84,90.157,340210
+Zotu56,,,,,,,,,,,,
+Zotu57,Eukaryota,Euglenozoa ,Kinetoplastea ,Parabodonida  ,Parabodonidae,Parabodo    ,Parabodo caudatus,"Parabodo caudatus strain HFCC10 18S ribosomal RNA gene, partial sequence",DQ207591.1,1.07E-46,92.254,351713
+Zotu58,,,,,,,,,,,,
+Zotu59,,,,,,,,,,,,
+Zotu60,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Rhynchobodo ,Rhynchobodo sp. Sourhope,"Rhynchobodo sp. Sourhope 18S ribosomal RNA gene, partial sequence",AY490212.1,1.75E-124,99.6,266814
+Zotu61,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone A2_D12 18S ribosomal RNA gene, partial sequence",JN629255.1,7.83E-108,97.468,204529
+Zotu62,,,,,,,,"Pipistrellus pipistrellus genome assembly, chromosome: 17",LR862373.1,5.25E-43,87.898,0
+Zotu63,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi partial 18S rRNA gene, isolate ABA",AJ620566.1,7.25E-149,100,87096
+Zotu64,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,4.41E-136,97.586,5696
+Zotu65,,,,,,,,,,,,
+Zotu66,,,,,,,,,,,,
+Zotu67,,,,,,,,"Uncultured kinetoplastid clone PI_50 18S ribosomal RNA gene, partial sequence",JN630199.1,6.93E-74,88.618,0
+Zotu68,,,,,,,,,,,,
+Zotu69,,,,,,,,,,,,
+Zotu70,,,,,,,,,,,,
+Zotu71,,,,,,,,,,,,
+Zotu72,,,,,,,,,,,,
+Zotu73,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB93 18S ribosomal RNA gene, partial sequence",KJ867148.1,9.37E-148,99.656,87096
+Zotu74,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis strain DH 18S small subunit ribosomal RNA gene, partial sequence",AF464896.1,6.46E-104,94.8,312471
+Zotu75,,,,,,,,Rattus norvegicus CH230-12L9 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC132498.4,1E-61,89.163,0
+Zotu76,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone UEBER_6X 18S ribosomal RNA gene, partial sequence",JN630366.1,7.83E-108,97.468,204529
+Zotu77,,,,,,,,,,,,
+Zotu78,,,,,,,,,,,,
+Zotu79,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.45E-83,89.844,0
+Zotu80,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,1.1E-106,94.882,266813
+Zotu81,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 25",LR877236.1,8.51E-17,93.846,60746
+Zotu82,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,2.04E-139,98.276,5696
+Zotu83,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 18",LR877205.1,0.00000339,95,38674
+Zotu84,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,4.46E-76,86.525,0
+Zotu85,,,,,,,,,,,,
+Zotu86,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus breed New Zealand White clone LB1-56H19, complete sequence",AC124042.3,2.96E-66,93.75,9986
+Zotu87,,,,,,,,,,,,
+Zotu88,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AQ.22 partial 18S rRNA gene, isolate TL.AQ.22",AJ620574.1,1.03E-157,98.452,260183
+Zotu89,,,,,,,,"Mus musculus BAC clone RP23-69L14 from chromosome 7, complete sequence",AC134609.4,2.23E-49,81.923,0
+Zotu90,,,,,,,,,,,,
+Zotu91,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,1.88E-89,91.339,2282701
+Zotu92,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.81E-70,98.101,863246
+Zotu93,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,1.14E-81,89.494,0
+Zotu94,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.09E-71,99.355,312471
+Zotu95,,,,,,,,Canis lupus familiaris breed Labrador retriever chromosome 36a,CP050596.1,4.51E-34,83.429,0
+Zotu96,,,,,,,,"Wallaby DNA sequence from clone MEKBa-192E16, complete sequence",CU302407.3,3.68E-26,83.688,0
+Zotu97,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.1 18S ribosomal RNA gene, partial sequence",AY753976.1,1.81E-94,92.742,100272
+Zotu98,,,,,,,,"Mus musculus chromosome 15, clone RP23-136I22, complete sequence",AC129931.19,1.34E-51,86.979,0
+Zotu99,,,,,,,,,,,,
+Zotu100,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,5.2E-70,98.71,312471
+Zotu101,,,,,,,,,,,,
+Zotu102,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB09 18S ribosomal RNA gene, partial sequence",KJ867128.1,1.57E-145,99.313,87096
+Zotu103,,,,,,,,,,,,
+Zotu104,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi partial 18S rRNA gene, isolate ABA",AJ620566.1,1.57E-145,99.313,87096
+Zotu105,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone UEBER_E12 18S ribosomal RNA gene, partial sequence",JN630410.1,4.83E-85,91.915,204529
+Zotu106,,,,,,,,,,,,
+Zotu107,,,,,,,,Mus musculus 10 BAC RP23-326C6 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence,AC153544.4,1.21E-20,84.348,0
+Zotu108,,,,,,,,,,,,
+Zotu109,,,,,,,,,,,,
+Zotu110,,,,,,,,,,,,
+Zotu111,,,,,,,,,,,,
+Zotu112,,,,,,,,,,,,
+Zotu113,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,1.43E-80,89.328,0
+Zotu114,Eukaryota,,,,,,uncultured marine eukaryote,"Uncultured marine eukaryote clone S4-Can-6 18S small subunit ribosomal RNA gene, partial sequence",KP173670.1,1.36E-70,96.45,203449
+Zotu115,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,8.73E-88,90.945,2282701
+Zotu116,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,1.11E-91,91.7,204529
+Zotu117,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. voucher LNP36 small subunit ribosomal RNA gene, partial sequence",MT898518.1,4.31E-141,98.951,5696
+Zotu118,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490234.1,2.28E-123,99.203,75058
+Zotu119,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,8.67E-93,91.765,100272
+Zotu120,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_119D04, complete sequence",KJ810981.1,5.75E-23,95.89,9986
+Zotu121,,,,,,,,,,,,
+Zotu122,,,,,,,,,,,,
+Zotu123,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone UEBER_6X 18S ribosomal RNA gene, partial sequence",JN630366.1,1.71E-99,95.359,204529
+Zotu124,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,3.18E-87,90.421,75058
+Zotu125,,,,,,,,,,,,
+Zotu126,,,,,,,,,,,,
+Zotu127,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,2.42E-98,92.969,100272
+Zotu128,,,,,,,,,,,,
+Zotu129,,,,,,,,,,,,
+Zotu130,,,,,,,,,,,,
+Zotu131,,,,,,,,,,,,
+Zotu132,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,6.01E-114,98.734,312471
+Zotu133,,,,,,,,,,,,
+Zotu134,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,1.09E-111,96.094,312471
+Zotu135,,,,,,,,,,,,
+Zotu136,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.78E-117,99.578,312471
+Zotu137,,,,,,,,,,,,
+Zotu138,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.48E-43,96.46,863246
+Zotu139,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,4.04E-81,89.453,0
+Zotu140,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB93 18S ribosomal RNA gene, partial sequence",KJ867148.1,2.03E-144,98.969,87096
+Zotu141,,,,,,,,"Sarcophilus harrisii genome assembly, chromosome: X",LR735560.1,3.44E-32,84.967,0
+Zotu142,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus microsatellite DNA, locus OCU-INRACCDDV0083, clone LBAB-754H11",AJ874426.1,3.52E-60,91.573,9986
+Zotu143,,,,,,,,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,8.92E-73,87.402,0
+Zotu144,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.29E-115,99.156,312471
+Zotu145,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.09E-71,99.355,312471
+Zotu146,,,,,,,,"Mus musculus BAC clone RP23-299P17 from chromosome 14, complete sequence",AC154322.1,2.55E-47,84.653,0
+Zotu147,,,,,,,,"Mus musculus chromosome 10, clone RP23-107I8, complete sequence",AC022699.11,1.51E-28,83.333,0
+Zotu148,,,,,,,,,,,,
+Zotu149,,,,,,,,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,2.78E-83,87.241,0
+Zotu150,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB93 18S ribosomal RNA gene, partial sequence",KJ867148.1,4.36E-146,99.313,87096
+Zotu151,,,,,,,,,,,,
+Zotu152,,,,,,,,,,,,
+Zotu153,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Lepus       ,Lepus townsendii,"Lepus townsendii collagen alpha-1(XII) chain precursor (COL12A1) gene, partial cds",MK078475.1,6.98E-29,92.857,63225
+Zotu154,,,,,,,,,,,,
+Zotu155,,,,,,,,,,,,
+Zotu156,,,,,,,,,,,,
+Zotu157,,,,,,,,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,9E-83,89.272,0
+Zotu158,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0805D11, complete sequence",AC234899.3,0.00000028,97.436,9986
+Zotu159,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus eosinophil peroxidase (Epx), mRNA",NM_001107037.1,8.62E-92,98.485,10116
+Zotu160,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.59E-53,93.793,10090
+Zotu161,,,,,,,,,,,,
+Zotu162,,,,,,,,,,,,
+Zotu163,,,,,,,,,,,,
+Zotu164,Eukaryota,,Choanoflagellata,Craspedida     ,Salpingoecidae    ,Codosiga    ,Codosiga hollandica,"Codosiga sp. MC-2015a 18S small subunit ribosomal RNA gene, partial sequence",KT757430.1,2.43E-66,97.403,1742608
+Zotu165,,,,,,,,,,,,
+Zotu166,,,,,,,,,,,,
+Zotu167,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,5.97E-119,100,312471
+Zotu168,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus breed New Zealand White clone LB1-44O5, complete sequence",AC124041.3,2.28E-67,92.105,9986
+Zotu169,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB09 18S ribosomal RNA gene, partial sequence",KJ867128.1,7.3E-144,98.969,87096
+Zotu170,,,,,,,,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Arsg:tm1e(KOMP)Wtsi; transgenic",JN961961.1,2.08E-31,87.597,0
+Zotu171,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,Oryctolagus cuniculus gene encoding ileal sodium-dependent bile acid transporter,AJ002005.1,7.24E-89,91.165,9986
+Zotu172,,,,,,,,,,,,
+Zotu173,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AQ.22 partial 18S rRNA gene, isolate TL.AQ.22",AJ620574.1,4.8E-156,98.142,260183
+Zotu174,,,,,,,,,,,,
+Zotu175,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,3.77E-126,100,882202
+Zotu176,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 8 BAC CH230-3H18 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC094830.5,9.1E-102,98.605,10116
+Zotu177,,,,,,,,,,,,
+Zotu178,,,,,,,,,,,,
+Zotu179,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone LBNL1-125D4, complete sequence",AC144399.2,1.4E-45,90.541,9986
+Zotu180,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,8.68E-83,89.844,0
+Zotu181,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB88 18S ribosomal RNA gene, partial sequence",KJ867144.1,1.57E-145,99.313,87096
+Zotu182,,,,,,,,,,,,
+Zotu183,,,,,,,,,,,,
+Zotu184,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,3.77E-71,97.576,312471
+Zotu185,,,,,,,,,,,,
+Zotu186,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,1.45E-95,92.578,204529
+Zotu187,,,,,,,,,,,,
+Zotu188,,,,,,,,"Uncultured kinetoplastid clone IP_62 18S ribosomal RNA gene, partial sequence",JN630012.1,4.2E-81,88.846,0
+Zotu189,,,,,,,,,,,,
+Zotu190,,,,,,,,,,,,
+Zotu191,,,,,,,,,,,,
+Zotu192,,,,,,,,"Homo sapiens chromosome 8, clone RP11-946L20, complete sequence",AC104946.4,1.34E-10,80.556,0
+Zotu193,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,3.69E-101,95.378,312471
+Zotu194,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus deuterosome assembly protein 1 (Deup1), transcript variant X2, mRNA",XM_032909887.1,2.04E-32,100,10117
+Zotu195,,,,,,,,,,,,
+Zotu196,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus BAC CH230-92D18 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC120807.4,2.94E-76,94.764,10116
+Zotu197,,,,,,,,,,,,
+Zotu198,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,1.22E-136,97.917,5696
+Zotu199,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,1.51E-80,88.593,0
+Zotu200,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,2.3E-103,94.8,266811
+Zotu201,,,,,,,,,,,,
+Zotu202,,,,,,,,,,,,
+Zotu203,,,,,,,,,,,,
+Zotu204,,,,,,,,,,,,
+Zotu205,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.46E-78,88.672,0
+Zotu206,,,,,,,,"Rhynchobodo ATCC50359 small subunit ribosomal RNA gene, complete sequence",U67183.1,3.96E-81,89.683,0
+Zotu207,,,,,,,,"Rhynchomonas nasuta strain HFCC99 18S ribosomal RNA gene, partial sequence",AY827855.1,1.15E-81,88.803,0
+Zotu208,Eukaryota,Basidiomycota,Microbotryomycetes,Microbotryales ,Microbotryaceae   ,Microbotryum,Microbotryum stellariae,"Microbotryum stellariae isolate DM1165 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence",MT644870.1,3.03E-75,100,288790
+Zotu209,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,6.66E-79,88.933,0
+Zotu210,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.86E-28,89.474,0
+Zotu211,,,,,,,,,,,,
+Zotu212,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,3.25E-82,88.973,0
+Zotu213,,,,,,,,,,,,
+Zotu214,,,,,,,,,,,,
+Zotu215,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,3.08E-82,89.723,0
+Zotu216,,,,,,,,,,,,
+Zotu217,,,,,,,,,,,,
+Zotu218,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,3.1E-77,88.538,0
+Zotu219,,,,,,,,,,,,
+Zotu220,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,1.88E-79,89.062,0
+Zotu221,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,2.65E-133,97.222,5696
+Zotu222,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB88 18S ribosomal RNA gene, partial sequence",KJ867144.1,7.3E-144,98.969,87096
+Zotu223,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB09 18S ribosomal RNA gene, partial sequence",KJ867128.1,7.3E-144,98.969,87096
+Zotu224,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0129C08, complete sequence",AC234897.5,2.55E-26,90.909,9986
+Zotu225,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,1.76E-69,96.97,312471
+Zotu226,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.25E-71,85.714,0
+Zotu227,,,,,,,,,,,,
+Zotu228,,,,,,,,,,,,
+Zotu229,,,,,,,,,,,,
+Zotu230,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,1.86E-84,90.234,204529
+Zotu231,,,,,,,,,,,,
+Zotu232,,,,,,,,,,,,
+Zotu233,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,2.38E-103,94.094,266813
+Zotu234,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_319H05, complete sequence",KJ810978.1,1.75E-15,93.651,9986
+Zotu235,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,3.11E-97,92.969,204529
+Zotu236,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,2.42E-68,86.508,0
+Zotu237,,,,,,,,,,,,
+Zotu238,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP23-451E1 from chromosome 12, complete sequence",AC124486.4,1.47E-18,92.958,10090
+Zotu239,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,2.41E-88,90.909,204529
+Zotu240,,,,,,,,,,,,
+Zotu241,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,1.45E-85,90.196,100272
+Zotu242,,,,,,,,,,,,
+Zotu243,,,,,,,,,,,,
+Zotu244,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,6.65E-27,86.667,0
+Zotu245,,,,,,,,,,,,
+Zotu246,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 12",LR877199.1,0.000000237,100,38674
+Zotu247,,,,,,,,"Onychomys torridus genome assembly, chromosome: 12",LR877199.1,6.3E-64,87.013,0
+Zotu248,,,,,,,,,,,,
+Zotu249,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.7E-68,97.468,863246
+Zotu250,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.81E-70,98.101,863246
+Zotu251,,,,,,,,,,,,
+Zotu252,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain HFCC9 18S ribosomal RNA gene, partial sequence",DQ207579.1,8.35E-113,96.471,312471
+Zotu253,,,,,,,,,,,,
+Zotu254,,,,,,,,,,,,
+Zotu255,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,5.24E-65,96.774,312471
+Zotu256,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo rostratus,"Bodo rostratus 18S ribosomal RNA gene, partial sequence",AY425017.1,2.14E-113,98.734,259042
+Zotu257,,,,,,,,,,,,
+Zotu258,,,,,,,,,,,,
+Zotu259,,,,,,,,"Wallaby DNA sequence from clone MEKBa-169B10, complete sequence",CU302406.7,3.62E-35,89.231,0
+Zotu260,,,,,,,,,,,,
+Zotu261,,,,,,,,"Oryctolagus cuniculus clone BAC LBAB-866H07, complete sequence",KJ810984.1,7.4E-74,88.066,0
+Zotu262,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,4.24E-81,88.679,0
+Zotu263,,,,,,,,,,,,
+Zotu264,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,5.81E-70,85.357,0
+Zotu265,,,,,,,,,,,,
+Zotu266,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP24-235C16 from chromosome 8, complete sequence",AC131115.3,2.23E-08,100,10090
+Zotu267,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.8E-112,98.312,312471
+Zotu268,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,7.99E-98,94.538,312471
+Zotu269,,,,,,,,,,,,
+Zotu270,,,,,,,,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,2.96E-83,89.723,0
+Zotu271,,,,,,,,,,,,
+Zotu272,,,,,,,,Rattus norvegicus 2 BAC CH230-328F5 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC113901.7,3.87E-97,88.103,0
+Zotu273,,,,,,,,,,,,
+Zotu274,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Rf BAC CH230-173F6 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC096321.10,6.76E-83,95.074,10116
+Zotu275,,,,,,,,,,,,
+Zotu276,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.1 18S ribosomal RNA gene, partial sequence",AY753976.1,3.92E-91,91.935,100272
+Zotu277,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus BAC CH230-231J3 () complete sequence,AC125647.6,5.35E-84,95.122,10116
+Zotu278,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490234.1,4.9E-125,99.602,75058
+Zotu279,,,,,,,,,,,,
+Zotu280,,,,,,,,Oryctolagus cuniculus beta-globin-like gene cluster locus control region,U63091.1,1.07E-21,84.426,0
+Zotu281,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,6.01E-114,98.734,312471
+Zotu282,,,,,,,,,,,,
+Zotu283,,,,,,,,,,,,
+Zotu284,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,5.04E-115,96.85,266813
+Zotu285,,,,,,,,,,,,
+Zotu286,,,,,,,,,,,,
+Zotu287,,,,,,,,,,,,
+Zotu288,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.64E-94,95.89,351716
+Zotu289,,,,,,,,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,1.29E-81,86.897,0
+Zotu290,,,,,,,,,,,,
+Zotu291,,,,,,,,,,,,
+Zotu292,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNECO-104M15 (Amplicon Express Rat SHR-Akr (EcoR1 Digest) BAC library) complete sequence,AC246509.4,3.57E-96,98.537,10116
+Zotu293,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0129C08, complete sequence",AC234897.5,1.82E-53,96.296,9986
+Zotu294,,,,,,,,"Acropsopilio chilensis voucher CASENT-9027889 18S ribosomal RNA gene, partial sequence",KF963303.1,1.15E-44,88.679,0
+Zotu295,,,,,,,,,,,,
+Zotu296,,,,,,,,,,,,
+Zotu297,,,,,,,,,,,,
+Zotu298,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 11",LR877198.1,0.000000283,91.837,38674
+Zotu299,,,,,,,,,,,,
+Zotu300,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,3.25E-82,88.973,0
+Zotu301,,,,,,,,,,,,
+Zotu302,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,1.97E-79,88.302,0
+Zotu303,,,,,,,,,,,,
+Zotu304,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus CD52 molecule (Cd52), mRNA",NM_053983.2,6.16E-16,100,10116
+Zotu305,,,,,,,,,,,,
+Zotu306,,,,,,,,,,,,
+Zotu307,,,,,,,,,,,,
+Zotu308,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490234.1,1.06E-121,98.805,75058
+Zotu309,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-12L9 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC132498.4,2.22E-58,90.96,10116
+Zotu310,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNECO-104M15 (Amplicon Express Rat SHR-Akr (EcoR1 Digest) BAC library) complete sequence,AC246509.4,1.66E-94,98.049,10116
+Zotu311,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.8E-112,98.312,312471
+Zotu312,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. TL.AV.43 cl.101E partial 18S rRNA gene, isolate TL.AV.43 cl.101E",AJ620571.1,1.22E-136,97.917,5696
+Zotu313,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,4.51E-71,85.409,0
+Zotu314,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.33E-154,96.716,863246
+Zotu315,,,,,,,,,,,,
+Zotu316,,,,,,,,"Acomys russatus genome assembly, chromosome: 18",LR877229.1,3.78E-26,80.899,0
+Zotu317,,,,,,,,,,,,
+Zotu318,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102549701 (LOC102549701), ncRNA",XR_600676.2,1.54E-104,99.083,10116
+Zotu319,,,,,,,,,,,,
+Zotu320,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490234.1,1.06E-121,98.805,75058
+Zotu321,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.69E-73,85.765,0
+Zotu322,,,,,,,,"Acomys russatus genome assembly, chromosome: 10",LR877221.1,5.2E-15,75.936,0
+Zotu323,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.63E-53,93.793,10090
+Zotu324,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,8.83E-27,88.785,0
+Zotu325,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.02E-156,97.015,863246
+Zotu326,,,,,,,,Rattus norvegicus BAC CH230-139F7 () complete sequence,AC114140.5,5.96E-59,86.607,0
+Zotu327,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 7, clone RP23-292M1, complete sequence",AC102143.10,8.44E-83,93.519,10090
+Zotu328,,,,,,,,,,,,
+Zotu329,,,,,,,,,,,,
+Zotu330,,,,,,,,,,,,
+Zotu331,,,,,,,,,,,,
+Zotu332,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus strain Brown Norway clone RP31-464J4, complete sequence",AC087775.2,1.57E-91,96.226,10116
+Zotu333,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.02E-156,97.015,863246
+Zotu334,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. (cyclops-like),"Trypanosoma sp. voucher LNP24 small subunit ribosomal RNA gene, partial sequence",MT898517.1,3.37E-147,99.656,5696
+Zotu335,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,6.71E-74,87.747,0
+Zotu336,,,,,,,,"Uncultured marine eukaryote clone AB_+67_KIN 18S ribosomal RNA gene, partial sequence",GU218703.1,2.01E-69,86.09,0
+Zotu337,,,,,,,,,,,,
+Zotu338,,,,,,,,,,,,
+Zotu339,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.09E-69,85.106,0
+Zotu340,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,2.67E-83,88.087,0
+Zotu341,,,,,,,,,,,,
+Zotu342,,,,,,,,,,,,
+Zotu343,,,,,,,,,,,,
+Zotu344,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,4.98E-161,97.904,863246
+Zotu345,,,,,,,,,,,,
+Zotu346,,,,,,,,,,,,
+Zotu347,,,,,,,,,,,,
+Zotu348,Eukaryota,,,,,,uncultured soil eukaryote,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,7.23E-69,96.386,342097
+Zotu349,,,,,,,,,,,,
+Zotu350,,,,,,,,,,,,
+Zotu351,,,,,,,,Rattus norvegicus 20 BAC CH230-118G13 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC132050.4,1.66E-65,85.714,0
+Zotu352,,,,,,,,,,,,
+Zotu353,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.9E-28,89.815,0
+Zotu354,,,,,,,,,,,,
+Zotu355,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.65E-73,85.816,0
+Zotu356,,,,,,,,,,,,
+Zotu357,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.45E-83,89.844,0
+Zotu358,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,1.86E-68,91.414,9986
+Zotu359,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,2.43E-93,91.797,100272
+Zotu360,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.34E-146,100,863246
+Zotu361,,,,,,,,,,,,
+Zotu362,,,,,,,,,,,,
+Zotu363,,,,,,,,,,,,
+Zotu364,,,,,,,,,,,,
+Zotu365,,,,,,,,,,,,
+Zotu366,,,,,,,,,,,,
+Zotu367,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,6.76E-69,86.561,0
+Zotu368,,,,,,,,"Mus musculus BAC clone RP23-127P22 from chromosome 19, complete sequence",AC132454.3,1.3E-34,83.237,0
+Zotu369,,,,,,,,,,,,
+Zotu370,,,,,,,,,,,,
+Zotu371,,,,,,,,"Uncultured eukaryote clone TKR07M.129 18S ribosomal RNA gene, partial sequence",GU290113.1,5.33E-85,89.655,0
+Zotu372,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.69E-73,85.765,0
+Zotu373,,,,,,,,,,,,
+Zotu374,,,,,,,,,,,,
+Zotu375,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,2.45E-83,90.079,2282701
+Zotu376,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.59E-102,98.174,351716
+Zotu377,,,,,,,,"Mus musculus BAC clone RP23-174P2 from 7, complete sequence",AC114004.5,2.37E-55,88.77,0
+Zotu378,,,,,,,,,,,,
+Zotu379,,,,,,,,Mus musculus 10 BAC RP23-102O12 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence,AC164177.6,3.55E-68,81.714,0
+Zotu380,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.7E-68,97.468,863246
+Zotu381,,,,,,,,,,,,
+Zotu382,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,1.75E-124,99.6,882202
+Zotu383,,,,,,,,,,,,
+Zotu384,,,,,,,,,,,,
+Zotu385,,,,,,,,"Mus musculus BAC clone RP24-342N6 from chromosome 16, complete sequence",AC164296.2,2.1E-39,80.816,0
+Zotu386,,,,,,,,,,,,
+Zotu387,,,,,,,,"Oryctolagus cuniculus clone BAC LBAB-866H07, complete sequence",KJ810984.1,2.24E-14,86.905,0
+Zotu388,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.1 18S ribosomal RNA gene, partial sequence",AY753976.1,8.38E-98,93.548,100272
+Zotu389,,,,,,,,,,,,
+Zotu390,,,,,,,,,,,,
+Zotu391,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,1.48E-85,90.038,75058
+Zotu392,,,,,,,,,,,,
+Zotu393,,,,,,,,,,,,
+Zotu394,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.62E-78,86.833,0
+Zotu395,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,6.72E-69,98.693,240580
+Zotu396,,,,,,,,"Sarcophilus harrisii genome assembly, chromosome: X",LR735560.1,6.46E-09,82.927,0
+Zotu397,,,,,,,,"Onychomys torridus genome assembly, chromosome: 11",LR877198.1,3.9E-20,88.889,0
+Zotu398,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,4.48E-76,86.477,0
+Zotu399,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.1E-25,89.423,0
+Zotu400,,,,,,,,,,,,
+Zotu401,,,,,,,,,,,,
+Zotu402,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus sciellin (Scel), mRNA",XM_032917686.1,1.04E-21,100,10117
+Zotu403,Eukaryota,Chordata   ,Mammalia      ,Diprotodontia  ,Phalangeridae     ,Trichosurus ,Trichosurus vulpecula,"PREDICTED: Trichosurus vulpecula zinc finger protein 420-like (LOC118845015), mRNA",XM_036753038.1,5.64E-150,100,9337
+Zotu404,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,2.35E-108,95.312,312471
+Zotu405,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,5.29E-80,89.062,0
+Zotu406,,,,,,,,,,,,
+Zotu407,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,5.85E-65,84.42,0
+Zotu408,,,,,,,,,,,,
+Zotu409,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.08E-74,86.121,0
+Zotu410,,,,,,,,,,,,
+Zotu411,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNECO-104M15 (Amplicon Express Rat SHR-Akr (EcoR1 Digest) BAC library) complete sequence,AC246509.4,6.3E-125,93.291,10116
+Zotu412,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102547903 (LOC102547903), transcript variant X4, ncRNA",XR_598738.1,3.37E-91,97.537,10116
+Zotu413,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,4.16E-86,90.038,75058
+Zotu414,,,,,,,,,,,,
+Zotu415,,,,,,,,,,,,
+Zotu416,,,,,,,,,,,,
+Zotu417,,,,,,,,"Acropsopilio chilensis voucher CASENT-9027889 18S ribosomal RNA gene, partial sequence",KF963303.1,5.29E-48,89.809,0
+Zotu418,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 8, clone RP23-170M20, complete sequence",AC114581.9,1.31E-111,92.708,10090
+Zotu419,,,,,,,,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,6.89E-84,89.655,0
+Zotu420,,,,,,,,,,,,
+Zotu421,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.32E-159,97.605,863246
+Zotu422,,,,,,,,,,,,
+Zotu423,,,,,,,,,,,,
+Zotu424,,,,,,,,,,,,
+Zotu425,,,,,,,,"Mus musculus BAC clone RP23-114P16 from 3, complete sequence",AC132475.4,1.26E-21,78.125,0
+Zotu426,,,,,,,,,,,,
+Zotu427,,,,,,,,,,,,
+Zotu428,,,,,,,,,,,,
+Zotu429,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,6.48E-10,80.952,0
+Zotu430,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. river Thames,"Bodonidae sp. river Thames 18S ribosomal RNA gene, partial sequence",AY490225.1,2.27E-68,98.684,266821
+Zotu431,,,,,,,,,,,,
+Zotu432,,,,,,,,,,,,
+Zotu433,,,,,,,,"Mouse DNA sequence from clone RP23-421J13 on chromosome X, complete sequence",AL671935.30,2.62E-46,88.889,0
+Zotu434,,,,,,,,,,,,
+Zotu435,,,,,,,,,,,,
+Zotu436,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma sp. AB-2013 isolate G5 18S ribosomal RNA gene, complete sequence; and 18S ribosomal RNA gene, partial sequence",KC753534.1,2.4E-179,99.155,1345638
+Zotu437,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.62E-78,86.833,0
+Zotu438,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,2.35E-108,95.312,312471
+Zotu439,,,,,,,,"Mus musculus chromosome 14, clone RP23-106K9, complete sequence",AC116395.21,6.21E-59,85.654,0
+Zotu440,,,,,,,,"PREDICTED: Pipra filicauda 18S ribosomal RNA (LOC113990054), rRNA",XR_003541493.1,4.34E-24,80.864,0
+Zotu441,,,,,,,,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,3.21E-82,89.272,0
+Zotu442,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,1.13E-91,91.406,100272
+Zotu443,,,,,,,,"Uncultured kinetoplastid clone IP_62 18S ribosomal RNA gene, partial sequence",JN630012.1,1.96E-79,88.462,0
+Zotu444,,,,,,,,Mus musculus 6 BAC RP23-384P24 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence,AC164579.5,3.89E-45,85.417,0
+Zotu445,,,,,,,,"Pipistrellus pipistrellus genome assembly, chromosome: 6",LR862362.1,4.55E-44,87.425,0
+Zotu446,,,,,,,,,,,,
+Zotu447,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,6.72E-69,98.693,240580
+Zotu448,,,,,,,,,,,,
+Zotu449,,,,,,,,,,,,
+Zotu450,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus strain Brown Norway clone RP31-536L14, complete sequence",AC091268.2,1.06E-69,98.701,10116
+Zotu451,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.59E-53,93.793,10090
+Zotu452,,,,,,,,,,,,
+Zotu453,,,,,,,,"Rhynchomonas nasuta strain HFCC316 18S ribosomal RNA gene, partial sequence",DQ207597.1,1.97E-84,89.394,0
+Zotu454,,,,,,,,,,,,
+Zotu455,,,,,,,,,,,,
+Zotu456,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,1.43E-80,89.328,0
+Zotu457,,,,,,,,,,,,
+Zotu458,,,,,,,,,,,,
+Zotu459,,,,,,,,,,,,
+Zotu460,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,2.65E-88,89.17,0
+Zotu461,,,,,,,,,,,,
+Zotu462,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.13E-66,97.419,312471
+Zotu463,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490234.1,1.07E-116,97.61,75058
+Zotu464,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102547903 (LOC102547903), transcript variant X4, ncRNA",XR_598738.1,1.24E-146,98.986,10116
+Zotu465,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 1, clone RP23-62B14, complete sequence",AC167197.6,1.51E-79,93.333,10090
+Zotu466,,,,,,,,,,,,
+Zotu467,,,,,,,,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,2E-74,87.361,0
+Zotu468,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.07E-79,87.189,0
+Zotu469,,,,,,,,,,,,
+Zotu470,,,,,,,,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,1.14E-81,89.683,0
+Zotu471,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,3.8E-121,98.8,882202
+Zotu472,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.6 18S ribosomal RNA gene, partial sequence",AY753958.1,8.55E-113,96.109,100272
+Zotu473,,,,,,,,"Uncultured eukaryote clone SHBA765 18S ribosomal RNA gene, partial sequence",HQ869417.1,2.44E-78,88.846,0
+Zotu474,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,5.2E-70,86.905,0
+Zotu475,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,8.74E-78,88.672,0
+Zotu476,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"Rattus rattus voucher EBD2012-064-125 mitochondrion, complete genome",MW209724.1,7.03E-82,100,10117
+Zotu477,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,1.26E-66,96.835,266811
+Zotu478,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,6.99E-84,89.354,0
+Zotu479,,,,,,,,,,,,
+Zotu480,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 1",AB996690.1,1.47E-43,96.491,204529
+Zotu481,,,,,,,,,,,,
+Zotu482,,,,,,,,Rattus norvegicus TL0ACA41YD11 mRNA sequence,FQ216785.1,9.05E-63,85.156,0
+Zotu483,,,,,,,,,,,,
+Zotu484,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 7, clone RP23-292M1, complete sequence",AC102143.10,1.81E-84,93.981,10090
+Zotu485,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,6.66E-79,88.933,0
+Zotu486,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.38E-144,94.955,863246
+Zotu487,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,3.8E-121,98.8,882202
+Zotu488,,,,,,,,,,,,
+Zotu489,,,,,,,,"Mouse DNA sequence from clone RP23-54E16 on chromosome 2, complete sequence",AL928706.6,1.47E-51,79.936,0
+Zotu490,,,,,,,,"Mus musculus BAC clone RP23-313P23 from chromosome 9, complete sequence",AC159892.2,3.86E-55,88.421,0
+Zotu491,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.62E-92,95.434,351716
+Zotu492,,,,,,,,,,,,
+Zotu493,,,,,,,,,,,,
+Zotu494,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,1.46E-90,91.406,204529
+Zotu495,,,,,,,,,,,,
+Zotu496,,,,,,,,"Mouse DNA sequence from clone RP23-46J2 on chromosome X, complete sequence",AL683856.10,8.75E-47,85.128,0
+Zotu497,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,4.98E-161,97.904,863246
+Zotu498,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.6E-97,96.804,351716
+Zotu499,,,,,,,,,,,,
+Zotu500,,,,,,,,,,,,
+Zotu501,,,,,,,,"Ixodes persulcatus isolate BJ2011 18S ribosomal RNA gene, partial sequence",JN675899.1,1.47E-48,89.937,0
+Zotu502,,,,,,,,,,,,
+Zotu503,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNECO-104M15 (Amplicon Express Rat SHR-Akr (EcoR1 Digest) BAC library) complete sequence,AC246509.4,1.35E-126,93.61,10116
+Zotu504,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP24-392E16 from chromosome 13, complete sequence",AC159232.2,1.03E-67,92.105,10090
+Zotu505,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,6.06E-109,97.468,312471
+Zotu506,,,,,,,,"Uncultured eukaryote clone TKR07M.129 18S ribosomal RNA gene, partial sequence",GU290113.1,1.49E-85,89.655,0
+Zotu507,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,1.88E-89,90.98,100272
+Zotu508,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,8.17E-68,96.364,312471
+Zotu509,,,,,,,,,,,,
+Zotu510,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone Oryctolagus cuniculus-16788057A1, complete sequence",AC164953.10,2.64E-103,93.511,9986
+Zotu511,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,1.1E-106,94.882,266813
+Zotu512,,,,,,,,,,,,
+Zotu513,,,,,,,,"Pipistrellus pipistrellus genome assembly, chromosome: 6",LR862362.1,1.27E-39,86.335,0
+Zotu514,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. river Thames,"Bodonidae sp. river Thames 18S ribosomal RNA gene, partial sequence",AY490225.1,1.06E-66,98.026,266821
+Zotu515,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,8.67E-27,89.524,0
+Zotu516,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,1.11E-101,93.701,266813
+Zotu517,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,Oryctolagus cuniculus gene encoding ileal sodium-dependent bile acid transporter,AJ002005.1,4.4E-61,90.811,9986
+Zotu518,,,,,,,,,,,,
+Zotu519,,,,,,,,,,,,
+Zotu520,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,6.83E-28,89.72,0
+Zotu521,,,,,,,,"Uncultured kinetoplastid clone CB_101 18S ribosomal RNA gene, partial sequence",JN629578.1,8.8E-63,85.892,0
+Zotu522,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone A2_D12 18S ribosomal RNA gene, partial sequence",JN629255.1,3.67E-101,95.781,204529
+Zotu523,,,,,,,,,,,,
+Zotu524,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.07E-74,86.17,0
+Zotu525,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.6E-99,97.26,351716
+Zotu526,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP24-112O1 from 8, complete sequence",AC121865.2,1.03E-36,96.939,10090
+Zotu527,,,,,,,,,,,,
+Zotu528,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,3.25E-82,88.973,0
+Zotu529,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.3E-110,97.89,312471
+Zotu530,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,1.51E-80,88.593,0
+Zotu531,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.39E-161,98.193,863246
+Zotu532,,,,,,,,,,,,
+Zotu533,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 1 BAC CH230-184E24 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC136833.3,2.6E-58,90.217,10116
+Zotu534,,,,,,,,,,,,
+Zotu535,,,,,,,,,,,,
+Zotu536,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.3E-110,97.89,312471
+Zotu537,,,,,,,,,,,,
+Zotu538,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.31E-105,96.624,312471
+Zotu539,,,,,,,,,,,,
+Zotu540,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate JC16 18S ribosomal RNA gene, partial sequence",AY753615.1,1.15E-91,91.221,312471
+Zotu541,,,,,,,,,,,,
+Zotu542,,,,,,,,,,,,
+Zotu543,,,,,,,,,,,,
+Zotu544,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP23-399J19 from 1, complete sequence",AC121790.2,0.0000106,97.297,10090
+Zotu545,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Fam175b:tm1a(EUCOMM)Wtsi; transgenic",JN962183.1,0.00000674,100,10090
+Zotu546,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,1.46E-65,97.386,240580
+Zotu547,,,,,,,,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,8.8E-83,89.764,0
+Zotu548,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,1.08E-116,97.266,312471
+Zotu549,,,,,,,,"Mus musculus BAC clone RP23-19K2 from chromosome 14, complete sequence",AC146615.2,1.01E-25,82.55,0
+Zotu550,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus strain Brown Norway clone RP31-536L14, complete sequence",AC091268.2,2.3E-66,97.403,10116
+Zotu551,,,,,,,,,,,,
+Zotu552,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.53E-10,80.952,0
+Zotu553,,,,,,,,,,,,
+Zotu554,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,1.09E-111,96.063,266813
+Zotu555,,,,,,,,,,,,
+Zotu556,,,,,,,,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Rest:tm2e(EUCOMM)Wtsi tm1e(EUCOMM)Wtsi; transgenic",JN956883.1,3.26E-40,87.975,0
+Zotu557,,,,,,,,,,,,
+Zotu558,,,,,,,,,,,,
+Zotu559,,,,,,,,"Uncultured eukaryote clone TKR07M.129 18S ribosomal RNA gene, partial sequence",GU290113.1,6.95E-84,89.272,0
+Zotu560,,,,,,,,,,,,
+Zotu561,,,,,,,,"Mus musculus BAC clone RP23-279M5 from chromosome 8, complete sequence",AC163288.4,5.41E-34,85.43,0
+Zotu562,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,3.16E-50,100,863246
+Zotu563,,,,,,,,"Onychomys torridus genome assembly, chromosome: 23",LR877210.1,3.35E-53,79.448,0
+Zotu564,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.62E-92,95.434,351716
+Zotu565,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.33E-154,96.707,863246
+Zotu566,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,3.1E-77,88.538,0
+Zotu567,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,7.38E-144,98.639,5671
+Zotu568,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.51E-53,93.793,10090
+Zotu569,,,,,,,,,,,,
+Zotu570,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,1.99E-74,87.17,0
+Zotu571,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.11E-146,95.252,863246
+Zotu572,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma amblyommi,"Trypanosoma sp. CR-2017b 18S ribosomal RNA gene, partial sequence",KX711902.1,2.5E-68,98.065,2020334
+Zotu573,,,,,,,,,,,,
+Zotu574,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.36E-149,95.846,863246
+Zotu575,,,,,,,,,,,,
+Zotu576,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.62E-92,95.434,351716
+Zotu577,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.8E-112,98.312,312471
+Zotu578,,,,,,,,,,,,
+Zotu579,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.39E-161,98.193,863246
+Zotu580,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 2 BAC CH230-157M2 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC112898.5,1.09E-39,93.22,10116
+Zotu581,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.22E-90,94.977,351716
+Zotu582,,,,,,,,,,,,
+Zotu583,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,2.41E-27,89.623,0
+Zotu584,,,,,,,,"Uncultured eukaryote clone SHBA765 18S ribosomal RNA gene, partial sequence",HQ869417.1,1.51E-80,88.889,0
+Zotu585,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 5, clone RP24-458L16, complete sequence",AC120413.20,5.77E-74,90.498,10090
+Zotu586,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 11",LR877198.1,0.000000278,91.837,38674
+Zotu587,,,,,,,,,,,,
+Zotu588,,,,,,,,"Uncultured eukaryote clone SHBA765 18S ribosomal RNA gene, partial sequence",HQ869417.1,7.03E-79,88.506,0
+Zotu589,,,,,,,,"Mus musculus BAC clone RP24-356P17 from chromosome 17, complete sequence",AC125339.4,1.15E-39,86.42,0
+Zotu590,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0129C08, complete sequence",AC234897.5,2.55E-26,90.909,9986
+Zotu591,,,,,,,,,,,,
+Zotu592,,,,,,,,,,,,
+Zotu593,,,,,,,,"PREDICTED: Rattus norvegicus FAD-dependent oxidoreductase domain containing 1 (Foxred1), transcript variant X5, misc_RNA",XR_593815.2,4.43E-56,86.364,0
+Zotu594,,,,,,,,"Uncultured kinetoplastid clone IP_62 18S ribosomal RNA gene, partial sequence",JN630012.1,4.2E-81,88.846,0
+Zotu595,,,,,,,,,,,,
+Zotu596,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,4.05E-66,99.31,863246
+Zotu597,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,3.72E-96,94.118,312471
+Zotu598,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102546375 (LOC102546375), transcript variant X3, ncRNA",XR_349491.3,1.01E-62,97.297,10116
+Zotu599,,,,,,,,,,,,
+Zotu600,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,4.27E-24,100,10117
+Zotu601,,,,,,,,,,,,
+Zotu602,,,,,,,,,,,,
+Zotu603,,,,,,,,,,,,
+Zotu604,,,,,,,,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Efhc2:tm1e(KOMP)Wtsi; transgenic",JN960312.1,1.89E-37,89.552,0
+Zotu605,,,,,,,,,,,,
+Zotu606,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,1.23E-86,88.809,0
+Zotu607,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Efemp1:tm1a(EUCOMM)Wtsi; transgenic",JN961204.1,3.73E-102,89.701,0
+Zotu608,,,,,,,,,,,,
+Zotu609,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,2.45E-88,90.625,100272
+Zotu610,,,,,,,,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,1.29E-86,87.889,0
+Zotu611,,,,,,,,,,,,
+Zotu612,,,,,,,,"Oryctolagus cuniculus clone LBNL1-125D4, complete sequence",AC144399.2,1.62E-70,86.8,0
+Zotu613,,,,,,,,,,,,
+Zotu614,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.63E-53,93.793,10090
+Zotu615,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 2 BAC CH230-285C2 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC118487.4,1.68E-130,95.066,10116
+Zotu616,,,,,,,,"Uncultured eukaryote clone TKR07M.129 18S ribosomal RNA gene, partial sequence",GU290113.1,1.51E-80,88.506,0
+Zotu617,,,,,,,,,,,,
+Zotu618,,,,,,,,"Mouse DNA sequence from clone RP23-272C14 on chromosome 2, complete sequence",AL591598.8,4.48E-81,88.148,0
+Zotu619,,,,,,,,"Mus musculus BAC clone RP23-127P22 from chromosome 19, complete sequence",AC132454.3,2.8E-36,83.815,0
+Zotu620,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,1.45E-70,86.957,0
+Zotu621,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,1.06E-26,86.667,0
+Zotu622,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,1.44E-75,88.142,0
+Zotu623,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.46E-78,88.672,0
+Zotu624,,,,,,,,,,,,
+Zotu625,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.21E-86,88.809,0
+Zotu626,,,,,,,,,,,,
+Zotu627,,,,,,,,,,,,
+Zotu628,,,,,,,,,,,,
+Zotu629,,,,,,,,,,,,
+Zotu630,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,Mus musculus 10 BAC RP24-324P5 (Roswell Park Cancer Institute (C57BL/6J Male) Mouse BAC Library) complete sequence,AC164624.3,9.09E-84,93.182,10090
+Zotu631,,,,,,,,,,,,
+Zotu632,,,,,,,,,,,,
+Zotu633,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma sp. AB-2013 isolate G5 18S ribosomal RNA gene, complete sequence; and 18S ribosomal RNA gene, partial sequence",KC753534.1,5.2E-176,98.592,1345638
+Zotu634,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,3.25E-82,88.973,0
+Zotu635,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 4",LR877215.1,3.24E-16,92.537,60746
+Zotu636,,,,,,,,,,,,
+Zotu637,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.22E-90,94.977,351716
+Zotu638,,,,,,,,,,,,
+Zotu639,,,,,,,,,,,,
+Zotu640,,,,,,,,,,,,
+Zotu641,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,2.41E-88,90.909,204529
+Zotu642,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,7.44E-24,100,10117
+Zotu643,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.62E-92,95.434,351716
+Zotu644,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,8.68E-83,89.844,0
+Zotu645,,,,,,,,,,,,
+Zotu646,,,,,,,,,,,,
+Zotu647,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,4.98E-100,94,266811
+Zotu648,,,,,,,,,,,,
+Zotu649,,,,,,,,,,,,
+Zotu650,,,,,,,,,,,,
+Zotu651,,,,,,,,,,,,
+Zotu652,Eukaryota,Chordata   ,Mammalia      ,Dasyuromorphia ,Dasyuridae        ,Sarcophilus ,Sarcophilus harrisii,"TPA_inf: Sarcophilus harrisii MR1 gene for MHC class I-related protein, complete cds",BR000973.1,2.63E-15,96.491,9305
+Zotu653,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP24-235C16 from chromosome 8, complete sequence",AC131115.3,2.23E-08,100,10090
+Zotu654,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae ,,Trypanosomatidae sp. MCZ-14,"Trypanosomatidae sp. MCZ-14 small subunit ribosomal RNA gene, partial sequence",KC206004.1,1.47E-43,96.46,1295821
+Zotu655,,,,,,,,,,,,
+Zotu656,,,,,,,,"Uncultured marine eukaryote clone AB_+67_KIN 18S ribosomal RNA gene, partial sequence",GU218703.1,2.02E-64,84.962,0
+Zotu657,,,,,,,,"Mouse DNA sequence from clone RP23-387D16 on chromosome X, complete sequence",AL806532.10,7.02E-43,84.492,0
+Zotu658,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.65E-73,85.816,0
+Zotu659,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,2.66E-87,94.091,351716
+Zotu660,,,,,,,,,,,,
+Zotu661,,,,,,,,,,,,
+Zotu662,,,,,,,,"Rattus norvegicus strain Brown Norway clone RP31-223K12, complete sequence",AC091514.2,3.42E-17,85.417,0
+Zotu663,,,,,,,,,,,,
+Zotu664,,,,,,,,,,,,
+Zotu665,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.3E-110,97.89,312471
+Zotu666,,,,,,,,"Uncultured kinetoplastid clone IP_62 18S ribosomal RNA gene, partial sequence",JN630012.1,9.04E-83,89.231,0
+Zotu667,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 25",LR877236.1,8.73E-17,93.846,60746
+Zotu668,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.6 18S ribosomal RNA gene, partial sequence",AY753958.1,8.61E-108,94.942,100272
+Zotu669,,,,,,,,,,,,
+Zotu670,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102556629 (LOC102556629), transcript variant X2, mRNA",XM_006222921.3,1.52E-79,93.659,10116
+Zotu671,,,,,,,,"Uncultured kinetoplastid clone CB_101 18S ribosomal RNA gene, partial sequence",JN629578.1,1.91E-59,85.062,0
+Zotu672,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.56E-10,80.952,0
+Zotu673,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,1.89E-84,90.157,2282701
+Zotu674,Eukaryota,Arthropoda ,Arachnida     ,Opiliones      ,Caddidae          ,Acropsopilio,Acropsopilio chilensis,"Acropsopilio chilensis voucher CASENT-9027889 18S ribosomal RNA gene, partial sequence",KF963303.1,1.14E-49,90.506,571276
+Zotu675,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.09E-152,96.429,863246
+Zotu676,,,,,,,,,,,,
+Zotu677,,,,,,,,,,,,
+Zotu678,,,,,,,,,,,,
+Zotu679,,,,,,,,,,,,
+Zotu680,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"PREDICTED: Oryctolagus cuniculus potassium voltage-gated channel subfamily D member 1 (KCND1), mRNA",XM_002719905.3,4.11E-79,100,9986
+Zotu681,,,,,,,,,,,,
+Zotu682,,,,,,,,,,,,
+Zotu683,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-383I17 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC121664.5,1.35E-35,98.889,10116
+Zotu684,,,,,,,,,,,,
+Zotu685,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,4.75E-71,93.194,9986
+Zotu686,,,,,,,,,,,,
+Zotu687,,,,,,,,,,,,
+Zotu688,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,1.79E-119,98.024,75058
+Zotu689,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 2 BAC CH230-9C20 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC095688.7,8.06E-54,100,10116
+Zotu690,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,8.43E-149,95.808,863246
+Zotu691,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma amblyommi,"Trypanosoma sp. CR-2017b 18S ribosomal RNA gene, partial sequence",KX711902.1,1.16E-66,97.419,2020334
+Zotu692,,,,,,,,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,2.77E-88,88.235,0
+Zotu693,,,,,,,,,,,,
+Zotu694,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,4.04E-81,89.453,0
+Zotu695,,,,,,,,,,,,
+Zotu696,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.07E-74,86.17,0
+Zotu697,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma binneyi,"Trypanosoma binneyi isolate PB88 18S ribosomal RNA gene, partial sequence",KJ867144.1,3.39E-142,98.625,87096
+Zotu698,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.29E-115,99.156,312471
+Zotu699,,,,,,,,,,,,
+Zotu700,,,,,,,,,,,,
+Zotu701,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,6.45E-160,97.892,863246
+Zotu702,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 8 BAC CH230-10P12 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC126959.6,3.88E-75,94.33,10116
+Zotu703,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus solute carrier family 16 member 7 (Slc16a7), transcript variant X7, mRNA",XM_006241436.3,2.29E-82,98.87,10116
+Zotu704,,,,,,,,,,,,
+Zotu705,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD55 18S ribosomal RNA gene, partial sequence",AY998651.1,2.3E-103,94.8,312471
+Zotu706,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,1.8E-114,96.838,75058
+Zotu707,,,,,,,,,,,,
+Zotu708,,,,,,,,,,,,
+Zotu709,,,,,,,,,,,,
+Zotu710,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma vegrandis isolate OTU3687 18S ribosomal RNA gene, partial sequence",KY640322.1,2.42E-174,98.31,1648351
+Zotu711,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,8.39E-113,96.443,75058
+Zotu712,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.24E-85,93.636,351716
+Zotu713,,,,,,,,,,,,
+Zotu714,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_119D04, complete sequence",KJ810981.1,5.66E-23,95.89,9986
+Zotu715,,,,,,,,,,,,
+Zotu716,,,,,,,,"Mus musculus chromosome 8, clone RP23-307O2, complete sequence",AC165233.6,3.47E-51,86.735,0
+Zotu717,,,,,,,,Rattus norvegicus 8 BAC CH230-416D7 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC135409.3,1.02E-33,80.455,0
+Zotu718,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus BAC CH230-89G23 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC125963.6,5.83E-74,95.58,10116
+Zotu719,,,,,,,,Mus musculus 6 BAC RP23-384P24 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence,AC164579.5,1.81E-43,84.896,0
+Zotu720,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_852G10, complete sequence",KJ810983.1,6.79E-75,90.498,9986
+Zotu721,,,,,,,,,,,,
+Zotu722,,,,,,,,,,,,
+Zotu723,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma amblyommi,"Trypanosoma sp. CR-2017b 18S ribosomal RNA gene, partial sequence",KX711902.1,1.16E-66,97.419,2020334
+Zotu724,,,,,,,,,,,,
+Zotu725,,,,,,,,,,,,
+Zotu726,,,,,,,,,,,,
+Zotu727,,,,,,,,"Acomys russatus genome assembly, chromosome: 30",LR877241.1,1.29E-45,82.805,0
+Zotu728,,,,,,,,,,,,
+Zotu729,,,,,,,,Oryctolagus cuniculus gene encoding ileal sodium-dependent bile acid transporter,AJ002005.1,2.1E-69,86.667,0
+Zotu730,,,,,,,,,,,,
+Zotu731,,,,,,,,,,,,
+Zotu732,,,,,,,,,,,,
+Zotu733,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,7.03E-79,88.213,0
+Zotu734,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,6.73E-94,92.188,204529
+Zotu735,,,,,,,,,,,,
+Zotu736,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,2.44E-27,89.72,0
+Zotu737,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,4.24E-81,88.679,0
+Zotu738,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus sciellin (Scel), mRNA",XM_032917686.1,1.04E-21,100,10117
+Zotu739,,,,,,,,,,,,
+Zotu740,,,,,,,,,,,,
+Zotu741,,,,,,,,,,,,
+Zotu742,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,8.1E-88,92.017,312471
+Zotu743,,,,,,,,Mus musculus CRISPRi-validated Ranbp17 enhancer cluster (LOC116915240) on chromosome 11,NG_068086.1,2.28E-42,84.772,0
+Zotu744,,,,,,,,,,,,
+Zotu745,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,1.01E-112,95.437,9986
+Zotu746,Eukaryota,Arthropoda ,Arachnida     ,Ixodida        ,Ixodidae          ,Ixodes      ,Ixodes kopsteini,"Ixodes kopsteini 28S ribosomal RNA gene, partial sequence",AF120293.1,3.08E-75,100,48830
+Zotu747,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.09E-152,96.418,863246
+Zotu748,,,,,,,,"Mus musculus strain C57BL/6J clone rp23-74a5, complete sequence",AC133489.32,5.66E-44,83.186,0
+Zotu749,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD55 18S ribosomal RNA gene, partial sequence",AY998651.1,1.07E-101,94.4,312471
+Zotu750,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,9.25E-73,86.792,0
+Zotu751,,,,,,,,,,,,
+Zotu752,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.27E-10,80.952,0
+Zotu753,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,1.79E-119,98.024,75058
+Zotu754,,,,,,,,,,,,
+Zotu755,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,7.38E-27,86.667,0
+Zotu756,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.47E-43,96.491,863246
+Zotu757,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,7.29E-52,93.706,10090
+Zotu758,,,,,,,,,,,,
+Zotu759,,,,,,,,"Onychomys torridus genome assembly, chromosome: 18",LR877205.1,5.27E-26,76.136,0
+Zotu760,,,,,,,,,,,,
+Zotu761,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,8.39E-113,96.443,75058
+Zotu762,,,,,,,,"Mus musculus 13 days embryo male testis cDNA, RIKEN full-length enriched library, clone:6030404P13 product:eukaryotic translation initiation factor 2, subunit 3, structural gene X-linked, full insert sequence",AK031304.1,5.17E-18,84.404,0
+Zotu763,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,1.06E-106,95.6,266811
+Zotu764,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 1 BAC CH230-117B1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC113720.6,1.05E-107,91.03,10116
+Zotu765,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,6.83E-28,89.72,0
+Zotu766,,,,,,,,,,,,
+Zotu767,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 18 BAC CH230-8D7 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC095558.10,1.88E-72,98.148,10116
+Zotu768,,,,,,,,,,,,
+Zotu769,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.51E-53,93.793,10090
+Zotu770,,,,,,,,,,,,
+Zotu771,,,,,,,,,,,,
+Zotu772,,,,,,,,,,,,
+Zotu773,,,,,,,,,,,,
+Zotu774,,,,,,,,,,,,
+Zotu775,,,,,,,,"Mus musculus chromosome 5, clone RP23-396H22, complete sequence",AC163027.5,3.82E-23,75.746,0
+Zotu776,,,,,,,,,,,,
+Zotu777,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,5.52E-24,100,10117
+Zotu778,,,,,,,,,,,,
+Zotu779,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,4.05E-66,99.31,882202
+Zotu780,,,,,,,,,,,,
+Zotu781,,,,,,,,"Uncultured marine eukaryote clone AB_+25_KIN 18S ribosomal RNA gene, partial sequence",GU218701.1,1.16E-66,85.547,0
+Zotu782,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus chromosome 20, major histocompatibility complex, assembled from 40 BACs, strain Brown Norway (BN/ssNHsd), RT1n haplotype; segment 4/11",BX883045.1,5.66E-64,92.432,10116
+Zotu783,,,,,,,,,,,,
+Zotu784,,,,,,,,,,,,
+Zotu785,,,,,,,,Rattus norvegicus 20 BAC CH230-118G13 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC132050.4,1.26E-71,87.5,0
+Zotu786,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans strain HFCC323 18S ribosomal RNA gene, partial sequence",DQ207575.1,3.9E-111,96.047,75058
+Zotu787,,,,,,,,,,,,
+Zotu788,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 1, clone RP24-172O22, complete sequence",AC114663.8,8.52E-51,91.139,10090
+Zotu789,,,,,,,,,,,,
+Zotu790,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,8.05E-27,86.667,0
+Zotu791,,,,,,,,"Uncultured marine eukaryote clone AB_+67_KIN 18S ribosomal RNA gene, partial sequence",GU218703.1,9.35E-68,85.714,0
+Zotu792,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,3.43E-142,98.299,5671
+Zotu793,,,,,,,,,,,,
+Zotu794,,,,,,,,,,,,
+Zotu795,,,,,,,,,,,,
+Zotu796,,,,,,,,,,,,
+Zotu797,,,,,,,,,,,,
+Zotu798,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,8.8E-63,97.945,863246
+Zotu799,,,,,,,,,,,,
+Zotu800,,,,,,,,,,,,
+Zotu801,,,,,,,,,,,,
+Zotu802,,,,,,,,,,,,
+Zotu803,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.2E-100,97.717,351716
+Zotu804,,,,,,,,,,,,
+Zotu805,,,,,,,,,,,,
+Zotu806,,,,,,,,,,,,
+Zotu807,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.35E-149,95.833,863246
+Zotu808,,,,,,,,"Sarcophilus harrisii genome assembly, chromosome: X",LR735560.1,3.07E-20,85.849,0
+Zotu809,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.45E-29,90.654,37737
+Zotu810,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.02E-156,97.015,863246
+Zotu811,,,,,,,,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,1.13E-81,89.412,0
+Zotu812,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.08E-157,97.329,863246
+Zotu813,,,,,,,,"Mus musculus chromosome 19, clone RP23-183N3, complete sequence",AC156982.8,3.17E-57,85.062,0
+Zotu814,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNAEX-132M01 (Amplicon Express Rat SHR-Akr BAC library) complete sequence,AC243462.5,8.43E-82,95.455,10116
+Zotu815,,,,,,,,,,,,
+Zotu816,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone ZJ2007 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence",JQ928406.1,4.35E-66,98.658,100272
+Zotu817,,,,,,,,,,,,
+Zotu818,,,,,,,,,,,,
+Zotu819,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.23E-85,93.607,351716
+Zotu820,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.08E-157,97.313,863246
+Zotu821,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.62E-78,86.833,0
+Zotu822,,,,,,,,,,,,
+Zotu823,,,,,,,,,,,,
+Zotu824,,,,,,,,,,,,
+Zotu825,,,,,,,,,,,,
+Zotu826,,,,,,,,,,,,
+Zotu827,,,,,,,,,,,,
+Zotu828,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,6.49E-155,96.988,863246
+Zotu829,Eukaryota,Arthropoda ,Arachnida     ,Ixodida        ,Ixodidae          ,Ixodes      ,Ixodes uriae,"Ixodes uriae 18S ribosomal RNA gene, complete sequence",AF115369.1,1.14E-49,90.506,59655
+Zotu830,,,,,,,,"Mouse DNA sequence from clone RP23-46J2 on chromosome X, complete sequence",AL683856.10,1.88E-48,85.641,0
+Zotu831,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Pls1:tm1a(EUCOMM)Wtsi tm2a(EUCOMM)Wtsi; transgenic",JN960817.1,1.94E-23,88.776,0
+Zotu832,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 25",LR877236.1,2.47E-09,92.453,60746
+Zotu833,,,,,,,,,,,,
+Zotu834,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,2E-69,86.038,0
+Zotu835,,,,,,,,,,,,
+Zotu836,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,6.61E-73,92.893,9986
+Zotu837,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 10, clone RP23-360H23, complete sequence",AC104920.10,6.18E-33,94.845,10090
+Zotu838,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.34E-154,96.726,863246
+Zotu839,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD53 18S ribosomal RNA gene, partial sequence",AY998647.1,1.66E-114,99.149,312471
+Zotu840,,,,,,,,,,,,
+Zotu841,,,,,,,,,,,,
+Zotu842,,,,,,,,,,,,
+Zotu843,,,,,,,,"Uncultured marine eukaryote clone AB_+25_KIN 18S ribosomal RNA gene, partial sequence",GU218701.1,2.5E-68,85.938,0
+Zotu844,,,,,,,,,,,,
+Zotu845,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,4.27E-76,87.547,0
+Zotu846,,,,,,,,,,,,
+Zotu847,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.72E-84,93.151,351716
+Zotu848,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus Rho GTPase activating protein 32 (Arhgap32), transcript variant X7, mRNA",XM_032909364.1,6.24E-72,100,10117
+Zotu849,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 4",LR877215.1,3.32E-16,92.537,60746
+Zotu850,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 8 BAC CH230-3H18 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC094830.5,1.96E-103,99.07,10116
+Zotu851,,,,,,,,,,,,
+Zotu852,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,6.6E-27,86.667,0
+Zotu853,,,,,,,,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,8.98E-68,85.938,0
+Zotu854,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.2E-100,97.717,351716
+Zotu855,,,,,,,,,,,,
+Zotu856,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 8, clone RP23-170M20, complete sequence",AC114581.9,6.09E-110,92.361,10090
+Zotu857,,,,,,,,,,,,
+Zotu858,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB-866H07, complete sequence",KJ810984.1,3.11E-83,92.76,9986
+Zotu859,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD52 18S ribosomal RNA gene, partial sequence",AY998646.1,1.34E-90,94.643,312471
+Zotu860,,,,,,,,,,,,
+Zotu861,,,,,,,,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,1.42E-38,88.276,0
+Zotu862,,,,,,,,,,,,
+Zotu863,,,,,,,,,,,,
+Zotu864,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,5.09E-105,94.531,312471
+Zotu865,,,,,,,,"Mus musculus chromosome 5, clone RP23-262H7, complete sequence",AC113064.8,6.6E-27,87.719,0
+Zotu866,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain HFCC306 18S ribosomal RNA gene, partial sequence",DQ207583.1,3.95E-106,94.882,312471
+Zotu867,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,1.1E-106,94.882,266813
+Zotu868,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 4 BAC CH230-213L22 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC126115.5,2.15E-42,98.095,10116
+Zotu869,,,,,,,,,,,,
+Zotu870,,,,,,,,,,,,
+Zotu871,,,,,,,,,,,,
+Zotu872,,,,,,,,,,,,
+Zotu873,,,,,,,,"Acropsopilio chilensis voucher CASENT-9027889 18S ribosomal RNA gene, partial sequence",KF963303.1,8.79E-46,89.241,0
+Zotu874,,,,,,,,,,,,
+Zotu875,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,6.88E-27,86.667,0
+Zotu876,,,,,,,,,,,,
+Zotu877,,,,,,,,"Uncultured kinetoplastid clone A2_G10 18S ribosomal RNA gene, partial sequence",JN629289.1,3.23E-67,85.882,0
+Zotu878,,,,,,,,"Mus musculus chromosome 8, clone RP23-479K9, complete sequence",AC115820.11,4.04E-41,82.71,0
+Zotu879,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,4.35E-66,98.026,240580
+Zotu880,,,,,,,,,,,,
+Zotu881,,,,,,,,Rattus norvegicus 18 BAC CH230-372C24 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC127734.4,6.12E-30,82.927,0
+Zotu882,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone A2_D12 18S ribosomal RNA gene, partial sequence",JN629255.1,1.71E-99,95.359,204529
+Zotu883,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.6 18S ribosomal RNA gene, partial sequence",AY753958.1,3.98E-111,95.72,100272
+Zotu884,,,,,,,,Rattus norvegicus 1 BAC CH230-37P5 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC099468.9,3.36E-32,80,0
+Zotu885,,,,,,,,,,,,
+Zotu886,,,,,,,,,,,,
+Zotu887,,,,,,,,,,,,
+Zotu888,,,,,,,,"Uncultured kinetoplastid clone IP_144 18S ribosomal RNA gene, partial sequence",JN629904.1,1.16E-81,88.931,0
+Zotu889,,,,,,,,,,,,
+Zotu890,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L10.2 18S ribosomal RNA gene, partial sequence",AY753968.1,4.66E-110,97.881,100272
+Zotu891,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,7.43E-139,97.619,5671
+Zotu892,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,9.06E-27,88.889,0
+Zotu893,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,6.6E-27,86.667,0
+Zotu894,,,,,,,,"Uncultured kinetoplastid clone CB_101 18S ribosomal RNA gene, partial sequence",JN629578.1,6.8E-64,85.542,0
+Zotu895,,,,,,,,,,,,
+Zotu896,,,,,,,,,,,,
+Zotu897,,,,,,,,,,,,
+Zotu898,,,,,,,,,,,,
+Zotu899,,,,,,,,,,,,
+Zotu900,,,,,,,,,,,,
+Zotu901,,,,,,,,,,,,
+Zotu902,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.07E-162,98.209,863246
+Zotu903,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,1.97E-79,88.302,0
+Zotu904,,,,,,,,,,,,
+Zotu905,,,,,,,,"Rhynchomonas nasuta strain HFCC99 18S ribosomal RNA gene, partial sequence",AY827855.1,5.51E-80,88.302,0
+Zotu906,,,,,,,,,,,,
+Zotu907,,,,,,,,,,,,
+Zotu908,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.68E-89,94.545,351716
+Zotu909,,,,,,,,"Uncultured microeukaryote clone 226Feb24_12D 18S ribosomal RNA gene, partial sequence",JN705498.1,6.66E-79,88.933,0
+Zotu910,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,5.73E-85,88.448,0
+Zotu911,Eukaryota,Euglenozoa ,Kinetoplastea ,Parabodonida  ,Parabodonidae,Parabodo    ,Parabodo caudatus,"Parabodo caudatus strain HFCC10 18S ribosomal RNA gene, partial sequence",DQ207591.1,3.39E-62,97.297,351713
+Zotu912,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_204B12, complete sequence",KJ810982.1,2.04E-99,92.424,9986
+Zotu913,,,,,,,,,,,,
+Zotu914,,,,,,,,,,,,
+Zotu915,,,,,,,,,,,,
+Zotu916,,,,,,,,,,,,
+Zotu917,,,,,,,,"Mus musculus BAC clone RP23-431D8 from chromosome 7, complete sequence",AC126441.5,4.39E-35,81.281,0
+Zotu918,,,,,,,,"Uncultured kinetoplastid clone A2_G10 18S ribosomal RNA gene, partial sequence",JN629289.1,6.95E-69,86.275,0
+Zotu919,,,,,,,,,,,,
+Zotu920,,,,,,,,,,,,
+Zotu921,,,,,,,,,,,,
+Zotu922,,,,,,,,,,,,
+Zotu923,,,,,,,,,,,,
+Zotu924,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.04E-156,97.024,863246
+Zotu925,,,,,,,,,,,,
+Zotu926,,,,,,,,,,,,
+Zotu927,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102546375 (LOC102546375), transcript variant X3, ncRNA",XR_349491.3,1.02E-62,97.297,10116
+Zotu928,,,,,,,,,,,,
+Zotu929,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,5.71E-100,93.023,9986
+Zotu930,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,6.77E-64,96.732,240580
+Zotu931,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,3.25E-82,88.973,0
+Zotu932,,,,,,,,,,,,
+Zotu933,,,,,,,,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,4.3E-71,86.466,0
+Zotu934,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 1",AB996690.1,6.64E-104,94.163,204529
+Zotu935,,,,,,,,"Mus musculus BAC clone RP23-127P22 from chromosome 19, complete sequence",AC132454.3,4.61E-39,84.884,0
+Zotu936,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 2 BAC CH230-9H16 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC125565.5,6.49E-23,91.011,10116
+Zotu937,,,,,,,,,,,,
+Zotu938,,,,,,,,,,,,
+Zotu939,,,,,,,,Rattus norvegicus BAC CH230-211A9 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC132671.5,3.58E-53,85.714,0
+Zotu940,,,,,,,,"Rattus norvegicus chromosome 20, major histocompatibility complex, assembled from 40 BACs, strain Brown Norway (BN/ssNHsd), RT1n haplotype; segment 7/11",BX883048.1,2.1E-79,89.958,0
+Zotu941,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.83E-88,97.949,863246
+Zotu942,,,,,,,,,,,,
+Zotu943,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate JC16 18S ribosomal RNA gene, partial sequence",AY753615.1,1.16E-86,90.076,312471
+Zotu944,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,4.16E-86,90.385,100272
+Zotu945,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,1.3E-110,97.89,312471
+Zotu946,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,1.4E-84,96.447,9986
+Zotu947,,,,,,,,,,,,
+Zotu948,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP23-247P23 from chromosome 14, complete sequence",AC241621.2,8.45E-154,96.439,10090
+Zotu949,,,,,,,,,,,,
+Zotu950,,,,,,,,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,3.46E-87,89.734,0
+Zotu951,,,,,,,,,,,,
+Zotu952,,,,,,,,Rattus norvegicus BAC CH230-6D18 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC094931.7,4.5E-97,88.742,0
+Zotu953,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,5.27E-90,91.016,100272
+Zotu954,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_319H05, complete sequence",KJ810978.1,8.16E-14,92.063,9986
+Zotu955,,,,,,,,,,,,
+Zotu956,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,2.38E-103,94.094,266813
+Zotu957,,,,,,,,,,,,
+Zotu958,,,,,,,,,,,,
+Zotu959,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Lepus       ,Lepus townsendii,"Lepus townsendii neuron navigator 1 (NAV1) gene, partial cds",MK078482.1,8.41E-62,90.104,63225
+Zotu960,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,5.15E-100,93.307,266813
+Zotu961,,,,,,,,"Onychomys torridus genome assembly, chromosome: 17",LR877204.1,1.69E-34,80.631,0
+Zotu962,,,,,,,,,,,,
+Zotu963,,,,,,,,,,,,
+Zotu964,,,,,,,,"Uncultured marine eukaryote clone AB_+67_KIN 18S ribosomal RNA gene, partial sequence",GU218703.1,4.35E-66,85.338,0
+Zotu965,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus strain Brown Norway clone RP31-153J8, complete sequence",AC091616.2,6.05E-38,97.03,10116
+Zotu966,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.6 18S ribosomal RNA gene, partial sequence",AY753958.1,1.85E-109,95.331,100272
+Zotu967,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,8.76E-63,97.931,882202
+Zotu968,,,,,,,,Rattus norvegicus 4 BAC CH230-125G2 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC119382.7,5.82E-80,87.778,0
+Zotu969,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,8.8E-63,97.945,863246
+Zotu970,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.22E-95,96.364,351716
+Zotu971,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,7.37E-24,100,10117
+Zotu972,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,3E-158,97.59,863246
+Zotu973,,,,,,,,,,,,
+Zotu974,,,,,,,,,,,,
+Zotu975,,,,,,,,"Mus musculus chromosome 8, clone RP24-213P1, complete sequence",AC102398.12,9.19E-34,80.085,0
+Zotu976,,,,,,,,,,,,
+Zotu977,,,,,,,,,,,,
+Zotu978,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone LBNL1-125D4, complete sequence",AC144399.2,6.16E-91,91.935,9986
+Zotu979,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.22E-90,95,351716
+Zotu980,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,8.46E-149,100,863246
+Zotu981,,,,,,,,,,,,
+Zotu982,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,3.94E-24,100,10117
+Zotu983,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,4.05E-66,99.31,863246
+Zotu984,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,2.41E-27,89.623,0
+Zotu985,,,,,,,,,,,,
+Zotu986,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP23-399J19 from 1, complete sequence",AC121790.2,0.0000105,97.297,10090
+Zotu987,,,,,,,,"Mus musculus BAC clone RP23-467P15 from 18, complete sequence",AC121824.2,1.38E-56,83.039,0
+Zotu988,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,9.42E-63,96.711,240580
+Zotu989,,,,,,,,,,,,
+Zotu990,,,,,,,,"Uncultured eukaryote clone SHBA765 18S ribosomal RNA gene, partial sequence",HQ869417.1,5.25E-80,89.231,0
+Zotu991,,,,,,,,,,,,
+Zotu992,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,5.24E-65,96.774,312471
+Zotu993,,,,,,,,,,,,
+Zotu994,,,,,,,,,,,,
+Zotu995,,,,,,,,,,,,
+Zotu996,,,,,,,,"Uncultured marine eukaryote clone AB_+67_KIN 18S ribosomal RNA gene, partial sequence",GU218703.1,2.02E-64,84.962,0
+Zotu997,,,,,,,,Rattus norvegicus 4 BAC CH230-125G2 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC119382.7,2.71E-78,87.407,0
+Zotu998,,,,,,,,,,,,
+Zotu999,,,,,,,,"Mus musculus chromosome 5, clone RP23-262H7, complete sequence",AC113064.8,3.07E-25,86.842,0
+Zotu1000,,,,,,,,,,,,
+Zotu1001,,,,,,,,,,,,
+Zotu1002,,,,,,,,,,,,
+Zotu1003,Eukaryota,Arthropoda ,Arachnida     ,Ixodida        ,Ixodidae          ,Ixodes      ,Ixodes persulcatus,"Ixodes persulcatus isolate BJ2011 18S ribosomal RNA gene, partial sequence",JN675899.1,3.16E-50,90.566,34615
+Zotu1004,,,,,,,,"Onychomys torridus genome assembly, chromosome: 14",LR877201.1,2.2E-34,84.375,0
+Zotu1005,,,,,,,,,,,,
+Zotu1006,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 9 BAC CH230-104J1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC120922.4,9.32E-97,96.789,10116
+Zotu1007,,,,,,,,,,,,
+Zotu1008,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,3.72E-96,94.118,312471
+Zotu1009,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,5.38E-85,89.575,0
+Zotu1010,,,,,,,,,,,,
+Zotu1011,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,5.73E-85,88.448,0
+Zotu1012,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,1.89E-84,90.157,2282701
+Zotu1013,,,,,,,,,,,,
+Zotu1014,,,,,,,,,,,,
+Zotu1015,,,,,,,,,,,,
+Zotu1016,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Fgd6:tm1a(EUCOMM)Hmgu; transgenic",JN957157.1,2.52E-31,87.5,0
+Zotu1017,,,,,,,,,,,,
+Zotu1018,,,,,,,,,,,,
+Zotu1019,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 8, clone RP24-319H6, complete sequence",AC102461.15,1.91E-22,92.593,10090
+Zotu1020,,,,,,,,Mus musculus 10 BAC RP24-289H6 (Roswell Park Cancer Institute (C57BL/6J Male) Mouse BAC Library) complete sequence,AC156270.5,4.17E-50,85.859,0
+Zotu1021,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 14 BAC CH230-6H12 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC094950.6,1.29E-81,96.354,10116
+Zotu1022,,,,,,,,"Uncultured kinetoplastid clone CB_101 18S ribosomal RNA gene, partial sequence",JN629578.1,1.47E-60,84.739,0
+Zotu1023,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.05E-151,96.131,863246
+Zotu1024,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,7.84E-24,100,10117
+Zotu1025,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,5.78E-80,87.365,0
+Zotu1026,,,,,,,,,,,,
+Zotu1027,,,,,,,,,,,,
+Zotu1028,,,,,,,,,,,,
+Zotu1029,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,2.6E-68,97.5,312471
+Zotu1030,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.22E-90,95,351716
+Zotu1031,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Rf4 CH230-67H19 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC099280.6,0,98.792,10116
+Zotu1032,,,,,,,,,,,,
+Zotu1033,,,,,,,,,,,,
+Zotu1034,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.32E-159,97.605,863246
+Zotu1035,,,,,,,,,,,,
+Zotu1036,,,,,,,,,,,,
+Zotu1037,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.05E-151,100,863246
+Zotu1038,,,,,,,,,,,,
+Zotu1039,,,,,,,,,,,,
+Zotu1040,,,,,,,,,,,,
+Zotu1041,,,,,,,,,,,,
+Zotu1042,,,,,,,,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,1.89E-84,89.804,0
+Zotu1043,,,,,,,,"Mus musculus chromosome 8, clone RP23-479K9, complete sequence",AC115820.11,1.06E-41,81.938,0
+Zotu1044,,,,,,,,,,,,
+Zotu1045,,,,,,,,,,,,
+Zotu1046,,,,,,,,,,,,
+Zotu1047,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,2.67E-83,88.087,0
+Zotu1048,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490234.1,2.3E-118,98.008,75058
+Zotu1049,,,,,,,,,,,,
+Zotu1050,,,,,,,,Rattus norvegicus X BAC CH230-390I1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC120241.5,3.41E-30,87.805,0
+Zotu1051,,,,,,,,,,,,
+Zotu1052,,,,,,,,,,,,
+Zotu1053,,,,,,,,"Mus musculus BAC clone RP23-449K22 from chromosome 9, complete sequence",AC135672.4,6.48E-25,85.95,0
+Zotu1054,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mouse DNA sequence from clone RP23-43M17 on chromosome 2, complete sequence",AL669961.8,8.85E-17,100,10090
+Zotu1055,,,,,,,,,,,,
+Zotu1056,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Sylvilagus  ,Sylvilagus floridanus,"Sylvilagus floridanus neuron navigator 1 (NAV1) gene, partial cds",MK078480.1,8.25E-62,90.909,9988
+Zotu1057,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,1.12E-86,90.551,204529
+Zotu1058,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,9.35E-68,100,882202
+Zotu1059,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Rf BAC CH230-173F6 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC096321.10,4.36E-64,95.597,10116
+Zotu1060,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.4E-24,89.216,0
+Zotu1061,,,,,,,,"Mus musculus chromosome 5, clone RP23-262H7, complete sequence",AC113064.8,3.07E-25,86.842,0
+Zotu1062,Eukaryota,Arthropoda ,Arachnida     ,Ixodida        ,Ixodidae          ,Ixodes      ,Ixodes scapularis,"PREDICTED: Ixodes scapularis box A-binding factor (LOC8052207), mRNA",XM_029987080.1,1.7E-20,95.652,6945
+Zotu1063,,,,,,,,,,,,
+Zotu1064,,,,,,,,,,,,
+Zotu1065,,,,,,,,,,,,
+Zotu1066,,,,,,,,,,,,
+Zotu1067,,,,,,,,,,,,
+Zotu1068,,,,,,,,,,,,
+Zotu1069,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-129D21 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC136163.2,1.23E-62,93.064,10116
+Zotu1070,,,,,,,,,,,,
+Zotu1071,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.6 18S ribosomal RNA gene, partial sequence",AY753958.1,4.03E-101,93.385,100272
+Zotu1072,,,,,,,,,,,,
+Zotu1073,,,,,,,,"Mus musculus chromosome 3, clone RP23-168E14, complete sequence",AC044864.6,8.38E-43,87.879,0
+Zotu1074,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 2 BAC CH230-54E3 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC112001.6,7.85E-109,99.111,10116
+Zotu1075,,,,,,,,,,,,
+Zotu1076,,,,,,,,,,,,
+Zotu1077,,,,,,,,"Mus musculus chromosome 8, clone RP23-307O2, complete sequence",AC165233.6,1.62E-49,86.224,0
+Zotu1078,,,,,,,,,,,,
+Zotu1079,,,,,,,,,,,,
+Zotu1080,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,2.67E-83,88.087,0
+Zotu1081,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 10",LR877221.1,0.00000579,91.667,60746
+Zotu1082,,,,,,,,,,,,
+Zotu1083,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.68E-73,86.071,0
+Zotu1084,,,,,,,,,,,,
+Zotu1085,,,,,,,,,,,,
+Zotu1086,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone UEBER_H1 18S ribosomal RNA gene, partial sequence",JN630454.1,1.34E-85,91.983,204529
+Zotu1087,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,3.02E-153,96.687,863246
+Zotu1088,,,,,,,,,,,,
+Zotu1089,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 1 BAC CH230-117B1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC113720.6,4.87E-106,90.698,10116
+Zotu1090,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Acomys      ,Acomys russatus,"Acomys russatus genome assembly, chromosome: 25",LR877236.1,2.47E-09,92.453,60746
+Zotu1091,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.1 18S ribosomal RNA gene, partial sequence",AY753976.1,8.5E-88,91.129,100272
+Zotu1092,,,,,,,,,,,,
+Zotu1093,,,,,,,,,,,,
+Zotu1094,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,2.33E-113,96.484,312471
+Zotu1095,,,,,,,,,,,,
+Zotu1096,,,,,,,,,,,,
+Zotu1097,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.07E-151,96.131,863246
+Zotu1098,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,5.78E-80,88.302,0
+Zotu1099,,,,,,,,,,,,
+Zotu1100,,,,,,,,,,,,
+Zotu1101,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.8E-53,93.793,10090
+Zotu1102,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 4 BAC CH230-4H1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC124918.5,1.35E-84,97.396,10116
+Zotu1103,,,,,,,,"Neobodo designis isolate Oxford 18S ribosomal RNA gene, partial sequence",AY753616.1,2.46E-78,88.583,0
+Zotu1104,,,,,,,,,,,,
+Zotu1105,,,,,,,,,,,,
+Zotu1106,,,,,,,,,,,,
+Zotu1107,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 12 BAC CH230-48A22 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC128270.3,7.54E-84,91.176,10116
+Zotu1108,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,5.2E-90,91.339,204529
+Zotu1109,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus PHD finger protein 11B (Phf11b), mRNA",XM_017604944.1,2.96E-107,95.951,10116
+Zotu1110,,,,,,,,,,,,
+Zotu1111,,,,,,,,,,,,
+Zotu1112,,,,,,,,,,,,
+Zotu1113,,,,,,,,,,,,
+Zotu1114,,,,,,,,,,,,
+Zotu1115,,,,,,,,,,,,
+Zotu1116,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain HFCC306 18S ribosomal RNA gene, partial sequence",DQ207583.1,1.82E-109,95.669,312471
+Zotu1117,,,,,,,,,,,,
+Zotu1118,,,,,,,,,,,,
+Zotu1119,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.83E-67,100,863246
+Zotu1120,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,5.29E-80,89.062,0
+Zotu1121,,,,,,,,,,,,
+Zotu1122,,,,,,,,,,,,
+Zotu1123,,,,,,,,,,,,
+Zotu1124,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. R2,"Trypanosoma sp. isolate R2 clone L2-4 small subunit ribosomal RNA gene, partial sequence",MH424207.1,0.0000343,100,5696
+Zotu1125,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus breed New Zealand White clone LB1-297M16, complete sequence",AC122152.3,6.4E-121,91.395,9986
+Zotu1126,,,,,,,,,,,,
+Zotu1127,,,,,,,,,,,,
+Zotu1128,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae ,,Trypanosomatidae sp. MCZ-14,"Trypanosomatidae sp. MCZ-14 small subunit ribosomal RNA gene, partial sequence",KC206004.1,1.47E-43,96.46,1295821
+Zotu1129,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.32E-159,97.612,863246
+Zotu1130,,,,,,,,,,,,
+Zotu1131,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,5.09E-105,94.531,312471
+Zotu1132,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,4.04E-24,100,10117
+Zotu1133,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,3.98E-30,91.429,37737
+Zotu1134,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain HFCC306 18S ribosomal RNA gene, partial sequence",DQ207583.1,8.43E-113,96.457,312471
+Zotu1135,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,4.34E-24,100,10117
+Zotu1136,,,,,,,,,,,,
+Zotu1137,,,,,,,,Rattus norvegicus 20 BAC CH230-118G13 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC132050.4,2.75E-68,86.454,0
+Zotu1138,,,,,,,,"Oryctolagus cuniculus clone BAC LBAB_29G08, complete sequence",KJ810980.1,4.65E-65,87.611,0
+Zotu1139,,,,,,,,,,,,
+Zotu1140,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.09E-147,95.536,863246
+Zotu1141,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"Rattus norvegicus DNA, BAC clone: RNB1-396L07, strain: F344/Stm, complete sequence",AP012458.1,3.68E-75,95.604,10116
+Zotu1142,,,,,,,,,,,,
+Zotu1143,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.22E-10,80.952,0
+Zotu1144,,,,,,,,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,1.49E-80,88.889,0
+Zotu1145,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,1.26E-44,90.909,10090
+Zotu1146,,,,,,,,Mus musculus 6 BAC RP23-170C11 (Roswell Park Cancer Institute (C57BL/6J Female) Mouse BAC Library) complete sequence,AC153860.4,1.45E-70,88.696,0
+Zotu1147,,,,,,,,,,,,
+Zotu1148,,,,,,,,,,,,
+Zotu1149,,,,,,,,,,,,
+Zotu1150,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Zdhhc14:tm1a(KOMP)Wtsi; transgenic",JN958861.1,1E-26,96.25,10090
+Zotu1151,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP23-399J19 from 1, complete sequence",AC121790.2,0.00001,97.297,10090
+Zotu1152,,,,,,,,,,,,
+Zotu1153,,,,,,,,,,,,
+Zotu1154,,,,,,,,,,,,
+Zotu1155,,,,,,,,,,,,
+Zotu1156,,,,,,,,,,,,
+Zotu1157,,,,,,,,,,,,
+Zotu1158,,,,,,,,,,,,
+Zotu1159,,,,,,,,,,,,
+Zotu1160,,,,,,,,,,,,
+Zotu1161,,,,,,,,,,,,
+Zotu1162,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.33E-154,96.726,863246
+Zotu1163,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Allobodo    ,Allobodo chlorophagus,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,2.45E-83,90.079,2282701
+Zotu1164,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Isoodon     ,Isoodon obesulus,Isoodon obesulus partial TTC37 gene intron,LN774811.1,5.34E-61,92,65612
+Zotu1165,,,,,,,,Rattus norvegicus X BAC CH230-155H3 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC124926.7,1.02E-22,77.729,0
+Zotu1166,,,,,,,,,,,,
+Zotu1167,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,7.71E-24,100,10117
+Zotu1168,,,,,,,,,,,,
+Zotu1169,,,,,,,,"Mus musculus BAC clone RP23-467P15 from 18, complete sequence",AC121824.2,4.3E-56,83.456,0
+Zotu1170,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 11",LR877198.1,0.000000286,91.837,38674
+Zotu1171,,,,,,,,,,,,
+Zotu1172,,,,,,,,,,,,
+Zotu1173,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.83E-67,100,863246
+Zotu1174,,,,,,,,,,,,
+Zotu1175,,,,,,,,,,,,
+Zotu1176,,,,,,,,,,,,
+Zotu1177,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.33E-154,96.716,863246
+Zotu1178,,,,,,,,,,,,
+Zotu1179,,,,,,,,,,,,
+Zotu1180,,,,,,,,,,,,
+Zotu1181,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.82E-107,97.046,312471
+Zotu1182,,,,,,,,,,,,
+Zotu1183,,,,,,,,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Fbxl22:tm1e(EUCOMM)Hmgu; transgenic",JN964639.1,4.28E-71,85.985,0
+Zotu1184,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,5.02E-115,96.875,312471
+Zotu1185,,,,,,,,"Cycloctenus sp. CG98 isolate ARACG000098 18S ribosomal RNA gene, partial sequence",KY016387.1,2.44E-46,89.375,0
+Zotu1186,,,,,,,,,,,,
+Zotu1187,,,,,,,,,,,,
+Zotu1188,,,,,,,,,,,,
+Zotu1189,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus BAC CH230-390M9 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC129670.4,4.02E-44,93.077,10116
+Zotu1190,,,,,,,,"Mus musculus chromosome 15, clone RP23-282L9, complete sequence",AC101713.7,3.44E-38,81.905,0
+Zotu1191,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.24E-85,93.665,351716
+Zotu1192,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 11 BAC CH230-68C19 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC097832.7,6.82E-115,95.539,10116
+Zotu1193,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC108350420 (LOC108350420), ncRNA",XR_001842990.1,4.58E-71,97.546,10116
+Zotu1194,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,7.43E-139,97.619,5671
+Zotu1195,,,,,,,,,,,,
+Zotu1196,,,,,,,,,,,,
+Zotu1197,,,,,,,,,,,,
+Zotu1198,,,,,,,,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,4.19E-81,88.889,0
+Zotu1199,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,6.06E-109,97.468,312471
+Zotu1200,,,,,,,,,,,,
+Zotu1201,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 12",LR877199.1,0.000000238,100,38674
+Zotu1202,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.48E-43,96.491,863246
+Zotu1203,,,,,,,,,,,,
+Zotu1204,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone gAR56, gAR1 aldose reductase gene, complete cds",AH005410.3,9.27E-84,93.548,9986
+Zotu1205,,,,,,,,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,1.87E-69,87.008,0
+Zotu1206,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo sp. TGS2,"Bodo sp. TGS2 gene for 18S ribosomal RNA, partial sequence",AB585965.1,8.22E-118,98,882202
+Zotu1207,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 3 BAC CH230-248O1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC115341.6,1.69E-78,96.739,10116
+Zotu1208,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.51E-10,80.952,0
+Zotu1209,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP24-235C16 from chromosome 8, complete sequence",AC131115.3,2.23E-08,100,10090
+Zotu1210,,,,,,,,,,,,
+Zotu1211,,,,,,,,,,,,
+Zotu1213,,,,,,,,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,9.84E-41,88.591,0
+Zotu1214,,,,,,,,,,,,
+Zotu1215,,,,,,,,,,,,
+Zotu1216,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,5.09E-105,94.531,312471
+Zotu1217,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,1.08E-85,96.939,9986
+Zotu1218,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD55 18S ribosomal RNA gene, partial sequence",AY998651.1,4.98E-100,94,312471
+Zotu1219,,,,,,,,,,,,
+Zotu1220,,,,,,,,,,,,
+Zotu1221,,,,,,,,"Mus musculus chromosome 14, clone RP23-106K9, complete sequence",AC116395.21,9.95E-47,84.878,0
+Zotu1223,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.42E-53,93.793,10090
+Zotu1224,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,4.08E-30,90.654,37737
+Zotu1225,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.72E-53,93.793,10090
+Zotu1226,,,,,,,,"Mus musculus BAC clone RP23-60N3 from 7, complete sequence",AC124775.4,3.28E-62,85.098,0
+Zotu1227,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.65E-73,85.816,0
+Zotu1228,,,,,,,,,,,,
+Zotu1229,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma sp. AB-2013 isolate G5 18S ribosomal RNA gene, complete sequence; and 18S ribosomal RNA gene, partial sequence",KC753534.1,2.42E-174,98.31,1345638
+Zotu1230,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-62C22 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC096406.7,8.47E-87,97.436,10116
+Zotu1231,,,,,,,,,,,,
+Zotu1232,,,,,,,,,,,,
+Zotu1233,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.34E-154,96.726,863246
+Zotu1234,,,,,,,,,,,,
+Zotu1235,,,,,,,,,,,,
+Zotu1236,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus TL0AEA7YI13 mRNA sequence,FQ231039.1,5.27E-73,98.16,10116
+Zotu1237,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,5.27E-90,91.016,100272
+Zotu1238,,,,,,,,"Mus musculus chromosome 5, clone RP23-183C18, complete sequence",AC113018.7,1.24E-12,82.143,0
+Zotu1239,,,,,,,,"Mouse DNA sequence from clone RP23-31C9 on chromosome 4, complete sequence",AL607070.19,2.47E-32,86,0
+Zotu1240,,,,,,,,,,,,
+Zotu1241,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.6E-99,97.273,351716
+Zotu1242,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,6.43E-24,100,10117
+Zotu1243,,,,,,,,,,,,
+Zotu1244,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,8.04E-93,93.277,312471
+Zotu1245,,,,,,,,,,,,
+Zotu1246,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.46E-34,92.727,37737
+Zotu1247,,,,,,,,"Acomys russatus genome assembly, chromosome: 13",LR877224.1,8.07E-33,84.049,0
+Zotu1248,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,6.83E-28,89.72,0
+Zotu1249,,,,,,,,,,,,
+Zotu1250,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid clone A2_D12 18S ribosomal RNA gene, partial sequence",JN629255.1,3.67E-101,95.781,204529
+Zotu1251,,,,,,,,Rattus norvegicus 18 BAC CH230-372C24 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC127734.4,4.65E-30,83.333,0
+Zotu1252,,,,,,,,"PREDICTED: Rattus norvegicus FAD-dependent oxidoreductase domain containing 1 (Foxred1), transcript variant X5, misc_RNA",XR_593815.2,4.39E-56,86.364,0
+Zotu1253,,,,,,,,,,,,
+Zotu1254,,,,,,,,,,,,
+Zotu1255,,,,,,,,,,,,
+Zotu1256,,,,,,,,,,,,
+Zotu1257,,,,,,,,,,,,
+Zotu1258,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 9, clone RP23-329B5, complete sequence",AC109212.15,1.07E-39,94.643,10090
+Zotu1259,,,,,,,,,,,,
+Zotu1260,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma sp. AB-2013 isolate G5 18S ribosomal RNA gene, complete sequence; and 18S ribosomal RNA gene, partial sequence",KC753534.1,2.42E-174,98.31,1345638
+Zotu1261,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,2.39E-98,92.913,266813
+Zotu1262,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.47E-43,96.46,863246
+Zotu1263,,,,,,,,,,,,
+Zotu1264,,,,,,,,,,,,
+Zotu1265,,,,,,,,,,,,
+Zotu1266,,,,,,,,,,,,
+Zotu1267,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNECO-200B10 (Amplicon Express Rat SHR-Akr (EcoR1 Digest) BAC library) complete sequence,AC242998.6,1.99E-42,92.857,10116
+Zotu1268,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.48E-73,87.5,0
+Zotu1269,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 1",AB996690.1,3.09E-102,93.774,204529
+Zotu1270,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,5.62E-24,100,10117
+Zotu1271,,,,,,,,"Bodo saltans strain SCCAP BS364 18S ribosomal RNA gene, partial sequence",AY998648.1,3.98E-71,87.549,0
+Zotu1272,,,,,,,,,,,,
+Zotu1273,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Rf1 BAC CH230-6O13 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC099350.8,1.89E-52,91.25,10116
+Zotu1274,,,,,,,,,,,,
+Zotu1275,,,,,,,,,,,,
+Zotu1276,,,,,,,,"Onychomys torridus genome assembly, chromosome: 23",LR877210.1,3.56E-30,84.667,0
+Zotu1277,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.08E-157,97.305,863246
+Zotu1278,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,1.46E-65,97.386,240580
+Zotu1279,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma vegrandis isolate OTU3687 18S ribosomal RNA gene, partial sequence",KY640322.1,1.13E-172,98.028,1648351
+Zotu1280,,,,,,,,,,,,
+Zotu1281,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida    ,Rhynchomonadidae,Rhynchomonas,Rhynchomonas nasuta,"Rhynchomonas nasuta strain HFCC319 18S ribosomal RNA gene, partial sequence",DQ207598.1,1.32E-60,96.622,127150
+Zotu1282,,,,,,,,,,,,
+Zotu1283,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,3.8E-66,95.758,312471
+Zotu1284,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.6 18S ribosomal RNA gene, partial sequence",AY753958.1,4E-106,94.553,100272
+Zotu1285,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-129D21 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC136163.2,4.7E-62,93.023,10116
+Zotu1286,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Tmem151b:tm1e(KOMP)Wtsi; transgenic",JN962818.1,5.72E-53,93.793,10090
+Zotu1287,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Lepus       ,Lepus californicus,"Lepus californicus Krev interaction trapped protein 1 (KRIT1) gene, intron partial sequence",HM483646.1,2.99E-68,93.443,48087
+Zotu1288,,,,,,,,,,,,
+Zotu1289,,,,,,,,,,,,
+Zotu1290,,,,,,,,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,2.42E-83,89.764,0
+Zotu1291,,,,,,,,,,,,
+Zotu1292,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.17E-108,97.468,312471
+Zotu1293,,,,,,,,,,,,
+Zotu1294,,,,,,,,"Uncultured kinetoplastid clone GB_A04 18S ribosomal RNA gene, partial sequence",JN629783.1,5.73E-85,89.434,0
+Zotu1295,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.25E-71,85.714,0
+Zotu1296,,,,,,,,"Mus musculus chromosome 3, clone RP23-168E14, complete sequence",AC044864.6,8.38E-43,87.879,0
+Zotu1297,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate JC16 18S ribosomal RNA gene, partial sequence",AY753615.1,2.48E-88,90.53,312471
+Zotu1298,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,5.24E-65,96.795,312471
+Zotu1299,,,,,,,,,,,,
+Zotu1300,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 1, clone RP24-472N18, complete sequence",AC120416.11,1.2E-30,90.351,10090
+Zotu1301,,,,,,,,"Wallaby DNA sequence from clone MEKBa-192E16, complete sequence",CU302407.3,3.68E-26,83.688,0
+Zotu1302,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,2.39E-98,92.913,266813
+Zotu1303,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,1.11E-101,93.701,266813
+Zotu1304,,,,,,,,"Mus musculus BAC clone RP23-408K7 from chromosome 9, complete sequence",AC164087.5,1.64E-64,89.604,0
+Zotu1305,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 3 BAC CH230-248O1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC115341.6,1.67E-78,97.222,10116
+Zotu1306,,,,,,,,,,,,
+Zotu1307,,,,,,,,,,,,
+Zotu1308,,,,,,,,,,,,
+Zotu1309,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,8.04E-93,93.277,312471
+Zotu1310,,,,,,,,,,,,
+Zotu1311,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus solute carrier family 16 member 7 (Slc16a7), transcript variant X7, mRNA",XM_006241436.3,1.06E-80,98.305,10116
+Zotu1312,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida    ,Rhynchomonadidae,Rhynchomonas,Rhynchomonas nasuta,"Rhynchomonas nasuta strain HFCC319 18S ribosomal RNA gene, partial sequence",DQ207598.1,1.32E-60,96.622,127150
+Zotu1313,,,,,,,,,,,,
+Zotu1314,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma sp. AB-2013 isolate G5 18S ribosomal RNA gene, complete sequence; and 18S ribosomal RNA gene, partial sequence",KC753534.1,6.73E-175,98.584,1345638
+Zotu1315,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.22E-81,87.726,0
+Zotu1316,Eukaryota,Euglenozoa ,Kinetoplastea ,Parabodonida  ,Parabodonidae,Parabodo    ,Parabodo caudatus,"Parabodo caudatus strain HFCC10 18S ribosomal RNA gene, partial sequence",DQ207591.1,2.42E-63,99.286,351713
+Zotu1317,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote partial 18S rRNA gene, clone SIBO788_N12D1_18S_E",LN581275.1,3.67E-61,97.26,100272
+Zotu1318,,,,,,,,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490232.1,4.19E-81,88.889,0
+Zotu1319,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 10, clone RP23-360H23, complete sequence",AC104920.10,2.88E-31,93.814,10090
+Zotu1320,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 21",LR877208.1,1.05E-10,95.833,38674
+Zotu1321,,,,,,,,,,,,
+Zotu1322,,,,,,,,,,,,
+Zotu1323,,,,,,,,,,,,
+Zotu1324,,,,,,,,,,,,
+Zotu1325,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.1 18S ribosomal RNA gene, partial sequence",AY753976.1,8.5E-88,91.129,100272
+Zotu1326,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,8.97E-88,90.494,100272
+Zotu1327,,,,,,,,,,,,
+Zotu1328,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,5.45E-24,100,10117
+Zotu1329,,,,,,,,,,,,
+Zotu1330,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus neuralized E3 ubiquitin protein ligase 3 (Neurl3), transcript variant X1, mRNA",XM_008767025.2,8.85E-113,95.094,10116
+Zotu1331,,,,,,,,,,,,
+Zotu1332,,,,,,,,,,,,
+Zotu1333,,,,,,,,,,,,
+Zotu1334,,,,,,,,,,,,
+Zotu1335,,,,,,,,,,,,
+Zotu1336,,,,,,,,,,,,
+Zotu1337,,,,,,,,,,,,
+Zotu1338,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,6.79E-28,89.72,0
+Zotu1339,,,,,,,,,,,,
+Zotu1340,,,,,,,,,,,,
+Zotu1341,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus BAC clone RP23-399J19 from 1, complete sequence",AC121790.2,0.0000111,97.297,10090
+Zotu1343,,,,,,,,,,,,
+Zotu1344,,,,,,,,,,,,
+Zotu1345,,,,,,,,,,,,
+Zotu1346,,,,,,,,,,,,
+Zotu1347,,,,,,,,"Uncultured kinetoplastid clone Kryos_IF_F1 18S ribosomal RNA gene, partial sequence",JN542571.1,7.03E-79,88.213,0
+Zotu1348,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,1.6E-140,97.959,5671
+Zotu1349,,,,,,,,,,,,
+Zotu1350,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD55 18S ribosomal RNA gene, partial sequence",AY998651.1,1.07E-101,94.4,312471
+Zotu1351,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,2.32E-98,93.6,266811
+Zotu1352,,,,,,,,,,,,
+Zotu1353,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.69E-73,85.765,0
+Zotu1354,,,,,,,,"Neobodo designis isolate Oxford 18S ribosomal RNA gene, partial sequence",AY753616.1,5.44E-80,88.846,0
+Zotu1355,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,3.15E-31,91.589,37737
+Zotu1356,,,,,,,,,,,,
+Zotu1357,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_204B12, complete sequence",KJ810982.1,6.52E-83,96.875,9986
+Zotu1358,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,5.29E-80,89.062,0
+Zotu1359,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.09E-152,96.429,863246
+Zotu1360,,,,,,,,"Uncultured kinetoplastid clone CB_35 18S ribosomal RNA gene, partial sequence",JN629704.1,8.74E-78,88.672,0
+Zotu1361,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,1.12E-86,90.551,204529
+Zotu1362,,,,,,,,,,,,
+Zotu1363,,,,,,,,,,,,
+Zotu1364,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus targeted non-conditional, lacZ-tagged mutant allele Prss53:tm1e(EUCOMM)Wtsi; transgenic",JN962744.1,4.37E-90,94.954,10090
+Zotu1365,,,,,,,,,,,,
+Zotu1366,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD55 18S ribosomal RNA gene, partial sequence",AY998651.1,2.32E-98,93.6,312471
+Zotu1367,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma teixeirae,"Trypanosoma teixeirae 18S ribosomal RNA gene, partial sequence",KT907061.1,3.78E-152,97.222,1826986
+Zotu1368,,,,,,,,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,1.67E-85,87.586,0
+Zotu1369,,,,,,,,,,,,
+Zotu1370,,,,,,,,,,,,
+Zotu1371,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.02E-156,97.015,863246
+Zotu1372,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,7.23E-24,100,10117
+Zotu1373,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus disintegrin and metalloproteinase domain-containing protein 28-like (LOC102550654), transcript variant X4, misc_RNA",XR_001846310.1,1.82E-119,97.665,10116
+Zotu1374,,,,,,,,,,,,
+Zotu1375,,,,,,,,"Onychomys torridus genome assembly, chromosome: 14",LR877201.1,2.18E-34,84.375,0
+Zotu1376,,,,,,,,,,,,
+Zotu1377,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma sp. Coma4,"Trypanosoma sp. Coma4 gene for 18S ribosomal RNA, partial sequence",AB828159.1,2.46E-58,93.21,1348445
+Zotu1378,,,,,,,,,,,,
+Zotu1379,,,,,,,,,,,,
+Zotu1380,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,5.65E-80,87.365,0
+Zotu1381,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 4 BAC CH230-213L22 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC126115.5,2.15E-42,98.095,10116
+Zotu1382,,,,,,,,"Mus musculus chromosome 16, clone RP23-425F12, complete sequence",AC116484.12,1.01E-16,81.667,0
+Zotu1383,,,,,,,,,,,,
+Zotu1384,,,,,,,,,,,,
+Zotu1385,,,,,,,,,,,,
+Zotu1386,,,,,,,,"Mouse DNA sequence from clone RP23-311G5 on chromosome 2, complete sequence",AL845536.8,1.82E-66,80.637,0
+Zotu1387,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 6 BAC CH230-424O13 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC128571.4,1.51E-58,93.21,10116
+Zotu1388,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. river Thames,"Bodonidae sp. river Thames 18S ribosomal RNA gene, partial sequence",AY490225.1,2.29E-63,96.711,266821
+Zotu1389,,,,,,,,,,,,
+Zotu1390,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,2.8E-112,98.312,312471
+Zotu1391,,,,,,,,,,,,
+Zotu1392,,,,,,,,,,,,
+Zotu1393,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Bodo designis 18S ribosomal RNA gene, partial sequence",AY490235.1,6.01E-114,98.734,312471
+Zotu1394,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,3.72E-96,94.118,312471
+Zotu1395,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,1.13E-86,90.551,100272
+Zotu1396,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp.,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,4.75E-60,96.599,2041038
+Zotu1397,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,1.25E-71,85.714,0
+Zotu1398,,,,,,,,"Uncultured soil eukaryote clone a665 small subunit ribosomal RNA gene, partial sequence",MK946257.1,6.04E-80,86.505,0
+Zotu1399,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,2.44E-88,90.945,100272
+Zotu1400,,,,,,,,,,,,
+Zotu1401,,,,,,,,,,,,
+Zotu1402,,,,,,,,,,,,
+Zotu1403,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,1.88E-89,90.98,100272
+Zotu1404,,,,,,,,,,,,
+Zotu1405,,,,,,,,,,,,
+Zotu1406,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_204B12, complete sequence",KJ810982.1,4.01E-65,92.818,9986
+Zotu1407,,,,,,,,,,,,
+Zotu1408,,,,,,,,,,,,
+Zotu1409,,,,,,,,,,,,
+Zotu1410,,,,,,,,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,9.84E-41,88.591,0
+Zotu1411,,,,,,,,,,,,
+Zotu1412,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-1B22 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC129839.5,5.49E-23,91.86,10116
+Zotu1413,,,,,,,,,,,,
+Zotu1415,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Prg2:tm1a(EUCOMM)Hmgu; transgenic",JN963933.1,5.01E-55,84.615,0
+Zotu1416,,,,,,,,,,,,
+Zotu1417,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,1.77E-64,95.152,312471
+Zotu1418,,,,,,,,,,,,
+Zotu1419,,,,,,,,,,,,
+Zotu1420,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,4.11E-30,90.741,37737
+Zotu1421,,,,,,,,,,,,
+Zotu1422,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo celer,"Bodo celer 18S ribosomal RNA gene, partial sequence",AY490221.1,2.38E-103,94.094,266813
+Zotu1423,Eukaryota,Chordata   ,Mammalia      ,Primates       ,Hominidae         ,Homo        ,Homo sapiens,Homo sapiens 3 BAC RP11-274J15 (Roswell Park Cancer Institute Human BAC Library) complete sequence,AC092896.9,9.76E-09,93.75,9606
+Zotu1424,,,,,,,,,,,,
+Zotu1425,,,,,,,,,,,,
+Zotu1426,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,3.46E-137,97.279,5671
+Zotu1427,,,,,,,,,,,,
+Zotu1428,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,1.09E-111,96.094,312471
+Zotu1429,,,,,,,,,,,,
+Zotu1430,,,,,,,,,,,,
+Zotu1431,,,,,,,,,,,,
+Zotu1432,,,,,,,,,,,,
+Zotu1433,,,,,,,,"Oryctolagus cuniculus clone BAC LBAB_204B12, complete sequence",KJ810982.1,2.13E-47,88.304,0
+Zotu1434,,,,,,,,,,,,
+Zotu1435,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD52 18S ribosomal RNA gene, partial sequence",AY998646.1,1.02E-96,94.538,312471
+Zotu1436,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,1.73E-94,93.697,312471
+Zotu1437,,,,,,,,,,,,
+Zotu1438,,,,,,,,,,,,
+Zotu1439,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.46E-78,88.672,0
+Zotu1440,,,,,,,,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,2.42E-83,89.764,0
+Zotu1441,,,,,,,,,,,,
+Zotu1442,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus uncharacterized LOC102546375 (LOC102546375), transcript variant X3, ncRNA",XR_349491.3,1.67E-60,96.622,10116
+Zotu1443,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,5.02E-156,97.015,863246
+Zotu1444,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis breed flagellate small subunit ribosomal RNA gene, partial sequence",KY859412.1,1.14E-61,95.513,312471
+Zotu1445,,,,,,,,,,,,
+Zotu1446,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,"PREDICTED: Rattus norvegicus leucine rich repeat containing 4C (Lrrc4c), transcript variant X9, mRNA",XM_017591730.1,1.63E-99,96.491,10116
+Zotu1447,,,,,,,,,,,,
+Zotu1448,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,6.49E-155,96.988,863246
+Zotu1449,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp.,"Bodonidae sp. isolate Cx11 18S ribosomal RNA gene, partial sequence",MF000704.1,4.75E-60,96.599,2041038
+Zotu1450,,,,,,,,,,,,
+Zotu1451,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 10, clone RP23-360H23, complete sequence",AC104920.10,6.09E-33,94.845,10090
+Zotu1452,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,1.46E-65,97.386,240580
+Zotu1453,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate JC16 18S ribosomal RNA gene, partial sequence",AY753615.1,5.34E-90,90.875,312471
+Zotu1454,,,,,,,,,,,,
+Zotu1455,,,,,,,,,,,,
+Zotu1456,,,,,,,,,,,,
+Zotu1457,,,,,,,,,,,,
+Zotu1458,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 12",LR877199.1,0.000000238,100,38674
+Zotu1459,,,,,,,,,,,,
+Zotu1460,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.51E-10,80.952,0
+Zotu1461,,,,,,,,,,,,
+Zotu1462,,,,,,,,,,,,
+Zotu1463,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans small subunit ribosomal RNA gene, partial sequence",MH614643.1,1.07E-116,97.619,75058
+Zotu1464,,,,,,,,,,,,
+Zotu1465,,,,,,,,,,,,
+Zotu1466,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 9 BAC CH230-486H15 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC141583.3,6.96E-47,93.939,10116
+Zotu1467,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"Rattus rattus voucher EBD2012-064-125 mitochondrion, complete genome",MW209724.1,6.15E-93,100,10117
+Zotu1468,,,,,,,,,,,,
+Zotu1469,,,,,,,,,,,,
+Zotu1470,,,,,,,,,,,,
+Zotu1471,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.46E-34,92.661,37737
+Zotu1472,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD52 18S ribosomal RNA gene, partial sequence",AY998646.1,1.03E-91,93.277,312471
+Zotu1473,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,1.12E-86,90.551,204529
+Zotu1474,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma vegrandis isolate OTU3687 18S ribosomal RNA gene, partial sequence",KY640322.1,6.78E-170,97.734,1648351
+Zotu1475,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0863G04, complete sequence",AC234997.5,1.41E-74,93.401,9986
+Zotu1476,,,,,,,,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.83E-23,88.35,0
+Zotu1477,Eukaryota,Chordata   ,Mammalia      ,Peramelemorphia,Peramelidae       ,Perameles   ,Perameles gunnii,"Perameles gunnii partial rhpn2 gene, exon 1",LM651359.1,1.5E-29,92,37737
+Zotu1478,,,,,,,,"Oryctolagus cuniculus clone LBNL1-125D4, complete sequence",AC144399.2,1.1E-55,89.503,0
+Zotu1479,Eukaryota,Euglenozoa ,Kinetoplastea ,,,,uncultured kinetoplastid,"Uncultured kinetoplastid gene for 18S rRNA, partial sequence, clone: Lake Biwa hypolimnion 2",AB996691.1,5.14E-95,92.52,204529
+Zotu1480,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,Oryctolagus cuniculus clone 179L1 kappa 1 light chain immunglobulin gene region,AY495827.1,4.61E-106,93.939,9986
+Zotu1481,,,,,,,,,,,,
+Zotu1482,,,,,,,,"Acomys russatus genome assembly, chromosome: 32",LR877243.1,5.66E-23,81.208,0
+Zotu1483,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Arvicola    ,Arvicola amphibius,"Arvicola amphibius genome assembly, chromosome: 16",LR862396.1,0.0000135,94.872,1047088
+Zotu1484,,,,,,,,,,,,
+Zotu1485,,,,,,,,,,,,
+Zotu1486,,,,,,,,,,,,
+Zotu1487,,,,,,,,,,,,
+Zotu1488,,,,,,,,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,2.46E-78,88.889,0
+Zotu1489,,,,,,,,,,,,
+Zotu1490,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.34E-154,96.726,863246
+Zotu1491,,,,,,,,,,,,
+Zotu1492,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,5.68E-89,94.545,351716
+Zotu1493,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.07E-74,86.17,0
+Zotu1494,,,,,,,,"Mus musculus targeted KO-first, conditional ready, lacZ-tagged mutant allele Lca5:tm1a(EUCOMM)Wtsi; transgenic",JN958158.1,6.65E-27,86.667,0
+Zotu1495,,,,,,,,,,,,
+Zotu1496,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 21",LR877208.1,2.87E-48,92.908,38674
+Zotu1497,,,,,,,,,,,,
+Zotu1498,,,,,,,,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,9.84E-41,88.591,0
+Zotu1499,,,,,,,,,,,,
+Zotu1500,,,,,,,,,,,,
+Zotu1501,,,,,,,,,,,,
+Zotu1502,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 17",LR877204.1,1.34E-59,93.252,38674
+Zotu1503,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Herpetomonas,Herpetomonas muscarum,"Herpetomonas muscarum isolate COLPROT 013 small subunit ribosomal RNA gene, partial sequence",KX901635.1,2.86E-57,95.833,5718
+Zotu1504,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus 3 BAC CH230-248O1 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC115341.6,5.92E-78,97.222,10116
+Zotu1505,,,,,,,,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,4.58E-39,87.919,0
+Zotu1506,,,,,,,,"Mus musculus BAC clone RP23-467P15 from 18, complete sequence",AC121824.2,2.61E-58,83.696,0
+Zotu1507,,,,,,,,,,,,
+Zotu1508,,,,,,,,,,,,
+Zotu1509,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD53 18S ribosomal RNA gene, partial sequence",AY998647.1,3.58E-111,98.298,312471
+Zotu1510,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto3 18S ribosomal RNA gene, partial sequence",AY753620.1,7.7E-113,98.723,312471
+Zotu1511,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490230.1,6.43E-114,96.838,75058
+Zotu1512,,,,,,,,,,,,
+Zotu1513,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mus musculus chromosome 17, clone RP23-174D11, complete sequence",AC110534.11,6.71E-60,90.86,10090
+Zotu1514,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate TeToto4 18S ribosomal RNA gene, partial sequence",AY753619.1,8.04E-93,93.277,312471
+Zotu1515,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,8.92E-73,99.363,863246
+Zotu1516,,,,,,,,,,,,
+Zotu1517,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis isolate Dev1 18S ribosomal RNA gene, partial sequence",AY753612.1,5.09E-105,94.531,312471
+Zotu1518,,,,,,,,"Mus musculus strain C57BL/6J clone rp23-74a5, complete sequence",AC133489.32,1.65E-44,82.819,0
+Zotu1519,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus clone BAC LBAB_852G10, complete sequence",KJ810983.1,9.92E-83,94.286,9986
+Zotu1520,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,1.09E-91,92.032,266811
+Zotu1521,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo curvifilus,"Bodo curvifilus 18S ribosomal RNA gene, partial sequence",AY425015.1,1.23E-85,93.636,351716
+Zotu1522,,,,,,,,,,,,
+Zotu1523,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote partial 18S rRNA gene, clone SIBO788_N12D1_18S_E",LN581275.1,3.67E-61,97.26,100272
+Zotu1524,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Rhynchomonadidae,Klosteria   ,Klosteria bodomorphis,"Klosteria bodomorphis small subunit ribosomal RNA gene, partial sequence",AY268046.1,6.77E-64,96.732,240580
+Zotu1525,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Leishmania  ,Leishmania infantum,"Leishmania infantum isolate CBT 276 small subunit ribosomal RNA gene, partial sequence",MN757921.1,1.6E-140,97.959,5671
+Zotu1526,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.3E-164,98.507,863246
+Zotu1527,,,,,,,,,,,,
+Zotu1528,,,,,,,,,,,,
+Zotu1529,,,,,,,,,,,,
+Zotu1530,,,,,,,,"Mus musculus chromosome 8, clone RP23-307O2, complete sequence",AC165233.6,3.47E-51,86.735,0
+Zotu1531,,,,,,,,,,,,
+Zotu1532,,,,,,,,,,,,
+Zotu1533,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,4.31E-24,100,10117
+Zotu1534,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,9.65E-73,85.816,0
+Zotu1535,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.68E-73,86.071,0
+Zotu1536,,,,,,,,,,,,
+Zotu1537,,,,,,,,,,,,
+Zotu1538,,,,,,,,,,,,
+Zotu1539,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,2.3E-164,98.503,863246
+Zotu1540,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.08E-157,97.313,863246
+Zotu1541,,,,,,,,,,,,
+Zotu1542,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.08E-157,97.313,863246
+Zotu1543,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,6.36E-24,100,10117
+Zotu1544,,,,,,,,,,,,
+Zotu1545,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,5.38E-24,100,10117
+Zotu1546,,,,,,,,,,,,
+Zotu1547,,,,,,,,,,,,
+Zotu1548,,,,,,,,"Oryctolagus cuniculus clone BAC LBAB_29G08, complete sequence",KJ810980.1,8.4E-74,87.209,0
+Zotu1549,,,,,,,,"Neobodo designis strain SCCAP BD54 18S ribosomal RNA gene, partial sequence",AY998650.1,2.63E-78,87.05,0
+Zotu1550,,,,,,,,"Allobodo chlorophagus isolate CAK1 small subunit ribosomal RNA gene, partial sequence",MH656403.1,1.15E-76,88.492,0
+Zotu1551,,,,,,,,,,,,
+Zotu1552,,,,,,,,"Mus musculus BAC clone RP24-502H6 from chromosome 13, complete sequence",AC165281.2,1.44E-33,87.407,0
+Zotu1553,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma vegrandis isolate OTU3687 18S ribosomal RNA gene, partial sequence",KY640322.1,1.13E-172,98.028,1648351
+Zotu1554,,,,,,,,,,,,
+Zotu1555,,,,,,,,,,,,
+Zotu1556,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,5.23E-95,92.188,100272
+Zotu1557,,,,,,,,,,,,
+Zotu1558,,,,,,,,,,,,
+Zotu1559,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,2.43E-93,91.797,100272
+Zotu1560,,,,,,,,,,,,
+Zotu1561,,,,,,,,,,,,
+Zotu1562,,,,,,,,,,,,
+Zotu1563,,,,,,,,,,,,
+Zotu1564,,,,,,,,,,,,
+Zotu1565,,,,,,,,,,,,
+Zotu1566,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490230.1,2.99E-112,96.443,75058
+Zotu1567,,,,,,,,,,,,
+Zotu1568,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus CH230-62C22 (Children&apos;s Hospital Oakland Research Institute Rat (BN/SsNHsd/MCW) BAC library) complete sequence,AC096406.7,1.08E-85,97.409,10116
+Zotu1569,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,3.48E-10,80.952,0
+Zotu1570,,,,,,,,,,,,
+Zotu1571,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,5.25E-24,100,10117
+Zotu1572,,,,,,,,,,,,
+Zotu1574,,,,,,,,,,,,
+Zotu1575,,,,,,,,,,,,
+Zotu1576,,,,,,,,"Arvicola amphibius genome assembly, chromosome: 13",LR862393.1,4.3E-15,89.189,0
+Zotu1577,,,,,,,,,,,,
+Zotu1578,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Mus         ,Mus musculus,"Mouse DNA sequence from clone RP23-20K17 on chromosome 4, complete sequence",AL806517.9,3.46E-45,90.476,10090
+Zotu1579,,,,,,,,,,,,
+Zotu1580,,,,,,,,,,,,
+Zotu1581,,,,,,,,,,,,
+Zotu1582,,,,,,,,,,,,
+Zotu1583,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain HFCC306 18S ribosomal RNA gene, partial sequence",DQ207583.1,1.85E-99,93.307,312471
+Zotu1584,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus rattus,"PREDICTED: Rattus rattus guanylate-binding protein 1-like (LOC116895226), mRNA",XM_032896554.1,5.69E-24,100,10117
+Zotu1585,,,,,,,,,,,,
+Zotu1586,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus BAC CH230-390M9 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC129670.4,3.41E-45,95.122,10116
+Zotu1587,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma vegrandis isolate OTU3687 18S ribosomal RNA gene, partial sequence",KY640322.1,2.42E-174,98.31,1648351
+Zotu1588,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma vegrandis,"Trypanosoma vegrandis isolate OTU3687 18S ribosomal RNA gene, partial sequence",KY640322.1,2.42E-174,98.31,1648351
+Zotu1589,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,8.93E-88,90.494,100272
+Zotu1590,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L5.9 18S ribosomal RNA gene, partial sequence",AY753975.1,4.06E-86,90.196,100272
+Zotu1591,,,,,,,,"Uncultured kinetoplastid clone IP_39 18S ribosomal RNA gene, partial sequence",JN629986.1,2.48E-73,87.5,0
+Zotu1592,,,,,,,,,,,,
+Zotu1593,,,,,,,,,,,,
+Zotu1594,,,,,,,,"Acomys russatus genome assembly, chromosome: 8",LR877219.1,6.32E-10,80.952,0
+Zotu1595,,,,,,,,,,,,
+Zotu1596,,,,,,,,,,,,
+Zotu1597,Eukaryota,Euglenozoa ,Kinetoplastea ,Neobodonida   ,Neobodonidae,Neobodo     ,Neobodo designis,"Neobodo designis strain SCCAP BD55 18S ribosomal RNA gene, partial sequence",AY998651.1,4.95E-105,95.2,312471
+Zotu1598,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,,Bodonidae sp. Jockey thermal pool,"Bodonidae sp. Jockey thermal pool 18S ribosomal RNA gene, partial sequence",AY490219.1,1.09E-91,91.968,266811
+Zotu1599,,,,,,,,,,,,
+Zotu1600,,,,,,,,,,,,
+Zotu1601,,,,,,,,,,,,
+Zotu1602,,,,,,,,,,,,
+Zotu1603,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Muridae           ,Rattus      ,Rattus norvegicus,Rattus norvegicus Y Chr BAC RNECO-178E11 (Amplicon Express Rat SHR-Akr (EcoR1 Digest) BAC library) complete sequence,AC243789.4,3.38E-102,91.667,10116
+Zotu1604,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 23",LR877210.1,7.73E-19,90.123,38674
+Zotu1605,,,,,,,,,,,,
+Zotu1606,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans small subunit ribosomal RNA gene, partial sequence",MH614643.1,4.97E-115,97.211,75058
+Zotu1607,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,3.02E-153,96.687,863246
+Zotu1608,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus breed New Zealand White clone LB1-18E1, complete sequence",AC124040.3,2.7E-113,93.127,9986
+Zotu1609,,,,,,,,,,,,
+Zotu1610,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone 0009H09, complete sequence",AC234889.2,1.15E-75,92.683,9986
+Zotu1611,Eukaryota,Euglenozoa ,Kinetoplastea ,Eubodonida     ,Bodonidae,Bodo        ,Bodo saltans,"Bodo saltans 18S ribosomal RNA gene, partial sequence",AY490230.1,1.07E-111,96.443,75058
+Zotu1612,,,,,,,,"Uncultured kinetoplastid clone CB_101 18S ribosomal RNA gene, partial sequence",JN629578.1,1.91E-59,85.062,0
+Zotu1613,Eukaryota,Chordata   ,Mammalia      ,Lagomorpha     ,Leporidae         ,Oryctolagus ,Oryctolagus cuniculus,"Oryctolagus cuniculus, clone Oryctolagus cuniculus-16720857A1, complete sequence",AC158745.2,2.66E-109,94.697,9986
+Zotu1614,,,,,,,,,,,,
+Zotu1615,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.07E-162,98.214,863246
+Zotu1616,,,,,,,,,,,,
+Zotu1617,,,,,,,,,,,,
+Zotu1618,,,,,,,,,,,,
+Zotu1619,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,1.09E-152,96.429,863246
+Zotu1620,,,,,,,,,,,,
+Zotu1621,,,,,,,,"Oryctolagus cuniculus clone BAC LBAB_204B12, complete sequence",KJ810982.1,9.73E-47,87.151,0
+Zotu1622,,,,,,,,,,,,
+Zotu1623,,,,,,,,,,,,
+Zotu1624,Eukaryota,,,,,,uncultured eukaryote,"Uncultured eukaryote clone L8.1 18S ribosomal RNA gene, partial sequence",AY753976.1,1.83E-89,91.532,100272
+Zotu1625,,,,,,,,Rattus norvegicus 18 BAC CH230-372C24 (Children&apos;s Hospital Oakland Research Institute) complete sequence,AC127734.4,5.94E-30,82.927,0
+Zotu1626,,,,,,,,,,,,
+Zotu1627,Eukaryota,Chordata   ,Mammalia      ,Rodentia       ,Cricetidae        ,Onychomys   ,Onychomys torridus,"Onychomys torridus genome assembly, chromosome: 12",LR877199.1,0.00000024,100,38674
+Zotu1628,,,,,,,,,,,,
+Zotu1629,,,,,,,,,,,,
+Zotu1630,Eukaryota,Euglenozoa ,Kinetoplastea ,Trypanosomatida,Trypanosomatidae,Trypanosoma ,Trypanosoma gilletti,"Trypanosoma gilletti isolate OTU2b 18S ribosomal RNA gene, partial sequence",KY640312.1,7.97E-119,99.177,863246
