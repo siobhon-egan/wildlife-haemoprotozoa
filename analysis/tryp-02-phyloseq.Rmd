@@ -8,10 +8,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
-```
-
 Visualization and analysis of trypanosome NGS data data.
 
 > Note this was run using R version 4.0.3 and RStudo version 1.4. See [R info](#rinfo) for full details of R session.
@@ -54,7 +50,7 @@ BiocManager::install("Biostrings")
 
 **Load libraries**
 
-```{r}
+```{r message=FALSE, warning=FALSE, results='hide'}
 pkgs <- c("qiime2R", "phyloseq", "tidyverse", "ampvis2",
           "ampvis2extras", "ggpubr", "agricolae", "plotly",
           "viridis", "cowplot", "MicrobeR", "microbiome",
@@ -72,7 +68,7 @@ theme_set(theme_bw())
 Generate phyloseq object from spreadsheets.
 
 Import ASV/OTU count data
-```{r}
+```{r, eval = FALSE}
 count_data <- read_csv("data/tryp-phyloseq/count_data_cleaned.csv")
 # use first column as label for rows
 count_data_lab = column_to_rownames(count_data, var = "#Zotu ID")
@@ -81,7 +77,7 @@ otumat <- as.matrix(count_data_lab)
 ```
 
 Import taxonomy data
-```{r}
+```{r, eval = FALSE}
 taxonomy <- read_csv("data/tryp-phyloseq/taxonomy.csv", 
     col_types = cols(Accession_description = col_skip(), 
         `Accession no.` = col_skip(), evalue = col_skip(), 
@@ -92,7 +88,7 @@ taxmat <- as.matrix(taxonomy_lab)
 ```
 
 Check the class of the otumat and taxmat objects, they MUST be in matrix format. Then we can great a phyloseq object called physeq from the otu and taxonomy tables and check the sample names.
-```{r}
+```{r, eval = FALSE}
 class(otumat)
 class(taxmat)
 OTU = otu_table(otumat, taxa_are_rows = TRUE)
@@ -105,13 +101,13 @@ sample_names(physeq)
 **Add metadata and sequence data**
 
 Add sequences to phyloseq object
-```{r}
+```{r, eval = FALSE}
 # read sequence file
 rep.seqs <- Biostrings::readDNAStringSet("data/tryp-phyloseq/unoise_zotus.fasta", format = "fasta")
 ```
 
 Add metadata, importing gDNAID as factor to be able to merge later on
-```{r}
+```{r, eval = FALSE}
 metadata <- read_csv("data/tryp-phyloseq/sampledata.csv")
 metadata_lab = column_to_rownames(metadata, var = "SampleID")
 sampledata = sample_data(data.frame(metadata_lab))
@@ -121,7 +117,7 @@ sampledata
 **Create final phyloseq object**
 
 Now you can merge your data to create a final phyloseq object
-```{r eval=FALSE}
+```{r, eval = FALSE}
 ps_raw_tryp = merge_phyloseq(physeq, sampledata, rep.seqs)
 ```
 
@@ -129,7 +125,7 @@ ps_raw_tryp = merge_phyloseq(physeq, sampledata, rep.seqs)
 **Preliminary subset**
 
 Remove samples with NA values or not part of final data set,
-```{r}
+```{r, eval = FALSE}
 ps_raw_tryp <- subset_samples(ps_raw_tryp, !SampleType=="SampleEcol")
 ps_samp_tryp <- subset_samples(ps_raw_tryp, SampleType=="Sample")
 ```
@@ -137,7 +133,7 @@ ps_samp_tryp <- subset_samples(ps_raw_tryp, SampleType=="Sample")
 #### Save/load `.RData`
 
 Save R data for phyloseq object - saving "raw data" which inc controls (`ps_raw_tryp`) and "sample only data"  (`ps_samp_tryp`)
-```{r}
+```{r, eval = FALSE}
 save(ps_raw_tryp, file = "data/Rdata/ps_raw_tryp.RData")
 save(ps_samp_tryp, file = "data/Rdata/ps_samp_tryp.RData")
 ```
@@ -151,10 +147,10 @@ load("data/Rdata/ps_samp_tryp.RData")
 
 An easy way to view the tables is using Nice Tables
 ```{r}
-Nice.Table(ps_raw_tryp@sam_data)
+Nice.Table(ps_samp_tryp@sam_data)
 ```
 ```{r}
-Nice.Table(ps_raw_tryp@tax_table)
+Nice.Table(ps_samp_tryp@tax_table)
 ```
 
 
@@ -172,13 +168,15 @@ df$LibrarySize <- sample_sums(ps_raw_tryp)
 df <- df[order(df$LibrarySize),]
 df$Index <- seq(nrow(df))
 libQC <- ggplot(data=df, aes(x=Index, y=LibrarySize, color=SampleType)) + geom_point() + theme_bw() + scale_colour_brewer(palette = "Set1")
-ggsave("libQC.pdf", plot = libQC, path = "output/plots/trypNGS", width = 15, height = 10, units = "cm")
+libQC
+#ggsave("libQC.pdf", plot = libQC, path = "output/plots/trypNGS", width = 15, height = 10, units = "cm")
 ```
 
 Make html plot with `plotly`
 ```{r}
 libQCplotly <- ggplotly(libQC)
-htmlwidgets::saveWidget(libQCplotly, "output/plots/libQCplotly.html")
+libQCplotly
+#htmlwidgets::saveWidget(libQCplotly, "output/plots/libQCplotly.html")
 ```
 
 
@@ -187,15 +185,17 @@ Make distribution plot of reads using [microbiomeutilities](https://microsud.git
 distrib <- plot_read_distribution(ps_raw_tryp, groups = "SampleCategory", 
                             plot.type = "density") + xlab("Reads per sample") + ylab("Density")
 distrib <- distrib + geom_density(alpha = 0.5, fill = "grey") + theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1))
-ggsave("distrib.pdf", plot = distrib, path = "output/plots/trypNGS", width = 15, height = 10, units = "cm")
+distrib
+#ggsave("distrib.pdf", plot = distrib, path = "output/plots/trypNGS", width = 15, height = 10, units = "cm")
 ```
+
+Merge the two above plots into one figure.
 
 ```{r}
 QC <- ggarrange(libQC, distrib,
                     labels = c("A", "B"),
                     ncol = 1, nrow = 2)
-ggsave("QC.pdf", plot = QC, path = "output/plots/trypNGS", width = 20, height = 20, units = "cm")
-
+#ggsave("QC.pdf", plot = QC, path = "output/plots/trypNGS", width = 20, height = 20, units = "cm")
 ```
 
 ## 3. Subset and Filter
@@ -232,7 +232,7 @@ ps_LNB = subset_samples(ps_samp_tryp, species=="Long-nosed bandicoot")
 
 **Make ampvis2 object for analysis**
 
-```{r}
+```{r, eval=FALSE}
 #require the devtools package to source gist
 if(!require("devtools"))
   install.packages("devtools")
@@ -241,6 +241,15 @@ devtools::source_gist("8d0ca4206a66be7ff6d76fc4ab8e66c6")
 
 #convert
 tryp_amp <- phyloseq_to_ampvis2(ps_samp_tryp)
+
+#save ampvis2 RData obj
+save(tryp_amp, file = "data/Rdata/tryp_amp.RData")
+```
+
+Load in saved ampvis2 obj
+
+```{r}
+load("data/Rdata/tryp_amp.RData")
 ```
 
 Subset ampvis2 object based on sample category
@@ -263,11 +272,13 @@ amp_tick <- amp_subset_samples(amp_samp,
                                  RemoveAbsents = TRUE)
 ```
 
+
+
 ## 4. Heatmap
 
 ### 4.1. ampvis2
 
-Make heat map using [ampvis2](https://madsalbertsen.github.io/ampvis2/reference/amp_heatmap.html)
+Make heat map using [ampvis2](https://madsalbertsen.github.io/ampvis2/reference/amp_heatmap.html).
 
 First filter taxa 
 ```{r}
@@ -298,7 +309,7 @@ amp_samp_targettryp <- amp_subset_taxa(amp_samp,
 
 Heatmap of subsetted data using relative abundance
 ```{r}
-# Relative abundance order level
+# Relative abundance order level trypanosome subset obj
 heatmap_rel1 <- amp_heatmap(amp_samp_otry,
             facet_by = "SampleCategory",
             group_by = "species",
@@ -312,7 +323,9 @@ heatmap_rel1 <- amp_heatmap(amp_samp_otry,
         axis.text.y = element_text(size=10),
         legend.position="right")
 
-# Relative abundance trypanosoma species of interest
+heatmap_rel1
+
+# Relative abundance species level trypanosome subset obj
 heatmap_rel2 <- amp_heatmap(amp_samp_targettryp,
             facet_by = "SampleCategory",
             group_by = "species",
@@ -326,15 +339,18 @@ heatmap_rel2 <- amp_heatmap(amp_samp_targettryp,
         axis.text.y = element_text(size=10),
         legend.position="right")
 
+heatmap_rel2
 ```
+
 Save PDF of plots
-```{r}
+```{r, eval=FALSE}
 ggsave("heatmap_rel1.pdf", plot = heatmap_rel1, path = "output/plots/trypNGS", width = 25, height = 15, units = "cm")
 ggsave("heatmap_rel2.pdf", plot = heatmap_rel2, path = "output/plots/trypNGS", width = 25, height = 15, units = "cm")
 ```
 
 **Count of sequences**
-```{r}
+
+```{r, eval=FALSE}
 heatmap_count <- amp_heatmap(amp_samp,
             facet_by = "SampleCategory",
             group_by = "species",
@@ -344,20 +360,23 @@ heatmap_count <- amp_heatmap(amp_samp,
             plot_values = FALSE,
             plot_values_size = 3,
             round = 0, color_vector = c("white", "#e5ba52", "#ab7ca3", "#9d02d7", "#0030bf"), plot_colorscale = "log10") + theme(axis.text.x = element_text(angle = 45, size=10, vjust = 1), axis.text.y = element_text(size=10), legend.position="right")
+heatmap_count
 ```
 
 ### 4.2. microbiomeutilities
 
 Heatmap using [microbiomeutilities](https://microsud.github.io/microbiomeutilities/articles/microbiomeutilities.html#heatmaps)
 
-Subset taxa
+Create a detailed heatmap using the micro utilities package.
+
+Subset taxa of interest
 ```{r}
 ps_tryp_otry = subset_taxa(ps_samp_tryp, Order=="Trypanosomatida")
 ps_tryp_subtry = subset_taxa(ps_samp_tryp, Species=="Trypanosoma gilletti" | Species=="Trypanosoma sp. (cyclops-like)" | Species =="Trypanosoma vegrandis" | Species=="Trypanosoma noyesi" | Species=="Trypanosoma sp. (lewisi-like)" | Species =="Lotmaria passim")
 ```
 
+Creat plot
 ```{r}
-
 # create a gradient color palette for abundance
 #grad_ab <- colorRampPalette(c("#faf3dd","#f7d486" ,"#5e6472"))
 color_vector = colorRampPalette(c("#faf3dd", "#e5ba52", "#ab7ca3", "#9d02d7", "#0030bf"))
@@ -379,10 +398,11 @@ ph_heatmap <- plot_taxa_heatmap(ps_tryp_subtry,
                        cluster_rows = T,
                        cluster_cols = F,
                        show_colnames = F,
-                       annotation_colors=meta_colors, fontsize = 8,)
+                       annotation_colors=meta_colors, fontsize = 8)
+ph_heatmap$plot
 ```
 
 Save PDF of plots
-```{r}
+```{r, eval=FALSE}
 ggsave("ph_heatmap.pdf", plot = ph_heatmap$plot, path = "output/plots/trypNGS", width = 25, height = 15, units = "cm")
 ```
