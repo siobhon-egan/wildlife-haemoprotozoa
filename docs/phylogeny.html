@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.7.2/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -32,6 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/master/img/reproducible.png">
 <!-- Add a small amount of space between sections. -->
@@ -255,13 +257,22 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">About</a>
-</li>
-<li>
   <a href="license.html">License</a>
 </li>
-<li>
-  <a href="tryp-phyloseq.html">Trypanosome</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Trypanosome NGS
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="tryp-01-NGS-bioinfo.html">Trypanosome NGS processing</a>
+    </li>
+    <li>
+      <a href="tryp-02-phyloseq.html">Trypanosome NGS phyloseq</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="misc-dataviz.html">Summary figures</a>
@@ -271,7 +282,13 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa">
+    <span class="fas fa-github"></span>
+     
+    Source code
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -306,7 +323,7 @@ $(document).ready(function () {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2021-03-18
+<strong>Last updated:</strong> 2021-07-02
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -397,16 +414,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongd429fdd"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> d429fdd </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8e3850e821eb0efb45e29080b9eae824a24a9559targetblank8e3850ea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8e3850e821eb0efb45e29080b9eae824a24a9559" target="_blank">8e3850e</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongd429fdd" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8e3850e821eb0efb45e29080b9eae824a24a9559targetblank8e3850ea" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version d429fdd. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8e3850e821eb0efb45e29080b9eae824a24a9559" target="_blank">8e3850e</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -417,27 +434,28 @@ Ignored files:
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
     Ignored:    analysis/.DS_Store
+    Ignored:    analysis/.Rhistory
     Ignored:    data/.DS_Store
     Ignored:    output/.DS_Store
 
 Untracked files:
+    Untracked:  ENA_submission/
     Untracked:  NCBI_submission/
-    Untracked:  Rplot.pdf
-    Untracked:  Rplot01.pdf
     Untracked:  Rplot02.pdf
-    Untracked:  code/usearchv11_18S_Kineto.sh
     Untracked:  data/NGS_18S_kinet/
     Untracked:  data/Rdata/
     Untracked:  data/Sanger-piroplasm/
     Untracked:  data/haemoprotozoa.csv
     Untracked:  data/haemoprotozoa.xlsx
     Untracked:  data/tryp-phyloseq/
+    Untracked:  melt.csv
+    Untracked:  melt.xlsx
     Untracked:  microscopy/
     Untracked:  output/plots/
 
 Unstaged changes:
-    Modified:   analysis/_site.yml
-    Deleted:    analysis/about.Rmd
+    Modified:   README.md
+    Deleted:    analysis/tryp-phyloseq.Rmd
 
 </code></pre>
 <p>
@@ -481,7 +499,41 @@ Message
 Rmd
 </td>
 <td>
-d429fdd
+<a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/blob/8e3850e821eb0efb45e29080b9eae824a24a9559/analysis/phylogeny.Rmd" target="_blank">8e3850e</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-07-02
+</td>
+<td>
+Major update
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/siobhon-egan/wildlife-haemoprotozoa/9ad75d734b61cf66059c8d550bd0e60f0ffd10ce/docs/phylogeny.html" target="_blank">9ad75d7</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-03-18
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/blob/d429fdd489bec7e3807a5468e4b4eecc781cba0d/analysis/phylogeny.Rmd" target="_blank">d429fdd</a>
 </td>
 <td>
 siobhon-egan
@@ -500,6 +552,7 @@ First publish
 </div>
 </div>
 </div>
+<p>Phylogenetic analysis of haemorptozoa from wildlife.</p>
 <div id="piroplasm" class="section level2">
 <h2>Piroplasm</h2>
 <p>Alignment using muscle (<code>default parameters</code>), trimmed and then refined using muscle <code>refine alignment option</code>.</p>
@@ -533,7 +586,7 @@ attached base packages:
 
 other attached packages:
  [1] phangorn_2.5.5    ape_5.4-1         ggrepel_0.9.1     ggstar_1.0.1     
- [5] ggtreeExtra_1.0.1 forcats_0.5.1     stringr_1.4.0     dplyr_1.0.4      
+ [5] ggtreeExtra_1.0.1 forcats_0.5.1     stringr_1.4.0     dplyr_1.0.5      
  [9] purrr_0.3.4       readr_1.4.0       tidyr_1.1.2       tibble_3.1.0     
 [13] ggplot2_3.3.3     tidyverse_1.3.0   treeio_1.14.3     ggtree_2.4.1     
 [17] workflowr_1.6.2  
@@ -542,7 +595,7 @@ loaded via a namespace (and not attached):
  [1] httr_1.4.2          sass_0.3.1          jsonlite_1.7.2     
  [4] modelr_0.1.8        bslib_0.2.4.9001    assertthat_0.2.1   
  [7] BiocManager_1.30.10 rvcheck_0.1.8       cellranger_1.1.0   
-[10] yaml_2.2.1          pillar_1.5.0        backports_1.2.1    
+[10] yaml_2.2.1          pillar_1.5.1        backports_1.2.1    
 [13] lattice_0.20-41     quadprog_1.5-8      glue_1.4.2         
 [16] digest_0.6.27       promises_1.2.0.1    rvest_0.3.6        
 [19] colorspace_2.0-0    htmltools_0.5.1.1   httpuv_1.5.5       
@@ -560,9 +613,9 @@ loaded via a namespace (and not attached):
 [55] grid_4.0.3          rstudioapi_0.13     igraph_1.2.6       
 [58] rmarkdown_2.7.2     gtable_0.3.0        DBI_1.1.1          
 [61] R6_2.5.0            gridExtra_2.3       lubridate_1.7.10   
-[64] knitr_1.31          utf8_1.1.4          fastmatch_1.1-0    
+[64] knitr_1.31          utf8_1.2.1          fastmatch_1.1-0    
 [67] rprojroot_2.0.2     stringi_1.5.3       parallel_4.0.3     
-[70] Rcpp_1.0.6          vctrs_0.3.6         dbplyr_2.1.0       
+[70] Rcpp_1.0.6          vctrs_0.3.7         dbplyr_2.1.0       
 [73] tidyselect_1.1.0    xfun_0.21          </code></pre>
 </div>
 </div>

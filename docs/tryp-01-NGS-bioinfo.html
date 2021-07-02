@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Trypanosoma sequence processing</title>
+
+<script src="site_libs/header-attrs-2.7.2/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/master/img/reproducible.png">
+<!-- Add a small amount of space between sections. -->
+<style type="text/css">
+div.section {
+  padding-top: 12px;
+}
+</style>
+
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">wildlife-haemoprotozoa</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="license.html">License</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Trypanosome NGS
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="tryp-01-NGS-bioinfo.html">Trypanosome NGS processing</a>
+    </li>
+    <li>
+      <a href="tryp-02-phyloseq.html">Trypanosome NGS phyloseq</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="misc-dataviz.html">Summary figures</a>
+</li>
+<li>
+  <a href="phylogeny.html">Phylogeny</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa">
+    <span class="fas fa-github"></span>
+     
+    Source code
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Trypanosoma sequence processing</h1>
+
+</div>
+
+
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+</button>
+</p>
+<div id="workflowr-report" class="collapse">
+<ul class="nav nav-tabs">
+<li class="active">
+<a data-toggle="tab" href="#summary">Summary</a>
+</li>
+<li>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
+</li>
+<li>
+<a data-toggle="tab" href="#versions">Past versions</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="summary" class="tab-pane fade in active">
+<p>
+<strong>Last updated:</strong> 2021-07-02
+</p>
+<p>
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
+</p>
+<p>
+<strong>Knit directory:</strong> <code>wildlife-haemoprotozoa/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
+</p>
+<p>
+This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
+  href="https://github.com/jdblischak/workflowr">workflowr</a> (version 1.6.2). The <em>Checks</em> tab describes the reproducibility checks that were applied when the results were created. The <em>Past versions</em> tab lists the development history.
+</p>
+<hr>
+</div>
+<div id="checks" class="tab-pane fade">
+<div id="workflowr-checks" class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
+</p>
+</div>
+<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongEnvironmentstrongempty"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Environment:</strong> empty </a>
+</p>
+</div>
+<div id="strongEnvironmentstrongempty" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! The global environment was empty. Objects defined in the global environment can affect the analysis in your R Markdown file in unknown ways. For reproduciblity it’s best to always run the code in an empty environment.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSeedstrongcodesetseed20210212code"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Seed:</strong> <code>set.seed(20210212)</code> </a>
+</p>
+</div>
+<div id="strongSeedstrongcodesetseed20210212code" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The command <code>set.seed(20210212)</code> was run prior to running the code in the R Markdown file. Setting a seed ensures that any results that rely on randomness, e.g. subsampling or permutations, are reproducible.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSessioninformationstrongrecorded"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Session information:</strong> recorded </a>
+</p>
+</div>
+<div id="strongSessioninformationstrongrecorded" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Recording the operating system, R version, and package versions is critical for reproducibility.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongCachestrongnone"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Cache:</strong> none </a>
+</p>
+</div>
+<div id="strongCachestrongnone" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Nice! There were no cached chunks for this analysis, so you can be confident that you successfully produced the results during this run.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
+</p>
+</div>
+<div id="strongFilepathsstrongrelative" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<p class="panel-title">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8e3850e821eb0efb45e29080b9eae824a24a9559targetblank8e3850ea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8e3850e821eb0efb45e29080b9eae824a24a9559" target="_blank">8e3850e</a> </a>
+</p>
+</div>
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8e3850e821eb0efb45e29080b9eae824a24a9559targetblank8e3850ea" class="panel-collapse collapse">
+<div class="panel-body">
+<p>
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
+</p>
+<p>
+The results in this page were generated with repository version <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8e3850e821eb0efb45e29080b9eae824a24a9559" target="_blank">8e3850e</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+</p>
+<p>
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
+</p>
+<pre><code>
+Ignored files:
+    Ignored:    .DS_Store
+    Ignored:    .Rhistory
+    Ignored:    .Rproj.user/
+    Ignored:    analysis/.DS_Store
+    Ignored:    analysis/.Rhistory
+    Ignored:    data/.DS_Store
+    Ignored:    output/.DS_Store
+
+Untracked files:
+    Untracked:  ENA_submission/
+    Untracked:  NCBI_submission/
+    Untracked:  Rplot02.pdf
+    Untracked:  data/NGS_18S_kinet/
+    Untracked:  data/Rdata/
+    Untracked:  data/Sanger-piroplasm/
+    Untracked:  data/haemoprotozoa.csv
+    Untracked:  data/haemoprotozoa.xlsx
+    Untracked:  data/tryp-phyloseq/
+    Untracked:  melt.csv
+    Untracked:  melt.xlsx
+    Untracked:  microscopy/
+    Untracked:  output/plots/
+
+Unstaged changes:
+    Modified:   README.md
+    Deleted:    analysis/tryp-phyloseq.Rmd
+
+</code></pre>
+<p>
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
+</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div id="versions" class="tab-pane fade">
+
+<p>
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/tryp-01-NGS-bioinfo.Rmd</code>) and HTML (<code>docs/tryp-01-NGS-bioinfo.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+</p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/blob/8e3850e821eb0efb45e29080b9eae824a24a9559/analysis/tryp-01-NGS-bioinfo.Rmd" target="_blank">8e3850e</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-07-02
+</td>
+<td>
+Major update
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<div id="usearch" class="section level2">
+<h2>1. USEARCH</h2>
+<p>Analysis of illumina MiSeq pair-end reads using USEARCH v11 pipeline</p>
+<div id="set-up" class="section level3">
+<h3>Set up</h3>
+</div>
+<div id="bash-script" class="section level3">
+<h3>Bash script</h3>
+<p>Full script available at <code>code/usearchv11_18S_Kineto.sh</code></p>
+<p>To execute run <code>$ ./usearchv11_18S_Kineto.sh</code> from your terminal with raw data saved in directory called <code>raw_data</code>.</p>
+<pre class="bash"><code>#!/bin/bash
+# author: Siobhon L. Egan
+# License: MIT
+# Date: Jan 2021
+##########################################################################################
+##########################################################################################
+############################# USEARCH v11 complete pipeline ##############################
+##########################################################################################
+##########################################################################################
+#   Requirements: usearch11 must be installed on the PATH as &quot;usearch11&quot;.
+# Remeber if you have a large dataset you will need the 64 bit version.
+#   This script will work in unix and linux environments.
+#
+#   This script taked raw MiSeq demultiplexed .fastq files for input and performs the following tasks:
+#
+# 1) Merge paired reads
+#   2) Retrieve sequences matching primers
+#   3) Quality filtering of `.fastq` sequence data and removal of short dimer seqs to generate `.fasta` sequence files
+#   4) Removal low abundant sequences &amp; singletons
+#   5) Perform clustering sequences with
+#   5a) UPARSE - to produce otus (using 97% similarity threshold)
+#       5b) UNOISE3 - to produce zotus (i.e. zero-radius operational taxonomic units)
+##########################################################################################
+#   Input raw unmerged filenames must be named &quot;sample_id_SXXX_L001_R1.fastq&quot; (read 1)
+#   and &quot;sample_id_SXXX_L001_R2.fastq&quot; (read 2) and all deposited in a directory specified
+#   by the &quot;$raw_data&quot; variable. &quot;SXXX&quot; is the sample number given by the MiSeq
+#   in the order you entered them in the Sample Sheet.
+#
+#   Before use: $chmod 775 this_script.sh
+#   To run: $./this_script.sh
+#   This script will read any input directory specified by the &quot;raw_data&quot; variable, but will deposit all
+#   output into the current working diretory.
+##########################################################################################
+
+# Enter raw data directorry
+raw_data=&quot;raw_data&quot;
+# Enter directory for merged output
+merged_data=&quot;1.merged_data&quot;
+# Enter max diff for merging - default 5 but should increase for paired end
+maxdiffs=&quot;15&quot;
+# Enter minimum merge overlap - default is 16 bp
+overlap=&quot;20&quot;
+# Enter directory for sequences that are matched to primers
+primer_matched=&quot;2a.primer_matches&quot;
+# Enter directory for sequences that do not match primers
+primer_not_matched=&quot;2b.primer_not_matched&quot;
+# Enter forward sequences (5&#39;-3&#39;). Wildcard letters indicating degenerate positions in the primer are supported. See IUPAC(https://drive5.com/usearch/manual/IUPAC_codes.html) codes for details.
+fwd_primer=&quot;ACCGTTTCGGCTTTTGTTGG&quot; #18S kinetoplastid 825F Maslov et al. Biochem Parasitol (1996) 75(2): 197-205
+rev_primer=&quot;GACTACAATGGTCTCTAATC&quot; #18S kinetoplastid 662R Maslov et al. Biochem Parasitol (1996) 75(2): 197-205
+# Enter directory for quality filtered output
+QF=&quot;3.quality_filtered&quot;
+# Enter max error rate. Natural choice is 1, however may want to decrease to 0.5 or 0.25 for more stringent filtering.
+max_ee=&quot;1&quot;
+# Enter min length of sequence for trimming in bp (eg. to keep all seqs above 200 bp enter &quot;200&quot;)
+minlen=&quot;150&quot;
+# Enter directory for labeled data
+labeled_data=&quot;4.labeled_data&quot;
+# Enter directory for dereplicated sequences
+derep_dir=&quot;5.derep_data&quot;
+# Enter directory for singlteton filter data
+SF=&quot;6.singleton_filtered&quot;
+# Enter directory for singlteton sequences
+low_abund_seqs=&quot;7.singleton_sequences&quot;
+# Enter max size to discard i.e. to discard singletons = 1, duplicates = 2
+maxsize=&quot;1&quot;
+# Enter directory for sequence clustering
+cluster=&quot;8.cluster&quot;
+# Enter sub-directory for uparse_otu clustering
+uparse_otus=&quot;8a.otus&quot;
+# Enter sub-directory for unoise_zotu clustering
+unoise_zotus=&quot;8b.zotus&quot;
+
+
+##########################################################################################
+# DO NOT EDIT BELOW THIS LINE
+##########################################################################################
+
+# unzip raw_data
+
+gunzip ${raw_data}/*.fastq.gz
+
+##########################################################################################
+
+##########################################################################################
+
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo Merging paried illumina fastq sequences
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Merge paired-end reads using `-fastq_mergepairs` command, and rename sequences. This would be done before primers are trimmed.
+
+mkdir ${merged_data}
+mkdir working1
+
+#*****************************************************************************************
+# Part 1: merge reads
+
+for file1 in ${raw_data}/*R1.fastq
+  do
+    echo &quot;&quot;
+        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        echo Merging paired reads
+        echo forward reads are:
+        echo $(basename ${file1})
+        echo reverse reads are:
+        echo $(basename ${file1} R1.fastq)R2.fastq
+
+    usearch11.0.667_i86osx64 -fastq_mergepairs ${file1} -reverse &quot;${raw_data}/$(basename -s R1.fastq ${file1})R2.fastq&quot; -fastqout &quot;working1/$(basename &quot;$file1&quot;)&quot; -fastq_maxdiffs ${maxdiffs} -fastq_minovlen ${overlap} -report ${merged_data}/2a_merging_seqs_report.txt -tabbedout ${merged_data}/2b_tabbedout.txt
+done
+
+#*****************************************************************************************
+# Part 2: Remove &quot;_L001_R1&quot; from filenames
+
+for file2 in working1/*.fastq
+    do
+        rename=&quot;$(basename ${file2} _L001_R1.fastq).fastq&quot;
+    mv ${file2} ${merged_data}/${rename}
+done
+
+#*****************************************************************************************
+# Removing working directory
+
+rm -r working1
+
+##########################################################################################
+
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo Triming primers and distal bases
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# The `-search_pcr2` command searches for matches to a primer pair and outputs the sequence in between (i.e. amplicon with primers removed) into `primer_matched` file
+
+mkdir ${primer_matched}
+mkdir ${primer_not_matched}
+
+for file3 in ${merged_data}/*.fastq
+    do
+
+    usearch11.0.667_i86osx64 -search_pcr2 ${file3} -fwdprimer ${fwd_primer} \
+    -revprimer ${rev_primer} \
+    -strand both -fastqout &quot;${primer_matched}/$(basename ${file3})&quot; -notmatchedfq &quot;${primer_not_matched}/$(basename ${file3})&quot; -tabbedout ${primer_matched}pcr2_output.txt
+done
+
+##########################################################################################
+
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo Quality control and removing dimer seqs
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Quality filtering of fastq files using the `-fastq_filter` command, output gives fasta files.
+
+mkdir ${QF}
+
+for file4 in ${primer_matched}/*.fastq
+    do
+        echo &quot;&quot;
+        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        echo Quality control and removing dimer seqs
+        echo input is:
+        echo ${file4}
+
+    usearch11.0.667_i86osx64 -fastq_filter ${file4} -fastaout &quot;${QF}/$(basename &quot;$file4&quot; .fastq).fasta&quot; -fastq_maxee ${max_ee} -fastq_minlen ${minlen}
+done
+
+##########################################################################################
+
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo Renameing sequences with &quot;&gt;barcodelabel=sample_id;sequence_id&quot;
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# For this script to run correctly input fasta label must be formatted &gt;sequence_id and filename must be sample_id.fasta.
+# Result will be &quot;&gt;barcodelabel=sample_id;sequenceid&quot;
+
+mkdir ${labeled_data}
+mkdir working2
+
+#*****************************************************************************************
+# Part 1: Remove &quot;&gt;&quot; from start of sequence_ID
+
+for file5 in ${QF}/*.fasta
+    do
+        sed -e &#39;s/&gt;/&gt;barcodelabel=;/g&#39; ${file5} &gt; working2/$(basename &quot;$file5&quot; .fasta).txt
+done
+
+#*****************************************************************************************
+# Part 2: Add sample_ID (should be filename) to produce &quot;&gt;barcodelabel=sample_ID;sequence_ID&quot;
+
+for file6 in working2/*.txt
+    do
+        sample_id=$(basename ${file6} .txt)
+        echo ${sample_id}
+
+    sed -e &quot;s/;/${sample_id};/g&quot; ${file6} &gt; &quot;${labeled_data}/$(basename &quot;$file6&quot; .txt).fasta&quot;
+done
+
+#*****************************************************************************************
+# Remove working directories
+
+rm -r working2
+
+################################################################################################
+
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo Removing low abundant seqs singletons per sample
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Remove low abundant sequences (e.g. singletons) in samples using the `-fastx_uniques` command
+
+mkdir ${derep_dir}
+mkdir ${SF}
+mkdir ${low_abund_seqs}
+
+#*****************************************************************************************
+# Part 1: Dereplicating
+
+for file7 in ${labeled_data}/*.fasta
+    do
+        echo &quot;&quot;
+        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        echo Removing singletons step 1: derep_fulllength
+        echo input is:
+        echo ${file7}
+
+        usearch11.0.667_i86osx64 -fastx_uniques ${file7} -fastaout &quot;${derep_dir}/$(basename &quot;$file7&quot; .fasta).fasta&quot; -sizeout
+done
+
+#*****************************************************************************************
+# Part 2: Filtering low abundant seqs {maxsize}
+
+for file8 in ${derep_dir}/*.fasta
+    do
+        echo &quot;&quot;
+        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        echo Removing singletons step 2: sorting uniques
+        echo input is:
+        echo ${file8}
+
+        usearch11.0.667_i86osx64 -sortbysize ${file8} -fastaout &quot;${low_abund_seqs}/$(basename &quot;$file8&quot; .fasta).fasta&quot; -maxsize ${maxsize}
+done
+
+#*****************************************************************************************
+# Step 3: Mapping reads
+
+for file9 in ${labeled_data}/*.fasta
+    do
+      echo &quot;&quot;
+      echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      echo Removing singletons step 3: mapping reads to low abundant uniques
+      echo input is:
+      echo ${file9}
+
+      usearch11.0.667_i86osx64 -search_exact ${file9} -db &quot;${low_abund_seqs}/$(basename &quot;$file9&quot; .fasta).fasta&quot; -strand plus -notmatched &quot;${SF}/$(basename &quot;$file9&quot; .fasta).fasta&quot;
+done
+
+################################################################################################
+################################################################################################
+
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo CLUSTERING
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# Concatenate all singleton filter sequences into a single fasta file
+# Find the set of unique sequences in an input file, also called dereplication using `-fastx_uniques` command
+
+mkdir ${cluster}
+
+cat ${SF}/*.fasta &gt; ${cluster}/all_SF.fasta
+
+cd ${cluster}
+
+usearch11.0.667_i86osx64 -fastx_uniques all_SF.fasta -fastaout all_SF_DR.fasta -sizeout
+
+#*****************************************************************************************
+
+echo ----------------------------------------------------------------------------
+echo Part a - Generating UPARSE OTUs
+echo ----------------------------------------------------------------------------
+
+# Cluster sequences in 97% operational taxonomic units (OTUs) using UPARSE algorithm `-cluster_otus` command and generate an OTU table
+
+mkdir ${uparse_otus}
+cd ${uparse_otus}
+
+    usearch11.0.667_i86osx64 -cluster_otus ../all_SF_DR.fasta -otus uparse_otus.fasta -relabel OTU
+
+  usearch11.0.667_i86osx64 -usearch_global ../all_SF.fasta -db uparse_otus.fasta -strand both -id 0.97 -otutabout uparse_otu_tab.txt -biomout uparse_otu_biom.biom
+
+  # The next two lines are options - they produce a distance matrix file and then a tree (newick format)
+  # Current parameters are a guide only and you will need to optimse them for your data
+  # Large datasets can take a long time, so you can skip this part for now to speed up analysis
+
+#  usearch11.0.667_i86osx64 -calc_distmx uparse_otus.fasta -tabbedout uparse_otus_distmx.txt -maxdist 0.2 -termdist 0.3
+
+#   usearch11.0.667_i86osx64 -cluster_aggd uparse_otus_distmx.txt -treeout uparse_otus_clusters.tree -clusterout uparse_otus_clusters.txt \
+#     -id 0.80 -linkage min
+cd ..
+
+#*****************************************************************************************
+
+echo ----------------------------------------------------------------------------
+echo Part b - Generating UNOISE ZOTUs
+echo ----------------------------------------------------------------------------
+
+# Cluster sequences in zero-radius operational taxonomic units (ZOTUs) using `-unoise3` command and generate a ZOTU table
+
+mkdir ${unoise_zotus}
+cd ${unoise_zotus}
+
+  usearch11.0.667_i86osx64 -unoise3 ../all_SF_DR.fasta -zotus unoise_zotus.fasta -tabbedout unoise_tab.txt
+
+    usearch11.0.667_i86osx64 -fastx_relabel unoise_zotus.fasta -prefix Otu -fastaout unoise_zotus_relabeled.fasta -keep_annots
+
+    usearch11.0.667_i86osx64 -otutab ../all_SF.fasta -zotus unoise_zotus_relabeled.fasta -otutabout unoise_otu_tab.txt -biomout unoise_otu_biom.biom -mapout unoise_map.txt -notmatched unoise_notmatched.fasta -dbmatched dbmatches.fasta -sizeout
+
+  # The next two lines are options - they produce a distance matrix file and then a tree (newick format)
+  # Current parameters are a guide only and you will need to optimse them for your data
+  # Large datasets can take a long time, so you can skip this part for now to speed up analysis
+
+#  usearch11.0.667_i86osx64 -calc_distmx unoise_zotus.fasta -tabbedout unoise_zotus_distmx.txt -maxdist 0.2 -termdist 0.3
+
+#  usearch11.0.667_i86osx64 -cluster_aggd unoise_zotus_distmx.txt -treeout unoise_zotus_clusters.tree -clusterout unoise_zotus_clusters.txt \
+#    -id 0.80 -linkage min
+cd ..
+cd ..
+
+################################################################################################
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo ANALYSIS COMPLETE
+echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+################################################################################################</code></pre>
+</div>
+</div>
+<div id="sequence-info" class="section level2">
+<h2>2. Sequence info</h2>
+<p>Subject zOTUs to blast search against nucleotide database and downloaded detailed output (including top 100 hits).</p>
+<p>Filtered tops hit by evalue, percentage identity and query coverage to retrieve the top hit.</p>
+<p>Using the top hit nucleotide accession number I then retrieved the taxonid using the following:</p>
+<pre><code>for ACC in A00002 X53307 BB145968 CAA42669 V00181 AH002406 HQ844023
+do
+   echo -n -e &quot;$ACC\t&quot;
+   curl -s &quot;https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&amp;id=${ACC}&amp;rettype=fasta&amp;retmode=xml&quot; |\
+   grep TSeq_taxid |\
+   cut -d &#39;&gt;&#39; -f 2 |\
+   cut -d &#39;&lt;&#39; -f 1 |\
+   tr -d &quot;\n&quot;
+   echo
+ done</code></pre>
+<p>To get sequence description information use the following:</p>
+<pre><code>for ACC in A00002 X53307 BB145968 CAA42669 V00181 AH002406 HQ844023
+do
+   echo -n -e &quot;$ACC\t&quot;
+   curl -s &quot;https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&amp;id=${ACC}&amp;rettype=fasta&amp;retmode=xml&quot; |\
+   grep TSeq_defline |\
+   cut -d &#39;&gt;&#39; -f 2 |\
+   cut -d &#39;&lt;&#39; -f 1 |\
+   tr -d &quot;\n&quot;
+   echo
+ done</code></pre>
+<p>Use TaxonKit to get lineage information. Documentation <a href="https://bioinf.shenwei.me/taxonkit/">here</a>, GitHub repo <a href="https://github.com/shenwei356/taxonkit">here</a></p>
+<p><strong>Install</strong> - for linux, other platforms available <a href="https://bioinf.shenwei.me/taxonkit/download/">here</a></p>
+<pre><code>wget https://github.com/shenwei356/taxonkit/releases/download/v0.7.1/taxonkit_linux_amd64.tar.gz
+wget https://github.com/shenwei356/csvtk/releases/download/v0.22.0/csvtk_linux_amd64.tar.gz
+#unzip
+tar -zxvf *.tar.gz</code></pre>
+<p>Download and decompress taxdump</p>
+<pre><code>wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+tar -zxvf taxdump.tar.gz
+
+mkdir -p $HOME/.taxonkit
+cp names.dmp nodes.dmp delnodes.dmp merged.dmp $HOME/.taxonkit</code></pre>
+<p>Show lineage consisting of taxids:</p>
+<pre><code>taxonkit lineage -t  taxids.txt \
+    | csvtk pretty -t</code></pre>
+<p>Write lineage information to text file</p>
+<pre><code>taxonkit lineage taxids.txt | awk &#39;$2!=&quot;&quot;&#39; &gt; lineage.txt</code></pre>
+<p>Reformat lineage file to the following output: <code>{k};{p};{c};{o};{f};{g};{s}</code></p>
+<pre><code>taxonkit reformat lineage.txt | tee lineage.txt.reformat
+cut -f 1,3 lineage.txt.reformat</code></pre>
+<p>Align output to show taxonomic classification clearly</p>
+<pre><code> \lineage.txt \
+    | taxonkit reformat \
+    | csvtk -H -t cut -f 1,3 \
+    | csvtk -H -t sep -f 2 -s &#39;;&#39; -R \
+    | csvtk add-header -t -n taxid,kindom,phylum,class,order,family,genus,species \
+    | csvtk pretty -t</code></pre>
+<hr />
+</div>
+<div id="qc-of-data-from-phyloseq" class="section level2">
+<h2>3. QC of data from phyloseq</h2>
+<blockquote>
+<p>Note this was run using R version 4.0.3 and RStudo version 1.4. See <a href="#rinfo">R info</a> for full details of R session.</p>
+</blockquote>
+<div id="load-libraries" class="section level3">
+<h3>Load libraries</h3>
+<p><strong>Install libraries if required</strong></p>
+<p>Only need to run this code once.</p>
+<pre><code>if (!requireNamespace(&quot;BiocManager&quot;, quietly = TRUE))
+    install.packages(&quot;BiocManager&quot;)
+# phyloseq
+source(&#39;http://bioconductor.org/biocLite.R&#39;)
+biocLite(&#39;phyloseq&#39;)
+#tidyverse
+install. packages(&quot;tidyverse&quot;)
+#ampvis2
+install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;MadsAlbertsen/ampvis2&quot;)
+#ampvis2extras
+install.packages(&quot;BiocManager&quot;)
+BiocManager::install(&quot;kasperskytte/ampvis2extras&quot;)
+#ggpubr
+install.packages(&quot;ggpubr&quot;)
+#agricolae
+install.packages(&quot;agricolae&quot;)
+install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;DanielSprockett/reltools&quot;)
+devtools::install_github(&#39;jsilve24/philr&#39;)
+#decontam
+BiocManager::install(&quot;decontam&quot;)
+library(decontam)
+if (!requireNamespace(&quot;BiocManager&quot;, quietly = TRUE))
+install.packages(&quot;BiocManager&quot;)
+BiocManager::install(&quot;Biostrings&quot;)</code></pre>
+<p><strong>Load libraries</strong></p>
+<pre class="r"><code>pkgs &lt;- c( &quot;qiime2R&quot;, &quot;phyloseq&quot;, &quot;tidyverse&quot;, &quot;ampvis2&quot;,
+          &quot;ampvis2extras&quot;, &quot;ggpubr&quot;, &quot;agricolae&quot;, &quot;plotly&quot;,
+          &quot;viridis&quot;, &quot;cowplot&quot;, &quot;MicrobeR&quot;, &quot;microbiome&quot;, 
+          &quot;reshape&quot;, &quot;decontam&quot;, &quot;data.table&quot;, &quot;ape&quot;, &quot;DESeq2&quot;, 
+          &quot;vegan&quot;,&quot;microbiomeutilities&quot;, &quot;knitr&quot;, &quot;tibble&quot;, &quot;dplyr&quot;,
+          &quot;patchwork&quot;,&quot;Biostrings&quot;)
+
+lapply(pkgs, require, character.only = TRUE)
+# set theme
+theme_set(theme_bw())</code></pre>
+</div>
+<div id="create-qc-phyloseq-object" class="section level3">
+<h3>Create QC phyloseq object</h3>
+<p>Generate phyloseq object from spreadsheets.</p>
+<p>Import ASV/OTU count data</p>
+<pre class="r"><code>count_data &lt;- read_csv(&quot;data/tryp-phyloseq/count_data_raw.csv&quot;)
+# use first column as label for rows
+count_data_lab = column_to_rownames(count_data, var = &quot;#Zotu ID&quot;)
+# Make matrix
+otumat &lt;- as.matrix(count_data_lab)</code></pre>
+<p>Import taxonomy data</p>
+<pre class="r"><code>taxonomy &lt;- read_csv(&quot;data/tryp-phyloseq/taxonomy.csv&quot;, 
+    col_types = cols(Accession_description = col_skip(), 
+        `Accession no.` = col_skip(), evalue = col_skip(), 
+        `per. Ident` = col_skip(), taxid = col_skip()))
+# use first column as label for rows
+taxonomy_lab = column_to_rownames(taxonomy, var = &quot;#Zotu ID&quot;)
+taxmat &lt;- as.matrix(taxonomy_lab)</code></pre>
+<p>Check the class of the otumat and taxmat objects, they MUST be in matrix format. Then we can great a phyloseq object called physeq from the otu and taxonomy tables and check the sample names.</p>
+<pre class="r"><code>class(otumat)
+class(taxmat)
+OTU = otu_table(otumat, taxa_are_rows = TRUE)
+TAX = tax_table(taxmat)
+physeq = phyloseq(OTU, TAX)
+physeq
+sample_names(physeq)</code></pre>
+<p><strong>Add metadata and sequence data</strong></p>
+<p>Add sequences to phyloseq object</p>
+<pre class="r"><code># read sequence file
+rep.seqs &lt;- Biostrings::readDNAStringSet(&quot;data/tryp-phyloseq/unoise_zotus.fasta&quot;, format = &quot;fasta&quot;)</code></pre>
+<p>Add metadata, importing gDNAID as factor to be able to merge later on</p>
+<pre class="r"><code>metadata &lt;- read_csv(&quot;data/tryp-phyloseq/sampledata.csv&quot;)
+metadata_lab = column_to_rownames(metadata, var = &quot;SampleID&quot;)
+sampledata = sample_data(data.frame(metadata_lab))
+sampledata</code></pre>
+<p><strong>Create final phyloseq object</strong></p>
+<p>Now you can merge your data to create a final phyloseq object</p>
+<pre class="r"><code>ps_raw_tryp = merge_phyloseq(physeq, sampledata, rep.seqs)</code></pre>
+<p>Filter out negative controls and after identifying threshold for positive reads, transform otu count data</p>
+<pre class="r"><code>ps_raw_tryp@otu_table [, 1:580][ps_raw_tryp@otu_table [, 1:580] &lt; 150] &lt;- 0
+QC_otu = ps_raw_tryp@otu_table
+write.csv(QC_otu, &quot;data/tryp_phyloseq/count_data_QC.csv&quot;)</code></pre>
+<hr />
+<br>
+<p>
+<button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
+<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
+</button>
+</p>
+<div id="workflowr-sessioninfo" class="collapse">
+<pre class="r"><code>sessionInfo()</code></pre>
+</div>
+</div>
+</div>
+
+
+<!-- Adjust MathJax settings so that all math formulae are shown using
+TeX fonts only; see
+http://docs.mathjax.org/en/latest/configuration.html.  This will make
+the presentation more consistent at the cost of the webpage sometimes
+taking slightly longer to load. Note that this only works because the
+footer is added to webpages before the MathJax javascript. -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
