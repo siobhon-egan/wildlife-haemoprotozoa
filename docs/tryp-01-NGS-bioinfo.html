@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -230,6 +233,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -237,6 +303,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -281,7 +357,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa">
-    <span class="fas fa-github"></span>
+    <span class="fab fa-github"></span>
      
     Source code
   </a>
@@ -320,7 +396,7 @@ $(document).ready(function () {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2021-07-02
+<strong>Last updated:</strong> 2021-07-03
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -411,16 +487,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8a0681f432ce68494c7488138a9fba43e979f356targetblank8a0681fa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8a0681f432ce68494c7488138a9fba43e979f356" target="_blank">8a0681f</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree63bd5ef09fe49e8af71c77b528af2248e8127c15targetblank63bd5efa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/63bd5ef09fe49e8af71c77b528af2248e8127c15" target="_blank">63bd5ef</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree8a0681f432ce68494c7488138a9fba43e979f356targetblank8a0681fa" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsiobhoneganwildlifehaemoprotozoatree63bd5ef09fe49e8af71c77b528af2248e8127c15targetblank63bd5efa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/8a0681f432ce68494c7488138a9fba43e979f356" target="_blank">8a0681f</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/tree/63bd5ef09fe49e8af71c77b528af2248e8127c15" target="_blank">63bd5ef</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -453,9 +529,8 @@ Untracked files:
     Untracked:  output/plots/
 
 Unstaged changes:
-    Modified:   analysis/_site.yml
-    Modified:   analysis/misc-dataviz.Rmd
-    Deleted:    analysis/phylogeny.Rmd
+    Modified:   README.md
+    Modified:   code/usearchv11_18S_Kineto.sh
 
 </code></pre>
 <p>
@@ -494,6 +569,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/blob/63bd5ef09fe49e8af71c77b528af2248e8127c15/analysis/tryp-01-NGS-bioinfo.Rmd" target="_blank">63bd5ef</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-07-03
+</td>
+<td>
+Formatting and setup updates
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/siobhon-egan/wildlife-haemoprotozoa/46081868298a525c8865a4dd0c3562bbb9f25585/docs/tryp-01-NGS-bioinfo.html" target="_blank">4608186</a>
+</td>
+<td>
+siobhon-egan
+</td>
+<td>
+2021-07-02
+</td>
+<td>
+footer
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -537,13 +646,24 @@ Major update
 </div>
 <div id="usearch" class="section level2">
 <h2>1. USEARCH</h2>
-<p>Analysis of illumina MiSeq pair-end reads using USEARCH v11 pipeline</p>
+<p>Analysis of Illumina MiSeq pair-end reads using <a href="https://drive5.com/usearch/">USEARCH</a> pipeline.</p>
 <div id="set-up" class="section level3">
 <h3>Set up</h3>
+<p>This script was run on Pawsey nimbus virtual machine but can be fun on any macOS or linux operating systems.</p>
+<p>The following script was run using <a href="https://www.drive5.com/usearch/manual/whatsnewv11.html">USEARCH version 11</a></p>
+<p>A free 32-bit version is available for download <a href="https://drive5.com/usearch/download.html">here</a>.</p>
+<p>To install it, all you do is download or copy the binary to a directory that is accessible from the computer where you want to run the code. For convenience, you may want to rename the binary file to USEARCH to avoid typing long names like usearchXX.X.XX_iXXOS32. You can also update your <code>$PATH</code> to save you referring to the path.</p>
+<p>Execute permissions if required</p>
+<pre class="bash"><code>chmod +x usearch11</code></pre>
+<p>To update profile add the following to the <code>.bash_profile</code></p>
+<pre class="bash"><code>#Adding USEARCH
+export PATH=&quot;~/Programs/USEARCH:$PATH&quot;</code></pre>
+<p>Check path is updated with</p>
+<pre class="bash"><code>echo $PATH</code></pre>
 </div>
 <div id="bash-script" class="section level3">
 <h3>Bash script</h3>
-<p>Full script available at <code>code/usearchv11_18S_Kineto.sh</code></p>
+<p>Full script available at in the GitHub repository under the <strong>code/</strong> directory <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/blob/master/code/usearchv11_18S_Kineto.sh">here</a>.</p>
 <p>To execute run <code>$ ./usearchv11_18S_Kineto.sh</code> from your terminal with raw data saved in directory called <code>raw_data</code>.</p>
 <pre class="bash"><code>#!/bin/bash
 # author: Siobhon L. Egan
@@ -877,12 +997,13 @@ echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ################################################################################################</code></pre>
 </div>
 </div>
-<div id="sequence-info" class="section level2">
-<h2>2. Sequence info</h2>
-<p>Subject zOTUs to blast search against nucleotide database and downloaded detailed output (including top 100 hits).</p>
+<div id="sequence-taxonomy" class="section level2">
+<h2>2. Sequence taxonomy</h2>
+<p>Resulting zOTUs were then subject to BLAST analysis (BLASTN 2.11.0+) against NCBI nucleotide collection (nt) database. The top 100 BLAST hits were then downloaded for downstream taxonomy analysis.</p>
+<p>Nucleotide sequences were subject to BLAST analysis (BLASTN 2.11.0+<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> using MegaBLAST<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> against NCBI nucleotide collection (nt) database.</p>
 <p>Filtered tops hit by evalue, percentage identity and query coverage to retrieve the top hit.</p>
 <p>Using the top hit nucleotide accession number I then retrieved the taxonid using the following:</p>
-<pre><code>for ACC in A00002 X53307 BB145968 CAA42669 V00181 AH002406 HQ844023
+<pre class="bash"><code>for ACC in A00002 X53307 BB145968 CAA42669 V00181 AH002406 HQ844023
 do
    echo -n -e &quot;$ACC\t&quot;
    curl -s &quot;https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&amp;id=${ACC}&amp;rettype=fasta&amp;retmode=xml&quot; |\
@@ -893,7 +1014,7 @@ do
    echo
  done</code></pre>
 <p>To get sequence description information use the following:</p>
-<pre><code>for ACC in A00002 X53307 BB145968 CAA42669 V00181 AH002406 HQ844023
+<pre class="bash"><code>for ACC in A00002 X53307 BB145968 CAA42669 V00181 AH002406 HQ844023
 do
    echo -n -e &quot;$ACC\t&quot;
    curl -s &quot;https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&amp;id=${ACC}&amp;rettype=fasta&amp;retmode=xml&quot; |\
@@ -905,26 +1026,26 @@ do
  done</code></pre>
 <p>Use TaxonKit to get lineage information. Documentation <a href="https://bioinf.shenwei.me/taxonkit/">here</a>, GitHub repo <a href="https://github.com/shenwei356/taxonkit">here</a></p>
 <p><strong>Install</strong> - for linux, other platforms available <a href="https://bioinf.shenwei.me/taxonkit/download/">here</a></p>
-<pre><code>wget https://github.com/shenwei356/taxonkit/releases/download/v0.7.1/taxonkit_linux_amd64.tar.gz
+<pre class="bash"><code>wget https://github.com/shenwei356/taxonkit/releases/download/v0.7.1/taxonkit_linux_amd64.tar.gz
 wget https://github.com/shenwei356/csvtk/releases/download/v0.22.0/csvtk_linux_amd64.tar.gz
 #unzip
 tar -zxvf *.tar.gz</code></pre>
 <p>Download and decompress taxdump</p>
-<pre><code>wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+<pre class="bash"><code>wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
 tar -zxvf taxdump.tar.gz
 
 mkdir -p $HOME/.taxonkit
 cp names.dmp nodes.dmp delnodes.dmp merged.dmp $HOME/.taxonkit</code></pre>
 <p>Show lineage consisting of taxids:</p>
-<pre><code>taxonkit lineage -t  taxids.txt \
+<pre class="bash"><code>taxonkit lineage -t  taxids.txt \
     | csvtk pretty -t</code></pre>
 <p>Write lineage information to text file</p>
-<pre><code>taxonkit lineage taxids.txt | awk &#39;$2!=&quot;&quot;&#39; &gt; lineage.txt</code></pre>
+<pre class="bash"><code>taxonkit lineage taxids.txt | awk &#39;$2!=&quot;&quot;&#39; &gt; lineage.txt</code></pre>
 <p>Reformat lineage file to the following output: <code>{k};{p};{c};{o};{f};{g};{s}</code></p>
-<pre><code>taxonkit reformat lineage.txt | tee lineage.txt.reformat
+<pre class="bash"><code>taxonkit reformat lineage.txt | tee lineage.txt.reformat
 cut -f 1,3 lineage.txt.reformat</code></pre>
 <p>Align output to show taxonomic classification clearly</p>
-<pre><code> \lineage.txt \
+<pre class="bash"><code> \lineage.txt \
     | taxonkit reformat \
     | csvtk -H -t cut -f 1,3 \
     | csvtk -H -t sep -f 2 -s &#39;;&#39; -R \
@@ -1016,7 +1137,7 @@ sampledata</code></pre>
 <p><strong>Create final phyloseq object</strong></p>
 <p>Now you can merge your data to create a final phyloseq object</p>
 <pre class="r"><code>ps_raw_tryp = merge_phyloseq(physeq, sampledata, rep.seqs)</code></pre>
-<p>Filter out negative controls and after identifying threshold for positive reads, transform otu count data</p>
+<p>Filter out negative controls and after identifying threshold from positive reads transform zOTU count data</p>
 <pre class="r"><code>ps_raw_tryp@otu_table [, 1:580][ps_raw_tryp@otu_table [, 1:580] &lt; 150] &lt;- 0
 QC_otu = ps_raw_tryp@otu_table
 write.csv(QC_otu, &quot;data/tryp_phyloseq/count_data_QC.csv&quot;)</code></pre>
@@ -1029,12 +1150,121 @@ write.csv(QC_otu, &quot;data/tryp_phyloseq/count_data_QC.csv&quot;)</code></pre>
 </p>
 <div id="workflowr-sessioninfo" class="collapse">
 <pre class="r"><code>sessionInfo()</code></pre>
+<pre><code>R version 4.0.3 (2020-10-10)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Mojave 10.14.6
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_AU.UTF-8/en_AU.UTF-8/en_AU.UTF-8/C/en_AU.UTF-8/en_AU.UTF-8
+
+attached base packages:
+[1] parallel  stats4    stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] Biostrings_2.58.0           XVector_0.30.0             
+ [3] patchwork_1.1.1             knitr_1.31                 
+ [5] microbiomeutilities_1.00.12 vegan_2.5-7                
+ [7] lattice_0.20-41             permute_0.9-5              
+ [9] DESeq2_1.30.1               SummarizedExperiment_1.20.0
+[11] Biobase_2.50.0              MatrixGenerics_1.2.1       
+[13] matrixStats_0.58.0          GenomicRanges_1.42.0       
+[15] GenomeInfoDb_1.26.2         IRanges_2.24.1             
+[17] S4Vectors_0.28.1            BiocGenerics_0.36.0        
+[19] ape_5.4-1                   data.table_1.14.0          
+[21] decontam_1.10.0             reshape_0.8.8              
+[23] microbiome_1.13.9           MicrobeR_0.3.2             
+[25] cowplot_1.1.1               viridis_0.5.1              
+[27] viridisLite_0.3.0           plotly_4.9.3               
+[29] agricolae_1.3-3             ggpubr_0.4.0               
+[31] ampvis2extras_0.1.5         ampvis2_2.6.7              
+[33] forcats_0.5.1               stringr_1.4.0              
+[35] dplyr_1.0.5                 purrr_0.3.4                
+[37] readr_1.4.0                 tidyr_1.1.2                
+[39] tibble_3.1.0                ggplot2_3.3.3              
+[41] tidyverse_1.3.0             phyloseq_1.34.0            
+[43] qiime2R_0.99.4              workflowr_1.6.2            
+
+loaded via a namespace (and not attached):
+  [1] bit64_4.0.5            DelayedArray_0.16.2    rpart_4.1-15          
+  [4] RCurl_1.98-1.2         doParallel_1.0.16      generics_0.1.0        
+  [7] RSQLite_2.2.3          combinat_0.0-8         bit_4.0.4             
+ [10] xml2_1.3.2             lubridate_1.7.10       httpuv_1.5.5          
+ [13] assertthat_0.2.1       xfun_0.21              hms_1.0.0             
+ [16] jquerylib_0.1.3        evaluate_0.14          promises_1.2.0.1      
+ [19] fansi_0.4.2            progress_1.2.2         dbplyr_2.1.0          
+ [22] readxl_1.3.1           igraph_1.2.6           DBI_1.1.1             
+ [25] geneplotter_1.68.0     htmlwidgets_1.5.3      ellipsis_0.3.1        
+ [28] backports_1.2.1        picante_1.8.2          annotate_1.68.0       
+ [31] vctrs_0.3.7            abind_1.4-5            cachem_1.0.4          
+ [34] withr_2.4.1            checkmate_2.0.0        treeio_1.14.3         
+ [37] prettyunits_1.1.1      cluster_2.1.1          lazyeval_0.2.2        
+ [40] crayon_1.4.1           genefilter_1.72.1      pkgconfig_2.0.3       
+ [43] zCompositions_1.3.4    nlme_3.1-152           nnet_7.3-15           
+ [46] rlang_0.4.10           questionr_0.7.4        lifecycle_1.0.0       
+ [49] miniUI_0.1.1.1         modelr_0.1.8           cellranger_1.1.0      
+ [52] rprojroot_2.0.2        Matrix_1.3-2           aplot_0.0.6           
+ [55] phangorn_2.5.5         carData_3.0-4          Rhdf5lib_1.12.1       
+ [58] reprex_1.0.0           base64enc_0.1-3        pheatmap_1.0.12       
+ [61] whisker_0.4            png_0.1-7              bitops_1.0-6          
+ [64] rhdf5filters_1.2.0     blob_1.2.1             jpeg_0.1-8.1          
+ [67] rstatix_0.7.0          DECIPHER_2.18.1        ggsignif_0.6.1        
+ [70] rtk_0.2.6.1            klaR_0.6-15            scales_1.1.1          
+ [73] memoise_2.0.0          magrittr_2.0.1         plyr_1.8.6            
+ [76] gghalves_0.1.1         zlibbioc_1.36.0        compiler_4.0.3        
+ [79] philr_1.16.0           RColorBrewer_1.1-2     cli_2.3.1             
+ [82] ade4_1.7-16            htmlTable_2.1.0        Formula_1.2-4         
+ [85] MASS_7.3-53.1          mgcv_1.8-34            tidyselect_1.1.0      
+ [88] stringi_1.5.3          highr_0.8              yaml_2.2.1            
+ [91] locfit_1.5-9.4         latticeExtra_0.6-29    ggrepel_0.9.1         
+ [94] grid_4.0.3             sass_0.3.1             fastmatch_1.1-0       
+ [97] tools_4.0.3            rio_0.5.26             rstudioapi_0.13       
+[100] foreach_1.5.1          foreign_0.8-81         git2r_0.28.0          
+[103] gridExtra_2.3          Rtsne_0.15             digest_0.6.27         
+[106] rvcheck_0.1.8          BiocManager_1.30.10    shiny_1.6.0           
+[109] quadprog_1.5-8         Rcpp_1.0.6             car_3.0-10            
+[112] broom_0.7.5            later_1.1.0.1          httr_1.4.2            
+[115] AnnotationDbi_1.52.0   colorspace_2.0-0       rvest_0.3.6           
+[118] XML_3.99-0.5           fs_1.5.0               truncnorm_1.0-8       
+[121] splines_4.0.3          tidytree_0.3.3         multtest_2.46.0       
+[124] xtable_1.8-4           jsonlite_1.7.2         ggtree_2.4.1          
+[127] AlgDesign_1.2.0        R6_2.5.0               Hmisc_4.5-0           
+[130] NADA_1.6-1.1           pillar_1.5.1           htmltools_0.5.1.1     
+[133] mime_0.10              glue_1.4.2             fastmap_1.1.0         
+[136] DT_0.17                BiocParallel_1.24.1    ggnet_0.1.0           
+[139] codetools_0.2-18       utf8_1.2.1             bslib_0.2.4.9001      
+[142] network_1.16.1         curl_4.3               zip_2.1.1             
+[145] openxlsx_4.2.3         survival_3.2-7         rmarkdown_2.7.2       
+[148] biomformat_1.18.0      munsell_0.5.0          rhdf5_2.34.0          
+[151] GenomeInfoDbData_1.2.4 iterators_1.0.13       labelled_2.7.0        
+[154] haven_2.3.1            reshape2_1.4.4         gtable_0.3.0          </code></pre>
 </div>
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Zhang Z, Schwartz S, Wagner L, Miller W. A greedy algorithm for aligning DNA sequences. J Comput Biol. 2000, 7(1-2):203-14. doi: <a href="https://doi.org/10.1089/10665270050081478">10.1089/10665270050081478</a>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Morgulis A, Coulouris G, Raytselis Y, Madden TL, Agarwala R, Schäffer AA. Database indexing for production MegaBLAST searches. Bioinformatics. 2008, 24(16):1757-64. doi: <a href="https://doi.org/10.1093/bioinformatics/btn322">10.1093/bioinformatics/btn322</a>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
 
 <p>
-    Project website by Siobhon Egan, 2021. This <a href="http://rmarkdown.rstudio.com">R Markdown</a> site was created with <a href="https://github.com/jdblischak/workflowr">workflowr</a>
+    Project website by Siobhon L. Egan, 2021. This site was created in <a href="http://rmarkdown.rstudio.com">R Markdown</a> with <a href="https://github.com/jdblischak/workflowr">workflowr</a>
+</p>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://github.com/siobhon-egan/wildlife-haemoprotozoa/" class="fa fa-github"></a>
+    <a href="https://twitter.com/siobhon_egan" class="fa fa-twitter"></a>
+    <a href="https://www.siobhonlegan.com" class="fas fa-globe"></a>
 </p>
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
@@ -1052,6 +1282,8 @@ footer is added to webpages before the MathJax javascript. -->
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -1084,6 +1316,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
