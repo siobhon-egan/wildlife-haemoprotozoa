@@ -11,18 +11,18 @@
 # Remeber if you have a large dataset you will need the 64 bit version.
 #	This script will work in unix and linux environments.
 #
-#	This script taked raw MiSeq demultiplexed .fastq files for input and performs the following tasks:
+#	This script taked raw MiSeq demultiplexed .fastq.gz files for input and performs the following tasks:
 #
 # 1) Merge paired reads
 #	2) Retrive sequences matching primers
 #	3) Quality filtering of `.fastq` sequence data and removal of short dimer seqs to generate `.fasta` sequence files
 #	4) Removal low abundant sequences & singletons
 #	5) Perform clustering sequences with
-# 	5a) UPARSE - to produce otus (using 97% similarity threshold)
-#		5b) UNOISE3 - to produce zotus (i.e. zero-radius operational taxonomic units)
+#    a) UPARSE - to produce otus (using 97% similarity threshold)
+#    b) UNOISE3 - to produce zotus (i.e. zero-radius operational taxonomic units)
 ##########################################################################################
-#	Input raw unmerged filenames must be named "sample_id_SXXX_L001_R1.fastq" (read 1)
-#	and "sample_id_SXXX_L001_R2.fastq" (read 2) and all deposited in a directory specified
+#	Input raw unmerged filenames must be named "sample_id_SXXX_L001_R1.fastq.gz" (read 1)
+#	and "sample_id_SXXX_L001_R2.fastq.gz" (read 2) and all deposited in a directory specified
 #	by the "$raw_data" variable. "SXXX" is the sample number given by the MiSeq
 #	in the order you entered them in the Sample Sheet.
 #
